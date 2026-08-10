@@ -1,0 +1,7 @@
+# Necessário para coletar.py, verificar.py e completar_datas.py
+openpyxl
+
+# Opcional — usado só por diagnostico.py, um script de investigação que
+# registra POR QUE as transcrições não são usadas neste projeto.
+# O catálogo em si nunca depende de transcrição.
+# youtube-transcript-api

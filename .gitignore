@@ -1,0 +1,19 @@
+# ─── Segredos ────────────────────────────────────────────────────────
+# A chave da API vive fora do projeto (~/.chaves/youtube.txt).
+# Estas linhas são um cinto de segurança, caso alguma cópia apareça aqui.
+chave.txt
+*.key
+.env
+
+# ─── Gerado automaticamente ──────────────────────────────────────────
+backups/
+__pycache__/
+*.pyc
+
+# ─── Local da máquina, não do projeto ────────────────────────────────
+.claude/settings.local.json
+desktop.ini
+Thumbs.db
+
+# ─── Arquivos temporários do Excel (o "~$" de planilha aberta) ───────
+~$*.xlsx
