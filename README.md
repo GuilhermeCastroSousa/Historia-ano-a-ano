@@ -29,7 +29,8 @@ quem classificou.
 
 | Arquivo | O que é |
 | --- | --- |
-| `playlist-historia-v2.xlsx` | **O catálogo.** 5.415 linhas, 19 colunas. É o produto. |
+| `playlist-historia-v2.xlsx` | **O catálogo.** 5.415 linhas, 19 colunas. É o produto e a fonte de verdade. |
+| `playlist-historia-v2.csv` | Espelho em texto do catálogo, para dar para ler e comparar aqui no GitHub. Derivado — gerado por `exportar_csv.py`, nunca editado à mão. |
 | `protocolo.md` | O manual de operação: como datar, como classificar, como decidir confiança. Inclui a seção "Armadilhas conhecidas", que é o registro de todo erro já cometido e a lição tirada dele. |
 | `vocabulario-canonico.md` | As listas fechadas de período, região, tema e subtema. Nada entra na planilha fora delas. |
 | `canais.json` | Estado por canal: status, faixa de lotes, datas, e um campo `observacoes` longo com o histórico de cada um. |
@@ -46,6 +47,7 @@ python coletar.py @NomeDoCanal    # gera lote-NN.md com 25 vídeos
                                   # (classificar as 25 linhas)
 python verificar.py --anterior backups/playlist-AAAA-MM-DD.xlsx
                                   # só grava se sair 0
+python exportar_csv.py            # atualiza o espelho .csv antes do commit
 ```
 
 A cada quatro lotes há uma **parada**: validação de vocabulário, fact-check por
