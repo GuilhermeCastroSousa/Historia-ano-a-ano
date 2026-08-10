@@ -1076,7 +1076,15 @@ python coletar.py                      # gera lote-NN.md
                                        # classificar as 25 linhas
 python verificar.py --anterior backups/playlist-AAAA-MM-DD.xlsx
                                        # só salvar se sair 0
+python exportar_csv.py                 # espelho .csv, depois de gravar
 ```
+
+**`exportar_csv.py` roda sempre que a planilha muda**, logo depois do
+`verificar.py` passar. O `.csv` é derivado — o `.xlsx` é que manda. Ele existe
+porque o Git não consegue mostrar diferença dentro de um arquivo binário: sem o
+espelho, o histórico do repositório vira uma sequência de "binary files differ"
+e ninguém consegue ver quais linhas entraram em cada lote. Nunca editar o `.csv`
+à mão.
 
 A cada quatro lotes, uma parada: validação de vocabulário, fact-check por amostra
 e **cinco linhas sorteadas apresentadas ao humano** com a evidência ao lado.
