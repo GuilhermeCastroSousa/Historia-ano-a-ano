@@ -1614,3 +1614,51 @@ histórica própria pesando mais que a menção à série. Quando as duas coisas
 aparecem juntas (comum em episódios-marco: 1º, 50º, 100º, 200º, 300º), o
 critério é qual delas é o assunto central do vídeo, não qual é citada
 primeiro.
+
+**Esgotamento que se auto-confirma: a prova de que um canal acabou não vale
+nada se o canal já estava marcado `encerrado`.** Achado na auditoria de
+17/11/2026, ao reabrir os vinte canais encerrados. O `status: encerrado`
+autoriza o `coletar.py` a ligar a parada antecipada, que interrompe a varredura
+na primeira página inteiramente conhecida. Mas a prova de esgotamento que este
+protocolo usa — "a coleta seguinte veio com 0 vídeos novos" — roda com essa
+mesma parada ligada. Ou seja: **a parada antecipada produz o 0 que serve de
+prova para o status que ligou a parada antecipada.** Circular, e silencioso.
+
+O estrago: varrendo o `uploads` inteiro dos vinte canais com
+`incremental=False` e comparando contra planilha ∪ `catalogados.txt` ∪
+`descartados.txt`, apareceram **1216 vídeos catalogáveis que o projeto nunca
+viu** — 1009 no Invicta (publicados de 2013 a 2019; a cobertura do catálogo
+começa em 2019-11-27) e 204 no Kings and Generals (2017-2019; cobertura a
+partir de 2019-12-01), mais 3 no Thersites. Conferido por título: **não são
+reupload** — dos 204 do Kings and Generals, só 5 batem com título já na
+planilha; dos 1009 do Invicta, nenhum. O `CLAUDE.md` tratava apenas o Invicta
+como suspeito, por ter sido encerrado por decisão humana; o Kings and Generals
+estava listado como esgotamento real e tinha o mesmo defeito.
+
+Duas lições:
+
+1. **Nunca aceite "0 vídeos novos" como esgotamento se o canal já estava
+   `encerrado` na hora da coleta.** Para provar de verdade, varra o uploads
+   inteiro com a parada antecipada desligada e compare contra os três arquivos
+   de ids. É barato (1 unidade de cota por página de 50).
+2. **Numa revisita, a parada antecipada esconde mais do que o acervo antigo.**
+   Depois do primeiro lote de uma revisita, a primeira página fica toda
+   conhecida (os 25 aprovados mais os descartes), e a varredura para ali — os
+   vídeos novos das páginas seguintes ficam invisíveis. Foi o que aconteceu
+   entre os lotes 232 e 233: 21 vídeos novos do Kings and Generals, publicados
+   entre agosto e setembro de 2026, sumiram da coleta. Por isso existe o
+   `coletar.py --desde AAAA-MM-DD`: desliga a parada antecipada e a troca por
+   uma parada por data, que encerra a varredura quando aparece uma página só
+   com vídeos anteriores ao corte. Assim a revisita pega tudo o que foi
+   publicado desde a última coleta sem arrastar o acervo antigo — e os vídeos
+   antigos ignorados **não** vão para `descartados.txt`, porque não foram
+   recusados, só não foram pedidos.
+
+**O dossiê da parada virou arquivo.** A partir da reabertura de 17/11/2026, a
+parada de quatro lotes é escrita em `paradas/parada-NNN-NNN.md` em vez de só
+aparecer na conversa: vocabulário novo, fact-check com fonte, as cinco linhas
+sorteadas com a evidência ao lado, e as pendências abertas. Motivo prático: numa
+rodada longa, o relato da parada 1 não sobrevive até a parada 5 se morar só no
+chat, e as pendências se perdem entre sessões. O sorteio das cinco linhas usa
+semente fixa derivada dos números de lote, para ser reproduzível e não
+"escolhido" por quem apresenta.
