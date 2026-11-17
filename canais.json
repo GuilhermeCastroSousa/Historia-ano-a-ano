@@ -40,8 +40,8 @@
       "nome": "Ancient Americas",
       "status": "encerrado",
       "primeiro_lote": 77,
-      "ultimo_lote": 78,
-      "ultima_coleta": "2026-07-31",
+      "ultimo_lote": 236,
+      "ultima_coleta": "2026-11-17",
       "encerrado_em": "2026-07-31",
       "observacoes": "Primeiro canal do catálogo num domínio (arqueologia pré-colombiana das Américas) sem nenhuma sobreposição com o vocabulário existente -- gerou 31 temas, 9 subtemas e 5 regiões novas (México, Peru, América Central, Brasil, Bolívia) numa parada só, o maior salto de vocabulário já registrado. 22 das 25 linhas do lote 77 e 22 das 23 do lote 78 não tinham nenhuma data na evidência -- a maior concentração de `chute` já vista, porque o formato do canal narra civilizações/sítios inteiros, não eventos datados. O lote 78 fechou com 23 linhas, não 25: o coletar.py esgotou a playlist de uploads do canal sem atingir a cota (nextPageToken acabou), não um filtro -- é o fim real do catálogo do canal, não um buraco. Sem Shorts/lives/exclusivos descartados em nenhum dos dois lotes. Nenhuma linha ficou em revisar ao encerrar. Séries longas: Wari (2 partes), Tiwanaku (2 partes), History of Maya Cities (2 de 3 partes anunciadas -- Parte III pode existir se o canal for revisitado depois), Olmecas (2 vídeos novos por fase, San Lorenzo/La Venta, mais 1 vídeo antigo 'OLD VIDEO' cobrindo a civilização inteira sem separar fase). Pendência registrada, não decidida: renomear o tema 'Chavín de Huántar' para 'Chavín', para bater com o padrão de nome de cultura (não de sítio) usado no resto do lote 78 -- ver vocabulario-canonico.md, 'Sobreposições ainda por resolver'."
     },
