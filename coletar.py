@@ -24,6 +24,14 @@ primeira coleta — é o que vai para a coluna Canal e para canais.json; não é
 nome do canal do YouTube que subiu os vídeos, que pode não ter nada a ver
 com história. Ver protocolo.md.)
 
+Coletar só o que o canal publicou a partir de uma data:
+    python coletar.py @Handle --desde 2026-07-31
+(Para revisita de canal encerrado cuja primeira página já ficou toda
+conhecida: a parada antecipada pararia antes dos vídeos novos das páginas
+seguintes. O corte por data desliga essa parada e, em troca, encerra a
+varredura quando aparece uma página só com vídeos anteriores ao corte —
+assim um acervo antigo nunca coletado não entra de carona. Ver buscar_lote.)
+
 Inserir um vídeo avulso, sem paginar o canal inteiro:
     python coletar.py --video ID_OU_LINK --canal @Handle
 (--canal é a chave exata que já existe em canais.json — @Handle ou
@@ -285,7 +293,7 @@ def detalhes(ids):
     return saida
 
 
-def buscar_lote(playlist, conhecidos, quantos, incremental=False):
+def buscar_lote(playlist, conhecidos, quantos, incremental=False, desde=None):
     """Percorre os uploads do mais recente ao mais antigo.
 
     Ignora o que ja esta na planilha, descarta Shorts/lives/exclusivos e para
@@ -298,11 +306,23 @@ def buscar_lote(playlist, conhecidos, quantos, incremental=False):
     baixo e' tudo antigo e ja visto. Num canal ainda em andamento isso
     perderia videos antigos que ficaram para tras, entao a varredura vai ate
     o fim. Quem decide e' o `status` em canais.json, nao um palpite.
+
+    `desde="AAAA-MM-DD"` restringe a coleta ao que foi PUBLICADO a partir
+    dessa data, e substitui a parada antecipada por uma parada por data: a
+    varredura segue pagina a pagina (nao para numa pagina toda conhecida) e
+    encerra quando uma pagina so traz videos novos mais antigos que o corte.
+    Existe porque a parada antecipada mente em canal que foi marcado
+    `encerrado` sem ter sido esgotado de verdade: no Kings and Generals a
+    primeira pagina ficava toda conhecida depois de um lote, e os 21 videos
+    novos das paginas seguintes eram invisiveis — enquanto 204 videos de
+    2017-2019 nunca coletados continuavam no fim da lista. Com o corte por
+    data, da' para pegar so o que o canal publicou desde a ultima coleta sem
+    arrastar esse acervo antigo.
     """
     aprovados, descartados = [], []
-    curtos, exclusivos, lives = [], [], []
+    curtos, exclusivos, lives, antigos = [], [], [], 0
     pagina, vistos, chamadas = None, 0, 0
-    parou_cedo = False
+    parou_cedo = parou_por_data = False
 
     while len(aprovados) < quantos:
         r = api("playlistItems", part="contentDetails", playlistId=playlist,
@@ -311,10 +331,17 @@ def buscar_lote(playlist, conhecidos, quantos, incremental=False):
         candidatos = [it["contentDetails"]["videoId"] for it in r.get("items", [])]
         vistos += len(candidatos)
         novos = [v for v in candidatos if v not in conhecidos]
+        so_antigos = bool(novos)
 
         if novos:
             chamadas += 1
             for v in detalhes(novos):
+                if desde and v["publicado"] < desde:
+                    # Fora da janela pedida: nao entra no lote e nao vai para
+                    # descartados.txt — nao foi recusado, so nao foi pedido.
+                    antigos += 1
+                    continue
+                so_antigos = False
                 if RE_EXCLUSIVO.search(v["titulo"]) or RE_TEASER.search(v["titulo"]):
                     exclusivos.append(v["id"])
                     descartados.append(v["id"])
@@ -332,6 +359,13 @@ def buscar_lote(playlist, conhecidos, quantos, incremental=False):
             parou_cedo = True
             break
 
+        if desde and so_antigos:
+            # Uploads vem em ordem cronologica: se os videos novos desta
+            # pagina ja sao todos mais antigos que o corte, dali para baixo
+            # tambem sao.
+            parou_por_data = True
+            break
+
         pagina = r.get("nextPageToken")
         if not pagina:
             break
@@ -339,8 +373,13 @@ def buscar_lote(playlist, conhecidos, quantos, incremental=False):
     print(f"  {vistos} videos percorridos em {chamadas} chamadas · "
           f"{len(aprovados)} aprovados · {len(curtos)} Shorts · "
           f"{len(exclusivos)} exclusivos de membros · {len(lives)} lives")
+    if desde:
+        print(f"  corte por data: so videos publicados a partir de {desde} · "
+              f"{antigos} novos mais antigos ignorados (nao descartados)")
     if parou_cedo:
         print("  parada antecipada: pagina inteira ja conhecida (canal encerrado)")
+    if parou_por_data:
+        print("  parada por data: pagina so com videos anteriores ao corte")
     return aprovados[:quantos], descartados
 
 
@@ -606,6 +645,18 @@ if __name__ == "__main__":
             CANAL = sys.argv[1]
         CHAVE_CANAL = CANAL
 
+    # --desde AAAA-MM-DD: coletar so o que o canal publicou a partir dessa
+    # data. Desliga a parada antecipada, que nao e' confiavel em canal
+    # marcado `encerrado` sem esgotamento real (ver buscar_lote).
+    DESDE = None
+    if "--desde" in sys.argv:
+        i = sys.argv.index("--desde")
+        if i + 1 >= len(sys.argv):
+            erro("--desde precisa de uma data AAAA-MM-DD logo depois.")
+        DESDE = sys.argv[i + 1]
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", DESDE):
+            erro(f"--desde espera AAAA-MM-DD, veio {DESDE!r}.")
+
     CHAVE = ler_chave()
 
     estado = estado_do_canal(ler_canais(), CHAVE_CANAL)
@@ -617,7 +668,7 @@ if __name__ == "__main__":
               f"(encerrado em {estado.get('encerrado_em', '?')}, "
               f"lotes {estado.get('primeiro_lote', '?')}-"
               f"{estado.get('ultimo_lote', '?')}) · parada antecipada "
-              f"{'desligada (playlist explícita)' if modo_playlist else 'ligada'}\n")
+              f"{'desligada (corte por data)' if DESDE else 'desligada (playlist explícita)' if modo_playlist else 'ligada'}\n")
     else:
         print(f"\n{CHAVE_CANAL} · lote de {TAMANHO_LOTE} · em andamento "
               f"(último lote: {estado.get('ultimo_lote', '?')})\n")
@@ -648,8 +699,10 @@ if __name__ == "__main__":
     # episódio). A parada antecipada de canal encerrado só é segura porque o
     # uploads do canal é garantidamente cronológico — nunca ligar para
     # playlist explícita, mesmo que ela já esteja marcada encerrado.
-    videos, descartados = buscar_lote(playlist, conhecidos, TAMANHO_LOTE,
-                                      incremental=(encerrado and not modo_playlist))
+    videos, descartados = buscar_lote(
+        playlist, conhecidos, TAMANHO_LOTE,
+        incremental=(encerrado and not modo_playlist and not DESDE),
+        desde=DESDE)
     if descartados:
         gravar_descartados(descartados)
 
