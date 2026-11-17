@@ -31,7 +31,7 @@
       "nome": "Thersites the Historian",
       "status": "encerrado",
       "primeiro_lote": 40,
-      "ultimo_lote": 234,
+      "ultimo_lote": 235,
       "ultima_coleta": "2026-11-17",
       "encerrado_em": "2026-07-31",
       "observacoes": "Os lotes 40-56 têm menos de 25 linhas: 202 transmissões ao vivo entraram antes de o coletar.py filtrar live e foram removidas em 29/07/2026. Os buracos são permanentes por decisão do humano. Canal introduziu o rótulo Aleatório, para vídeo que não é história."
