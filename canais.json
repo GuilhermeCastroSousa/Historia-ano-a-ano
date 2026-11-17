@@ -58,8 +58,8 @@
       "nome": "Cambrian Chronicles",
       "status": "encerrado",
       "primeiro_lote": 83,
-      "ultimo_lote": 84,
-      "ultima_coleta": "2026-07-31",
+      "ultimo_lote": 237,
+      "ultima_coleta": "2026-11-17",
       "encerrado_em": "2026-08-01",
       "observacoes": "38 linhas, lotes 83-84, todas travadas, 0 em revisar. Mini-ciclo de 2 lotes, não os 4 de costume: o canal esgotou a coleta (58 vídeos percorridos, 0 novos) antes de fechar um quarto lote — decisão do humano foi aprovar os dois lotes existentes com fact-check substituindo a parada formal (que não chegou a rodar), em vez de esperar um lote 85 que não vinha. 2 datações corrigidas na aprovação (Kingdom of Ceredigion e Dyfed, ambas ajustadas para 920 — formação real do Reino de Deheubarth, confundida na classificação original com outro evento). Canal introduziu 2 subtemas: Reino de Gwynedd (sob História de Gales, já com 6 vídeos, faixa larga 410-1283 d.C. sem divisão interna — candidato a subdivisão por dinastia se o canal for revisitado) e Mitos de Wikipédia (sob Historiografia, 3 vídeos, formato autoral do canal 'Wikipedia's ___'/'The Internet's ___', não confirmado se deveria se unificar com as teorias avulsas vizinhas como Hipótese de Tartária). Nenhuma região nova — todo o canal ficou em Gales. Sem Shorts/lives descartados nos dois lotes. 2 bugs de processo achados e corrigidos no coletar.py durante este canal: lacuna de regex para duração por extenso ('for two centuries', 'over 200 years') e UnicodeEncodeError ao imprimir título fora do cp1252 do console Windows — ver protocolo.md. Revisitável com python coletar.py @CambrianChronicles se o canal publicar vídeo novo."
     },
