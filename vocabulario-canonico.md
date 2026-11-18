@@ -281,528 +281,584 @@ conteúdo pré-colombiano ou colonial.
 
 ---
 
-## Lista C — Tema e Subtema (515 temas-raiz)
+## Lista C — Tema e Subtema (525 temas-raiz)
 
-Regenerada na aprovação dos lotes 228-230 (rodada via /rodada, encerrada por esgotamento real do canal), a partir das 5414 linhas de `playlist-historia-v2.xlsx` (lotes 0 a 230 — canal ESOTERICA). Introduziu 1 tema-raiz: `História da Absinta`. Marco: o canal ESOTERICA esgotou a coleta no lote 230 (mini-lote de 8), confirmado por uma coleta seguinte com 0 vídeos novos nos mesmos 505 percorridos.
+Regenerada na aprovação dos lotes 232-249 (reabertura dos vinte canais encerrados, só para o que publicaram desde a última coleta), a partir das 5567 linhas de `playlist-historia-v2.xlsx` (lotes 0 a 249). Introduziu 10 temas-raiz: `Guerra Civil Espanhola`, `Guerra Irã-Iraque`, `Guerras Iugoslavas`, `Povo Romani`, `Declínio do Budismo na Índia`, `Descolonização do Império Britânico`, `Guerras Civis do Sudão`, `Revolta dos Camponeses de 1381`, `História da Pimenta`, `Zoroastrismo`. As 152 linhas novas vieram de 16 canais; quatro não tinham nada catalogável. Nenhuma região nova — a Lista B segue com 60 termos em uso.
 
 | n | Tema | Subtemas |
 |---|---|---|
-| 392 | Império Bizantino | Justiniano e Teodora (34) · Dinastia Comnena (22) · Dinastia Paleóloga (19) · Crise do Século XI (15) · Focas e Tzimisces (14) · Basílio II (14) · Dinastia Isáurica (10) · Filosofia Bizantina (Era Comnena) (9) · Heráclio (8) · O Império em 900 (8) · O Império em 1025 (8) · O Império em 500 (7) · Nicéforo I e a Crise Sucessória (6) · Dinastia Amória (6) · Romanos I Lekapeno (6) · Império de Niceia (6) · Sucessores de Justiniano (5) · O Império em 800 (5) · Ascensão Macedônia (5) · Dinastia Angelo (5) · Filosofia Bizantina Tardia (5) · Constans II e Constantino IV (4) · Justiniano II e a Anarquia (4) · Anastásio I (3) · O Império em 600 (3) · O Império em 700 (3) · Michael Psellos (3) · Perda da Anatólia (3) · Panorama Bizantino (curso) (2) · Filosofia Bizantina (Era do Iconoclasmo) (2) · João Damasceno (2) · Bizâncio e o Islã (2) · Armas Incendiárias Bizantinas (2) · Filosofia Política Bizantina (1) · Peste de Justiniano (1) · Controvérsia Iconoclasta (1) · Fócio (Photius) (1) · Exército Temático (Themata) (1) · Guarda Varegue (1) · Ana Comnena (1) · Jorge Gemisto Pletão (1) · Panorama da Filosofia Grega Pós-Bizantina (1) |
-| 380 | República Romana | Segunda Guerra Púnica (68) · Guerra Civil de César (56) · Segundo Triunvirato (36) · Guerra da Gália (23) · Primeira Guerra Púnica (21) · Crise da República tardia (91-78 a.C.) (20) · Conquista da Grécia (13) · Idos de Março (11) · Terceira Guerra Púnica (7) · Guerra Jugurtina (7) · Guerra Social (7) · Guerras Servis (5) · Guerra Mitridática (5) · Conspiração de Catilina (5) · Guerra Cimbria (113-101 a.C.) (4) · Conflito das Ordens (3) · Reforma Agrária dos Gracos (3) · Sula (3) · Panorama Romano (curso) (2) · Saque Gaulês de Roma (2) · Terceira Guerra Samnita (2) · Guerra contra Veios (1) · Primeira Guerra Samnita (1) · Guerra Latina (1) · Segunda Guerra Samnita (1) · Guerra Pírrica (1) |
-| 288 | Historiografia | H.G. Wells (22) · A Charge to Keep (12) · Historiadores latinos (6) · Early Rome (5) · Edward Gibbon (5) · Hilaire Belloc (3) · HIS 2210 (3) · Mitos de Wikipédia (3) · Estado Atual do Ocultismo (Painel) (3) · Idade das Trevas (2) · Historiadores gregos (2) · Taking Out the Trash (2) · Guia de Estudo do Esoterismo (2) · Colaboração entre Academia e Praticantes (RENSEP) (2) · Guerra de Troia (1) · Mos Maiorum (1) · Historiadores chineses (1) · Hipótese do Tempo Fantasma (1) · Lenda de Alexandre (1) · Hipótese de Tartária (1) · Mulan (1) · Thucydides Trap (1) · Pseudoarqueologia (1) · Lista Real Suméria (1) · Recepção da Filosofia Indiana no Islã e na Europa (1) · Influência Indiana no Pensamento Grego (Debate) (1) · Lógica Não-Clássica e Budismo (Debate Moderno) (1) · História do Conceito de 'Nada' (Palestra) (1) · Historiografia Moderna da Alquimia (Prof. Lawrence Principe) (1) · Historiografia da Alquimia Espiritual (Eliade e Jung) (1) · Cabala no Mundo Contemporâneo (1) · Epistemologia da Experiência Mística (Debate Filosófico) (1) · O Campo Acadêmico do Esoterismo Ocidental (Introdução) (1) · Concepções Errôneas sobre a Alquimia (Debate) (1) |
-| 175 | Segunda Guerra Mundial | Guerra do Pacífico (105) · Prelúdio (20) · Frente Oriental (13) · Guerra de Inverno (6) · Potências Neutras (5) · Campanha dos Bálcãs (5) · Campanha do Norte da África (3) · Guerra Naval no Mediterrâneo (2) · Guerra Civil Espanhola (1) · Campanha da França (1) · Programa Nuclear Alemão (1) · Campanha da Itália (1943-1945) (1) · Exército dos EUA (Organização) (1) · Batalha do Castelo de Itter (1) · Força Aérea dos EUA (1) |
-| 146 | Escolástica Medieval | Necromancia e Grimórios Medievais (15) · Sociedade Medieval (8) · Duns Scotus (7) · Tomás de Aquino (6) · Guilherme de Ockham (5) · Anselmo de Cantuária (4) · Pedro Abelardo (4) · Hildegard von Bingen (4) · Bernardo de Claraval (3) · Alberto Magno (3) · Hadewijch e Mechthild de Magdeburgo (Misticismo Beguino) (3) · Eriúgena (2) · Origens da Escolástica (Séc. XI) (2) · Medicina Medieval (2) · Alberto Magno e Tomás de Aquino (2) · Henrique de Gand (2) · Marguerite Porete (2) · Peter of Abano (Pietro d'Abano) (2) · Dominicanos Alemães (Mística Renana) (2) · John Buridan (2) · Nicolau de Cusa (2) · Renascimento Carolíngio (Alcuíno) (1) · Pedro Damião (1) · Filosofia Política Alto-Medieval (Querela das Investiduras e Policraticus) (1) · Heloísa e Abelardo (1) · Debate sobre a Trindade (Abelardo, Ricardo de São Vítor e Bernardo de Claraval) (1) · Gilberto de Poitiers (1) · Movimento de Tradução para o Latim (1) · Filosofia da Natureza (Bernardo Silvestre e Alain de Lille) (1) · Ascensão das Universidades (Paris, Oxford, Bolonha) (1) · Os Vitorinos (Hugo de São Vítor) (1) · Graciano e Pedro Lombardo (1) · Escola de Chartres (1) · Problema dos Universais (Séc. XII) (1) · Panorama da Escolástica (1) · Robert Grosseteste (1) · Lei Natural e Legitimidade Política (Séc. XIII) (1) · Ética do Século XIII (1) · Psicologia do Século XIII (1) · Física do Século XIII (1) · Lógica do Século XIII (1) · Mechthild de Magdeburgo (1) · Ângela de Foligno (1) · Roger Bacon (1) · Robert Kilwardby (1) · Os Transcendentais (Philip the Chancellor) (1) · Boaventura (1) · Eternidade do Mundo (Debate) (1) · Pobreza Franciscana (Debate) (1) · Teorias das Emoções (Aquino, Escoto, Wodeham) (1) · Averroísmo Latino (Siger de Brabant e Boécio da Dácia) (1) · Jean de Meun (Romance da Rosa) (1) · Conflito Igreja-Estado (Egídio Romano e Dante) (1) · Peter Olivi (1) · Teoria Econômica Medieval (Preço Justo e Usura) (1) · Dante Alighieri (1) · Presciência Divina e Livre-Arbítrio (1) · As Condenações de Paris (1270 e 1277) (1) · Gramática Especulativa (Modistas) (1) · Marsílio de Pádua (1) · Walter Burley (Resposta Realista a Ockham) (1) · Nicolau de Autrecourt (Debate do Ceticismo) (1) · Calculadores de Oxford (1) · Física do Século XIV (Ockham, Buridan, Oresme, Marchia) (1) · Lógica do Século XIV (Obrigações e Paradoxos) (1) · Introdução ao Século XIV (Nominalismo e Voluntarismo) (1) · Poesia Inglesa Medieval (Chaucer e Langland) (1) · Misticismo Inglês (Julian of Norwich) (1) · Escolástica na Europa Central (Viena e Praga) (1) · Escolástica do Norte (Wegestreit) (1) · Manuscrito Voynich (1) · Anjos na Filosofia Medieval (1) · Ceticismo Medieval (Debate Moderno) (1) · Lógica das Obrigações (Debate Moderno) (1) · Teorias Medievais da Vontade e da Ação (Debate Moderno) (1) · Filosofia e a Trindade (Debate Moderno) (1) · Trindade e Eucaristia (Filosofia e Teologia) (1) · Estética Medieval (Debate Moderno) (1) · Lógica Medieval: Formalidade (Debate Moderno) (1) · Animais na Filosofia Medieval (Debate Moderno) (1) · Magia na Filosofia Medieval (Debate Moderno) (1) · Instituições de Ensino Medievais (Debate Moderno) (1) · Direito Romano e sua Recepção Medieval (Debate Moderno) (1) · Mereologia Medieval (Debate Moderno) (1) · Platonismo Medieval (Debate Moderno) (1) |
-| 144 | Renascimento | Renascimento Italiano (31) · Cornélio Agripa (20) · Paracelso e a Alquimia (9) · Ciência na Inglaterra Renascentista (5) · Shakespeare (5) · Nicolau Maquiavel (3) · Petrus Ramus (3) · Ceticismo Renascentista (3) · A Monas Hieroglyphica de John Dee (1564) (3) · John Winthrop, o Jovem (Ocultismo Colonial Americano) (3) · Johannes Trithemius (Esteganografia) (2) · Tolerância Religiosa (2) · Jean Bodin (2) · Justus Lipsius e o Neoestoicismo (2) · A Qabalah Cristã (von Rosenroth e van Helmont) (2) · Precursores do Humanismo (Llull e Petrarca) (1) · Nicolas Flamel (Vida e Lenda Alquímica) (1) · Do Nominalismo ao Realismo Oculto (Séc. XIV-XV) (1) · Jean Gerson (1) · Christine de Pizan (1) · Pensamento Político Inglês (1) · Lorenzo Valla (1) · Humanistas Italianas (1) · Literatura Espiritual Feminina (1) · Marsilio Ficino (1) · Jochanan Alemanno (Cabala Renascentista) (1) · A Imprensa e a Filosofia (1) · Humanismo do Norte (Agricola e Vives) (1) · Girolamo Savonarola (1) · Lógica e Linguagem no Renascimento Francês (1) · Filosofia Judaica no Renascimento Italiano (1) · Pico della Mirandola (1) · Humanismo Francês: Budé e a Pléiade (1) · Thomas More (1) · François Rabelais (1) · Humanismo na Grã-Bretanha (1) · Johannes Reuchlin e o De Verbo Mirifico (1492) (1) · Marguerite de Navarra (1) · Medicina na França Renascentista (1) · Manuais de Exorcismo e Necromancia (pré-1614) (1) · Ciência e Maravilhas no Renascimento (1) · Teorias da Matéria (Atomismo Renascentista) (1) · Filosofia Política Huguenote (1) · Humanismo Francês Tardio (1) · Literatura Elisabetana (1) · Defesa das Mulheres (Fonte e Marinella) (1) · Magiae Naturalis (Giambattista della Porta, 1558) (1) · Marie de Gournay (1) · Arbatel de Magia Veterum (1575) (1) · Edward Kelley e a Alquimia (Além de John Dee) (1) · Os Rosacruzes e a Fama Fraternitatis (1614) (1) · Mutus Liber (1677) (1) |
-| 131 | Filosofia Africana | Etnofilosofia e Debate sobre a Filosofia Africana (13) · Filosofia Etíope (4) · W.E.B. Du Bois (4) · Filosofia Islâmica na África Subsaariana (3) · Filosofia Africana Profissional (3) · Frantz Fanon (3) · Anton Wilhelm Amo (2) · Frederick Douglass (2) · Alain Locke (2) · Marcus Garvey (2) · Panorama da Filosofia Africana (Início do Séc. XX) (2) · Claudia Jones (2) · Amílcar Cabral (2) · Édouard Glissant (2) · Martin Luther King Jr. (2) · Ngũgĩ wa Thiong'o (2) · Cornel West (2) · Introdução: Escravidão e Diáspora (1) · Escrita Africana Primitiva em Inglês (1) · Identidade Africana na Diáspora (1) · Ignatius Sancho e Benjamin Banneker (1) · Instituições Negras Primitivas nos EUA (1) · Cugoano e Equiano (Filhos da África) (1) · Phillis Wheatley (1) · Lemuel Haynes (1) · Controvérsia da Colonização (1) · David Walker (1) · Walker, Stewart e Easton (Pensamento Racial do Séc. XIX) (1) · Sojourner Truth e Frances Harper (1) · Hosea Easton (1) · Maria W. Stewart (1) · Martin Delany (1) · Henry Highland Garnet (1) · Emigração para o Canadá (1) · Raízes do Nacionalismo Negro (1) · Marxismo e a Diáspora Africana (1) · Alexander Crummell (1) · Abolicionismo no Brasil (1) · Edward Blyden (1) · Henry McNeal Turner (1) · James Africanus Beale Horton (1) · J.J. Thomas e F.A. Durham (1) · Anténor Firmin (1) · Ativistas Negras (NACW) (1) · Booker T. Washington (1) · T. Thomas Fortune (1) · Ida B. Wells (1) · Carter G. Woodson (1) · Zora Neale Hurston (1) · Anna Julia Cooper (1) · E. Franklin Frazier (1) · As Duas Amy Garvey (1) · Academia Negra Americana (ANA) (1) · Paul Robeson (1) · Intelectuais da África Ocidental (Início do Séc. XX) (1) · Oliver Cox e Eric Williams (1) · C.L.R. James (1) · Nnamdi Azikiwe e Obafemi Awolowo (1) · Léopold Senghor (1) · Richard Wright (1) · Kwame Nkrumah (1) · Socialismo Afro-Americano Primitivo (1) · Ralph Ellison (1) · Aimé e Suzanne Césaire (1) · Abdias do Nascimento (1) · Nelson Mandela e o ANC (1) · Renascimento do Harlem (1) · Julius Nyerere (1) · James Baldwin (1) · Malcolm X (1) · Sylvia Wynter (1) · Movimento da Negritude (1) · Lorraine Hansberry (1) · Reggae e Rastafari (1) · Estudos Culturais Negros Britânicos (Stuart Hall) (1) · Audre Lorde (1) · Fela Kuti e Wole Soyinka (1) · Cedric Robinson (Marxismo Negro) (1) · Maulana Karenga e o Kwanzaa (1) · Walter Rodney (1) · Afrocentricidade (Molefi Asante) (1) · Juan René Betancourt (1) · Angela Davis (1) · Steve Biko (1) · Afrofuturismo (1) · Precursores da Afrocentricidade (1) · Malcolm X e MLK: Últimos Anos (1) · Movimento das Artes Negras (1) · Poder Negro (Black Power) (1) · Panteras Negras (1) · Teologia Negra (1) · Renascimento Literário das Mulheres Negras (1) · Feminismo Negro dos Anos 1970 (Combahee River Collective) (1) · Teoria Racial Crítica (1) · Feminismo Negro (bell hooks e Patricia Hill Collins) (1) · Origens da Humanidade (Pré-história) (1) |
-| 119 | Sengoku Jidai | Clãs do Sengoku (24) · Batalha de Nagashino (4) · Guerra Ōnin (2) · Cerco de Osaka (2) · Castelos do Sengoku Jidai (1) · Marinha do Sengoku Jidai (1) · Exército do Sengoku Jidai (1) |
-| 108 | Império Romano | Dinastia júlio-claudiana (31) · Ano dos Quatro Imperadores (11) · Crise do Século III (10) · Dinastia Constantiniana (6) · Britânia romana (4) · Limes Germânico (Fronteira do Reno) (4) · Invasão Romana da Escócia (Agrícola) (3) · Diocleciano e a Tetrarquia (2) · Hispania Romana (1) · Fronteiras do Império (1) · Invasão Romana da Arábia (1) · Relações Roma-Índia (1) · Peste Antonina (1) |
-| 94 | Guerra Russo-Ucraniana | — |
-| 89 | Cruzadas | Primeira Cruzada (36) · Segunda Cruzada (17) · Quarta Cruzada (16) · Terceira Cruzada (7) · Panorama das Cruzadas (3) · Cruzada Albigense (2) · Cruzada das Crianças (1) |
-| 87 | Avisos do canal | — |
-| 86 | História dos Estados Unidos | Candidatos Derrotados (43) · Política (23) · Bush 43 Still Sucks (6) · Presidência (5) · Fundação (2) · Guerras Índias (2) · Igreja Negra e Direitos Civis (1) · Marinha (1) · Diplomacia (1) |
-| 81 | Reforma Protestante | Martinho Lutero (21) · João Calvino (14) · Reforma Católica (Contrarreforma) (6) · Puritanismo Inglês e Colonial (3) · John Wycliffe (2) · Jan Hus e a Profecia da Reforma (2) · Panorama da Reforma (2) · John Knox e a Reforma Escocesa (2) · Calvino e a Tradição Reformada (2) · Erasmo x Lutero: Livre-Arbítrio (2) · Luteranismo Posterior (2) · A Bíblia em Inglês (2) · Assentamento Elisabetano (2) · Indulgências (1) · Pano de Fundo Medieval da Reforma (1) · Erasmo de Roterdã (1) · Huldrych Zwínglio (1) · Menno Simons e os Menonitas (1) · Philip Melanchthon (1) · Panorama da Reforma Britânica (1) · Thomas Cranmer (1) · Lutero e Calvino: Teologia Comparada (1) · Lutero e Melanchthon (1) · Protestantismo Espanhol (1) · Guerra dos Camponeses e Reforma Radical (1) · William Tyndale (1) · Henrique VIII e o Anglicanismo Primitivo (1) · Reino Anabatista de Münster (1) · Calvino e o Caso Sérveto (1) · Huguenotes e a Reforma Francesa (1) · Covenanters Escoceses (1) |
-| 77 | Filosofia Judaica Medieval | Misticismo Merkavah (Hekhalot) (25) · Cabala (Zohar e Abraham Abulafia) (7) · Cabala de Safed (Cordovero, Luria e Israel Sarug) (5) · Maimônides (4) · Cabala Primitiva (Círculos de Provença e Castela) (4) · Sabbatai Zevi e o Messianismo Cabalístico (Nathan de Gaza) (3) · Sefer Yetzirah e Sefer Bahir (Origens da Cabala) (2) · Profecia e Teofania Israelita (Fundamentos Pré-Cabalísticos) (1) · Ascensão do Apocalipticismo Judaico (Daniel e Enoque) (1) · Magia Judaica Antiga e Medieval (1) · Raízes da Filosofia Judaica no Mundo Islâmico (Mishnah, Talmud e Isaac Israeli) (1) · Glória Divina e o Proto-Cabalismo dos Querubins (Akhatriel) (1) · A Espada de Moisés (Harba de-Moshe) (1) · Astrologia no Judaísmo e Islã Antigos (1) · Neoplatonismo Judaico (Isaac Israeli, Ibn Gabirol e Maimônides) (1) · Saadia Gaon (1) · Sofrimento na Filosofia Judaica (Saadia a Gersônides) (1) · Sefer HaMalbush e Sefer HaYashar (Magia do Manto) (1) · Ibn Gabirol (1) · Ética e Judaísmo (Baḥya Ibn Paquda e Maimônides) (1) · Judah Halevi (1) · Liberdade e Astrologia na Filosofia Judaica (Ibn Ezra, Ibn Daud e Maimônides) (1) · Sar Torah e os Hasidei Ashkenaz (1) · Controvérsia Maimonidiana (1) · Gersônides (1) · Gersônides e Hasdai Crescas (1) · Astrologia Médica Hebraica (Kelal Qatan) (1) · Hasdai Crescas (1) · Joseph Albo e Isaac Abravanel (1) · Cabala Cristã e Cabala Luriânica (1) · Cabala Tardia e o Surgimento do Hassidismo (1) · Cabala Moderna (R. Yosef Ergas) (1) · Panorama do Pensamento Judaico Andaluz (Debate Moderno) (1) · Zohar sobre Ester (Piada de 1º de Abril) (1) |
-| 73 | Império Otomano | Mehmed II (11) · Guerra Otomano-Portuguesa (4) · Cercos de Viena (3) · Guerra de Chipre (2) · Janízaros (1) · Islamização da Bósnia (1) · Cem Sultan (1) · Guerras Otomano-Safávidas (1) · Sultanato das Mulheres (1) · Guerra de Candia (1) |
-| 66 | Cristianismo Primitivo | Gnosticismo (22) · Agostinho de Hipona (9) · O Jesus Histórico (3) · Apologistas e Heresias Primitivas (3) · Atanásio e Niceia (3) · Boécio (3) · Perseguições aos Cristãos (1) · Padres Apostólicos (1) · Platonismo Latino (Apuleio a Calcídio) (1) · Padres Latinos (Tertuliano a Jerônimo) (1) · Orígenes (1) · Formação da Doutrina da Trindade (1) · Monasticismo Primitivo (1) · Ascetismo Cristão (Antão, Macrina e Evágrio) (1) · Magia Cristã Copta Primitiva (Proteção, Exorcismo e Amor) (1) · Padres Capadócios (1) · Ambrósio e Jerônimo (1) · Ambrósio de Milão (1) · Concílio de Constantinopla (1) · Nestório e o Concílio de Éfeso (1) · Concílio de Calcedônia (1) · Pseudo-Dionísio Areopagita (1) · Máximo o Confessor (1) · Padres Gregos e a Bíblia (Debate Moderno) (1) |
-| 59 | Dinastia Zhou | Cem Escolas do Pensamento (53) · Estados Combatentes (4) · Zhou Ocidental e Primavera e Outono (1) |
-| 57 | Filosofia Islâmica | Avicena (5) · al-Farabi (3) · al-Ghazali (3) · Averróis (3) · Mulla Sadra (3) · al-Kindī (2) · Sufismo Filosófico (Ibn 'Arabī e Rūmī) (2) · Tradução do Grego para o Siríaco e o Árabe (1) · Os Mutazilitas (Abū l-Hudhayl e al-Naẓẓām) (1) · Literatura Ética Árabe (al-Kindī a Miskawayh) (1) · Abu Bakr al-Razi (Rhazes) (1) · Os Asharitas (al-Ash'arī) (1) · Escola de Bagdá (1) · Filosofia na Era Buida (1) · Ibn al-Haytham (Teorias da Visão) (1) · Ibn Ḥazm e Teoria Jurídica Islâmica (1) · Panorama da Filosofia em al-Andalus (1) · Abu l-Barakat al-Baghdadi (1) · Ibn Bājja e Ibn Ṭufayl (1) · Traduções do Árabe para o Latim (1) · Fakhr al-Din al-Razi (1) · Suhrawardi (1) · Ibn 'Arabī (Misticismo) (1) · Naṣīr al-Dīn al-Ṭūsī (1) · Filosofia e Ciência na Era Mongol (1) · Ibn Taymiyya (1) · Ibn Khaldun (1) · Escola de Shiraz (1) · Filosofia sob os Safávidas (1) · Filosofia sob os Otomanos (Kātib Çelebi) (1) · Filosofia na Índia Islâmica (Dārā Shikūh) (1) · Encontros com o Pensamento Europeu (Índia e Império Otomano, Séc. XVIII-XIX) (1) · Pós-Mulla Sadra (Sabzawari a Nasr) (1) · Muhammad 'Abduh e Muhammad Iqbal (1) · Pensamento Islâmico Contemporâneo (Debate Moderno) (1) · Mulheres Estudiosas e o Islã (Fatema Mernissi e outras) (1) · Cultura de Comentários na Filosofia Islâmica Tardia (Debate Moderno) (1) · Tradição Lógica Pós-Avicena (Debate Moderno) (1) · Debate sobre a Metafísica de Avicena (Essência e Existência) (1) · Panorama Pós-Suhrawardi (Iluminacionismo) (1) · Os Ismaelitas (Painel/Entrevista) (1) · Música e Filosofia na Tradição Árabe (1) · Medicina no Mundo Islâmico (Debate Moderno) (1) |
+| 396 | Império Bizantino | Justiniano e Teodora (34) · Dinastia Comnena (22) · Dinastia Paleóloga (20) · Crise do Século XI (18) · Basílio II (14) · Focas e Tzimisces (14) · Dinastia Isáurica (10) · Filosofia Bizantina (Era Comnena) (9) · Heráclio (8) · O Império em 1025 (8) · O Império em 900 (8) · O Império em 500 (7) · Dinastia Amória (6) · Império de Niceia (6) · Nicéforo I e a Crise Sucessória (6) · Romanos I Lekapeno (6) · Ascensão Macedônia (5) · Dinastia Angelo (5) · Filosofia Bizantina Tardia (5) · O Império em 800 (5) · Sucessores de Justiniano (5) · Constans II e Constantino IV (4) · Justiniano II e a Anarquia (4) · Anastásio I (3) · Michael Psellos (3) · O Império em 600 (3) · O Império em 700 (3) · Perda da Anatólia (3) · Armas Incendiárias Bizantinas (2) · Bizâncio e o Islã (2) · Filosofia Bizantina (Era do Iconoclasmo) (2) · João Damasceno (2) · Panorama Bizantino (curso) (2) · Ana Comnena (1) · Controvérsia Iconoclasta (1) · Exército Temático (Themata) (1) · Filosofia Política Bizantina (1) · Fócio (Photius) (1) · Guarda Varegue (1) · Jorge Gemisto Pletão (1) · Panorama da Filosofia Grega Pós-Bizantina (1) · Peste de Justiniano (1) |
+| 383 | República Romana | Segunda Guerra Púnica (68) · Guerra Civil de César (57) · Segundo Triunvirato (37) · Guerra da Gália (23) · Crise da República tardia (91-78 a.C.) (21) · Primeira Guerra Púnica (21) · Conquista da Grécia (13) · Idos de Março (11) · Guerra Jugurtina (7) · Guerra Social (7) · Terceira Guerra Púnica (7) · Conspiração de Catilina (5) · Guerra Mitridática (5) · Guerras Servis (5) · Guerra Cimbria (113-101 a.C.) (4) · Conflito das Ordens (3) · Reforma Agrária dos Gracos (3) · Sula (3) · Panorama Romano (curso) (2) · Saque Gaulês de Roma (2) · Terceira Guerra Samnita (2) · Guerra Latina (1) · Guerra Pírrica (1) · Guerra contra Veios (1) · Primeira Guerra Samnita (1) · Segunda Guerra Samnita (1) |
+| 294 | Historiografia | H.G. Wells (22) · A Charge to Keep (12) · Edward Gibbon (7) · Historiadores latinos (6) · Early Rome (5) · Historiadores gregos (4) · Estado Atual do Ocultismo (Painel) (3) · HIS 2210 (3) · Hilaire Belloc (3) · Mitos de Wikipédia (3) · Colaboração entre Academia e Praticantes (RENSEP) (2) · Guia de Estudo do Esoterismo (2) · Idade das Trevas (2) · Pseudoarqueologia (2) · Taking Out the Trash (2) · Cabala no Mundo Contemporâneo (1) · Concepções Errôneas sobre a Alquimia (Debate) (1) · Epistemologia da Experiência Mística (Debate Filosófico) (1) · Guerra de Troia (1) · Hipótese de Tartária (1) · Hipótese do Tempo Fantasma (1) · Historiadores chineses (1) · Historiografia Moderna da Alquimia (Prof. Lawrence Principe) (1) · Historiografia da Alquimia Espiritual (Eliade e Jung) (1) · História do Conceito de 'Nada' (Palestra) (1) · Influência Indiana no Pensamento Grego (Debate) (1) · Lenda de Alexandre (1) · Lista Real Suméria (1) · Lógica Não-Clássica e Budismo (Debate Moderno) (1) · Mos Maiorum (1) · Mulan (1) · O Campo Acadêmico do Esoterismo Ocidental (Introdução) (1) · Recepção da Filosofia Indiana no Islã e na Europa (1) · Thucydides Trap (1) |
+| 177 | Segunda Guerra Mundial | Guerra do Pacífico (107) · Prelúdio (20) · Frente Oriental (13) · Guerra de Inverno (6) · Campanha dos Bálcãs (5) · Potências Neutras (5) · Campanha do Norte da África (3) · Guerra Naval no Mediterrâneo (2) · Batalha do Castelo de Itter (1) · Campanha da França (1) · Campanha da Itália (1943-1945) (1) · Exército dos EUA (Organização) (1) · Força Aérea dos EUA (1) · Guerra Civil Espanhola (1) · Programa Nuclear Alemão (1) |
+| 149 | Escolástica Medieval | Necromancia e Grimórios Medievais (15) · Sociedade Medieval (8) · Duns Scotus (7) · Tomás de Aquino (6) · Guilherme de Ockham (5) · Alberto Magno (4) · Anselmo de Cantuária (4) · Hildegard von Bingen (4) · Pedro Abelardo (4) · Bernardo de Claraval (3) · Hadewijch e Mechthild de Magdeburgo (Misticismo Beguino) (3) · Peter of Abano (Pietro d'Abano) (3) · Alberto Magno e Tomás de Aquino (2) · Dominicanos Alemães (Mística Renana) (2) · Eriúgena (2) · Henrique de Gand (2) · John Buridan (2) · Marguerite Porete (2) · Medicina Medieval (2) · Nicolau de Cusa (2) · Origens da Escolástica (Séc. XI) (2) · Animais na Filosofia Medieval (Debate Moderno) (1) · Anjos na Filosofia Medieval (1) · As Condenações de Paris (1270 e 1277) (1) · Ascensão das Universidades (Paris, Oxford, Bolonha) (1) · Averroísmo Latino (Siger de Brabant e Boécio da Dácia) (1) · Boaventura (1) · Calculadores de Oxford (1) · Ceticismo Medieval (Debate Moderno) (1) · Conflito Igreja-Estado (Egídio Romano e Dante) (1) · Dante Alighieri (1) · Debate sobre a Trindade (Abelardo, Ricardo de São Vítor e Bernardo de Claraval) (1) · Direito Romano e sua Recepção Medieval (Debate Moderno) (1) · Escola de Chartres (1) · Escolástica do Norte (Wegestreit) (1) · Escolástica na Europa Central (Viena e Praga) (1) · Estética Medieval (Debate Moderno) (1) · Eternidade do Mundo (Debate) (1) · Filosofia Irlandesa Medieval (1) · Filosofia Política Alto-Medieval (Querela das Investiduras e Policraticus) (1) · Filosofia da Natureza (Bernardo Silvestre e Alain de Lille) (1) · Filosofia e a Trindade (Debate Moderno) (1) · Física do Século XIII (1) · Física do Século XIV (Ockham, Buridan, Oresme, Marchia) (1) · Gilberto de Poitiers (1) · Graciano e Pedro Lombardo (1) · Gramática Especulativa (Modistas) (1) · Heloísa e Abelardo (1) · Instituições de Ensino Medievais (Debate Moderno) (1) · Introdução ao Século XIV (Nominalismo e Voluntarismo) (1) · Jean de Meun (Romance da Rosa) (1) · Lei Natural e Legitimidade Política (Séc. XIII) (1) · Lógica Medieval: Formalidade (Debate Moderno) (1) · Lógica das Obrigações (Debate Moderno) (1) · Lógica do Século XIII (1) · Lógica do Século XIV (Obrigações e Paradoxos) (1) · Magia na Filosofia Medieval (Debate Moderno) (1) · Manuscrito Voynich (1) · Marsílio de Pádua (1) · Mechthild de Magdeburgo (1) · Mereologia Medieval (Debate Moderno) (1) · Misticismo Inglês (Julian of Norwich) (1) · Movimento de Tradução para o Latim (1) · Nicolau de Autrecourt (Debate do Ceticismo) (1) · Os Transcendentais (Philip the Chancellor) (1) · Os Vitorinos (Hugo de São Vítor) (1) · Panorama da Escolástica (1) · Pedro Damião (1) · Peter Olivi (1) · Platonismo Medieval (Debate Moderno) (1) · Pobreza Franciscana (Debate) (1) · Poesia Inglesa Medieval (Chaucer e Langland) (1) · Presciência Divina e Livre-Arbítrio (1) · Problema dos Universais (Séc. XII) (1) · Psicologia do Século XIII (1) · Renascimento Carolíngio (Alcuíno) (1) · Robert Grosseteste (1) · Robert Kilwardby (1) · Roger Bacon (1) · Teoria Econômica Medieval (Preço Justo e Usura) (1) · Teorias Medievais da Vontade e da Ação (Debate Moderno) (1) · Teorias das Emoções (Aquino, Escoto, Wodeham) (1) · Trindade e Eucaristia (Filosofia e Teologia) (1) · Walter Burley (Resposta Realista a Ockham) (1) · Ângela de Foligno (1) · Ética do Século XIII (1) |
+| 145 | Renascimento | Renascimento Italiano (31) · Cornélio Agripa (20) · Paracelso e a Alquimia (9) · Ciência na Inglaterra Renascentista (5) · Shakespeare (5) · A Monas Hieroglyphica de John Dee (1564) (3) · Ceticismo Renascentista (3) · John Winthrop, o Jovem (Ocultismo Colonial Americano) (3) · Nicolau Maquiavel (3) · Petrus Ramus (3) · A Qabalah Cristã (von Rosenroth e van Helmont) (2) · Jean Bodin (2) · Johannes Trithemius (Esteganografia) (2) · Justus Lipsius e o Neoestoicismo (2) · Literatura Espiritual Feminina (2) · Tolerância Religiosa (2) · A Imprensa e a Filosofia (1) · Arbatel de Magia Veterum (1575) (1) · Christine de Pizan (1) · Ciência e Maravilhas no Renascimento (1) · Defesa das Mulheres (Fonte e Marinella) (1) · Do Nominalismo ao Realismo Oculto (Séc. XIV-XV) (1) · Edward Kelley e a Alquimia (Além de John Dee) (1) · Filosofia Judaica no Renascimento Italiano (1) · Filosofia Política Huguenote (1) · François Rabelais (1) · Girolamo Savonarola (1) · Humanismo Francês Tardio (1) · Humanismo Francês: Budé e a Pléiade (1) · Humanismo do Norte (Agricola e Vives) (1) · Humanismo na Grã-Bretanha (1) · Humanistas Italianas (1) · Jean Gerson (1) · Jochanan Alemanno (Cabala Renascentista) (1) · Johannes Reuchlin e o De Verbo Mirifico (1492) (1) · Literatura Elisabetana (1) · Lorenzo Valla (1) · Lógica e Linguagem no Renascimento Francês (1) · Magiae Naturalis (Giambattista della Porta, 1558) (1) · Manuais de Exorcismo e Necromancia (pré-1614) (1) · Marguerite de Navarra (1) · Marie de Gournay (1) · Marsilio Ficino (1) · Medicina na França Renascentista (1) · Mutus Liber (1677) (1) · Nicolas Flamel (Vida e Lenda Alquímica) (1) · Os Rosacruzes e a Fama Fraternitatis (1614) (1) · Pensamento Político Inglês (1) · Pico della Mirandola (1) · Precursores do Humanismo (Llull e Petrarca) (1) · Teorias da Matéria (Atomismo Renascentista) (1) · Thomas More (1) |
+| 131 | Filosofia Africana | Etnofilosofia e Debate sobre a Filosofia Africana (13) · Filosofia Etíope (4) · W.E.B. Du Bois (4) · Filosofia Africana Profissional (3) · Filosofia Islâmica na África Subsaariana (3) · Frantz Fanon (3) · Alain Locke (2) · Amílcar Cabral (2) · Anton Wilhelm Amo (2) · Claudia Jones (2) · Cornel West (2) · Frederick Douglass (2) · Marcus Garvey (2) · Martin Luther King Jr. (2) · Ngũgĩ wa Thiong'o (2) · Panorama da Filosofia Africana (Início do Séc. XX) (2) · Édouard Glissant (2) · Abdias do Nascimento (1) · Abolicionismo no Brasil (1) · Academia Negra Americana (ANA) (1) · Afrocentricidade (Molefi Asante) (1) · Afrofuturismo (1) · Aimé e Suzanne Césaire (1) · Alexander Crummell (1) · Angela Davis (1) · Anna Julia Cooper (1) · Anténor Firmin (1) · As Duas Amy Garvey (1) · Ativistas Negras (NACW) (1) · Audre Lorde (1) · Booker T. Washington (1) · C.L.R. James (1) · Carter G. Woodson (1) · Cedric Robinson (Marxismo Negro) (1) · Controvérsia da Colonização (1) · Cugoano e Equiano (Filhos da África) (1) · David Walker (1) · E. Franklin Frazier (1) · Edward Blyden (1) · Emigração para o Canadá (1) · Escrita Africana Primitiva em Inglês (1) · Estudos Culturais Negros Britânicos (Stuart Hall) (1) · Fela Kuti e Wole Soyinka (1) · Feminismo Negro (bell hooks e Patricia Hill Collins) (1) · Feminismo Negro dos Anos 1970 (Combahee River Collective) (1) · Henry Highland Garnet (1) · Henry McNeal Turner (1) · Hosea Easton (1) · Ida B. Wells (1) · Identidade Africana na Diáspora (1) · Ignatius Sancho e Benjamin Banneker (1) · Instituições Negras Primitivas nos EUA (1) · Intelectuais da África Ocidental (Início do Séc. XX) (1) · Introdução: Escravidão e Diáspora (1) · J.J. Thomas e F.A. Durham (1) · James Africanus Beale Horton (1) · James Baldwin (1) · Juan René Betancourt (1) · Julius Nyerere (1) · Kwame Nkrumah (1) · Lemuel Haynes (1) · Lorraine Hansberry (1) · Léopold Senghor (1) · Malcolm X (1) · Malcolm X e MLK: Últimos Anos (1) · Maria W. Stewart (1) · Martin Delany (1) · Marxismo e a Diáspora Africana (1) · Maulana Karenga e o Kwanzaa (1) · Movimento da Negritude (1) · Movimento das Artes Negras (1) · Nelson Mandela e o ANC (1) · Nnamdi Azikiwe e Obafemi Awolowo (1) · Oliver Cox e Eric Williams (1) · Origens da Humanidade (Pré-história) (1) · Panteras Negras (1) · Paul Robeson (1) · Phillis Wheatley (1) · Poder Negro (Black Power) (1) · Precursores da Afrocentricidade (1) · Ralph Ellison (1) · Raízes do Nacionalismo Negro (1) · Reggae e Rastafari (1) · Renascimento Literário das Mulheres Negras (1) · Renascimento do Harlem (1) · Richard Wright (1) · Socialismo Afro-Americano Primitivo (1) · Sojourner Truth e Frances Harper (1) · Steve Biko (1) · Sylvia Wynter (1) · T. Thomas Fortune (1) · Teologia Negra (1) · Teoria Racial Crítica (1) · Walker, Stewart e Easton (Pensamento Racial do Séc. XIX) (1) · Walter Rodney (1) · Zora Neale Hurston (1) |
+| 119 | Sengoku Jidai | Clãs do Sengoku (24) · Batalha de Nagashino (4) · Cerco de Osaka (2) · Guerra Ōnin (2) · Castelos do Sengoku Jidai (1) · Exército do Sengoku Jidai (1) · Marinha do Sengoku Jidai (1) |
+| 112 | Império Romano | Dinastia júlio-claudiana (31) · Ano dos Quatro Imperadores (11) · Crise do Século III (10) · Britânia romana (6) · Dinastia Constantiniana (6) · Limes Germânico (Fronteira do Reno) (4) · Invasão Romana da Escócia (Agrícola) (3) · Diocleciano e a Tetrarquia (2) · Dácia Romana (1) · Fronteiras do Império (1) · Hispania Romana (1) · Invasão Romana da Arábia (1) · Judeia Romana (1) · Peste Antonina (1) · Relações Roma-Índia (1) |
+| 98 | Guerra Russo-Ucraniana | — |
+| 90 | Avisos do canal | — |
+| 90 | Cruzadas | Primeira Cruzada (37) · Segunda Cruzada (17) · Quarta Cruzada (16) · Terceira Cruzada (7) · Panorama das Cruzadas (3) · Cruzada Albigense (2) · Cruzada das Crianças (1) |
+| 87 | História dos Estados Unidos | Candidatos Derrotados (43) · Política (24) · Bush 43 Still Sucks (6) · Presidência (5) · Fundação (2) · Guerras Índias (2) · Diplomacia (1) · Igreja Negra e Direitos Civis (1) · Marinha (1) |
+| 83 | Reforma Protestante | Martinho Lutero (21) · João Calvino (14) · Reforma Católica (Contrarreforma) (6) · Puritanismo Inglês e Colonial (3) · A Bíblia em Inglês (2) · Assentamento Elisabetano (2) · Calvino e a Tradição Reformada (2) · Erasmo x Lutero: Livre-Arbítrio (2) · Henrique VIII e o Anglicanismo Primitivo (2) · Jan Hus e a Profecia da Reforma (2) · John Knox e a Reforma Escocesa (2) · John Wycliffe (2) · Luteranismo Posterior (2) · Panorama da Reforma (2) · Calvino e o Caso Sérveto (1) · Covenanters Escoceses (1) · Erasmo de Roterdã (1) · Guerra dos Camponeses e Reforma Radical (1) · Huguenotes e a Reforma Francesa (1) · Huldrych Zwínglio (1) · Indulgências (1) · Lutero e Calvino: Teologia Comparada (1) · Lutero e Melanchthon (1) · Menno Simons e os Menonitas (1) · Pano de Fundo Medieval da Reforma (1) · Panorama da Reforma Britânica (1) · Philip Melanchthon (1) · Protestantismo Espanhol (1) · Reino Anabatista de Münster (1) · Thomas Cranmer (1) · William Tyndale (1) |
+| 82 | Império Otomano | Mehmed II (13) · Guerra Otomano-Portuguesa (4) · Cercos de Viena (3) · Bayezid II e Selim I (2) · Guerra de Chipre (2) · Janízaros (2) · Cem Sultan (1) · Guerra de Candia (1) · Guerras Otomano-Safávidas (1) · Islamização da Bósnia (1) · João Hunyadi (1) · Kapikulu (Exército Permanente) (1) · Skanderbeg (1) · Sultanato das Mulheres (1) |
+| 77 | Filosofia Judaica Medieval | Misticismo Merkavah (Hekhalot) (25) · Cabala (Zohar e Abraham Abulafia) (7) · Cabala de Safed (Cordovero, Luria e Israel Sarug) (5) · Cabala Primitiva (Círculos de Provença e Castela) (4) · Maimônides (4) · Sabbatai Zevi e o Messianismo Cabalístico (Nathan de Gaza) (3) · Sefer Yetzirah e Sefer Bahir (Origens da Cabala) (2) · A Espada de Moisés (Harba de-Moshe) (1) · Ascensão do Apocalipticismo Judaico (Daniel e Enoque) (1) · Astrologia Médica Hebraica (Kelal Qatan) (1) · Astrologia no Judaísmo e Islã Antigos (1) · Cabala Cristã e Cabala Luriânica (1) · Cabala Moderna (R. Yosef Ergas) (1) · Cabala Tardia e o Surgimento do Hassidismo (1) · Controvérsia Maimonidiana (1) · Gersônides (1) · Gersônides e Hasdai Crescas (1) · Glória Divina e o Proto-Cabalismo dos Querubins (Akhatriel) (1) · Hasdai Crescas (1) · Ibn Gabirol (1) · Joseph Albo e Isaac Abravanel (1) · Judah Halevi (1) · Liberdade e Astrologia na Filosofia Judaica (Ibn Ezra, Ibn Daud e Maimônides) (1) · Magia Judaica Antiga e Medieval (1) · Neoplatonismo Judaico (Isaac Israeli, Ibn Gabirol e Maimônides) (1) · Panorama do Pensamento Judaico Andaluz (Debate Moderno) (1) · Profecia e Teofania Israelita (Fundamentos Pré-Cabalísticos) (1) · Raízes da Filosofia Judaica no Mundo Islâmico (Mishnah, Talmud e Isaac Israeli) (1) · Saadia Gaon (1) · Sar Torah e os Hasidei Ashkenaz (1) · Sefer HaMalbush e Sefer HaYashar (Magia do Manto) (1) · Sofrimento na Filosofia Judaica (Saadia a Gersônides) (1) · Zohar sobre Ester (Piada de 1º de Abril) (1) · Ética e Judaísmo (Baḥya Ibn Paquda e Maimônides) (1) |
+| 69 | Cristianismo Primitivo | Gnosticismo (23) · Agostinho de Hipona (9) · Apologistas e Heresias Primitivas (3) · Atanásio e Niceia (3) · Boécio (3) · O Jesus Histórico (3) · Perseguições aos Cristãos (2) · Ambrósio de Milão (1) · Ambrósio e Jerônimo (1) · Ascetismo Cristão (Antão, Macrina e Evágrio) (1) · Concílio de Calcedônia (1) · Concílio de Constantinopla (1) · Formação da Doutrina da Trindade (1) · Magia Cristã Copta Primitiva (Proteção, Exorcismo e Amor) (1) · Monasticismo Primitivo (1) · Máximo o Confessor (1) · Nestório e o Concílio de Éfeso (1) · Orígenes (1) · Padres Apostólicos (1) · Padres Capadócios (1) · Padres Gregos e a Bíblia (Debate Moderno) (1) · Padres Latinos (Tertuliano a Jerônimo) (1) · Platonismo Latino (Apuleio a Calcídio) (1) · Pseudo-Dionísio Areopagita (1) · São Paulo (1) |
+| 60 | Dinastia Zhou | Cem Escolas do Pensamento (53) · Estados Combatentes (5) · Zhou Ocidental e Primavera e Outono (1) |
+| 58 | História na cultura popular | Literatura (33) · Cinema (17) · Televisão (4) · Jogos (2) · Luta livre profissional (1) |
+| 57 | Filosofia Islâmica | Avicena (5) · Averróis (3) · Mulla Sadra (3) · al-Farabi (3) · al-Ghazali (3) · Sufismo Filosófico (Ibn 'Arabī e Rūmī) (2) · al-Kindī (2) · Abu Bakr al-Razi (Rhazes) (1) · Abu l-Barakat al-Baghdadi (1) · Cultura de Comentários na Filosofia Islâmica Tardia (Debate Moderno) (1) · Debate sobre a Metafísica de Avicena (Essência e Existência) (1) · Encontros com o Pensamento Europeu (Índia e Império Otomano, Séc. XVIII-XIX) (1) · Escola de Bagdá (1) · Escola de Shiraz (1) · Fakhr al-Din al-Razi (1) · Filosofia e Ciência na Era Mongol (1) · Filosofia na Era Buida (1) · Filosofia na Índia Islâmica (Dārā Shikūh) (1) · Filosofia sob os Otomanos (Kātib Çelebi) (1) · Filosofia sob os Safávidas (1) · Ibn 'Arabī (Misticismo) (1) · Ibn Bājja e Ibn Ṭufayl (1) · Ibn Khaldun (1) · Ibn Taymiyya (1) · Ibn al-Haytham (Teorias da Visão) (1) · Ibn Ḥazm e Teoria Jurídica Islâmica (1) · Literatura Ética Árabe (al-Kindī a Miskawayh) (1) · Medicina no Mundo Islâmico (Debate Moderno) (1) · Muhammad 'Abduh e Muhammad Iqbal (1) · Mulheres Estudiosas e o Islã (Fatema Mernissi e outras) (1) · Música e Filosofia na Tradição Árabe (1) · Naṣīr al-Dīn al-Ṭūsī (1) · Os Asharitas (al-Ash'arī) (1) · Os Ismaelitas (Painel/Entrevista) (1) · Os Mutazilitas (Abū l-Hudhayl e al-Naẓẓām) (1) · Panorama Pós-Suhrawardi (Iluminacionismo) (1) · Panorama da Filosofia em al-Andalus (1) · Pensamento Islâmico Contemporâneo (Debate Moderno) (1) · Pós-Mulla Sadra (Sabzawari a Nasr) (1) · Suhrawardi (1) · Tradição Lógica Pós-Avicena (Debate Moderno) (1) · Tradução do Grego para o Siríaco e o Árabe (1) · Traduções do Árabe para o Latim (1) |
 | 57 | Revolução Francesa | Diretório (10) · O Terror (8) · Queda da Monarquia (4) · Reação Termidoriana (4) |
-| 56 | Filosofia Indiana | Nagarjuna (4) · Dignaga (3) · Upaniṣads (2) · Teorias Materialistas do Self (Payasi e Cārvāka) (2) · Patañjali e o Yoga-Sūtra (2) · Período Védico (Panorama) (1) · Origens do Karma (Upaniṣads e Bhagavad-Gītā) (1) · Gramática de Pāṇini (1) · Escola Vaiśeṣika (Kaṇāda) (1) · Escola Nyāya (Gautama) (1) · O Buda e as Quatro Nobres Verdades (1) · Vedānta-Sūtra (Bādarāyaṇa) (1) · Panorama: Budismo e Jainismo até Dignāga (1) · Mīmāṃsā-Sūtra (Jaimini) (1) · Mahābhārata: Dharma e Ética (1) · Medicina Ayurvédica Antiga (Caraka-Saṃhitā) (1) · Pensamento Político Indiano Antigo (Kautilya e Aśoka) (1) · Bhagavad-Gītā (1) · Introdução: A Era dos Sutras (1) · Sāṃkhya-Kārikā (Īśvarakṛṣṇa) (1) · Vasubandhu (1) · Buddhaghosa (1) · Bhartṛhari (1) · Śaṅkara e o Advaita Vedānta (1) · Panorama Pós-Dignaga (1) · Animais na Filosofia Indiana (1) · Tantra (Xivaísmo da Caxemira e Tantra Budista) (1) · Epistemologia Jainista (1) · Lógica Jainista (Saptabhaṅgī) (1) · Teoria dos Pontos de Vista Jainista (Anekāntavāda) (1) · Estética do Rasa (1) · Filosofia da Mente Indiana (Debate Budista-Hindu) (1) · Vaiśeṣika: Tempo e Espaço (1) · Vaiśeṣika: Debate com o Ceticismo Budista (1) · Escola Nyāya (Painel) (1) · Nyāya: Self e Mente (1) · Nyāya: Lógica da Inferência (1) · Nyāya: Percepção (1) · Vedānta (Painel/Entrevista) (1) · Mīmāṃsā (Painel/Entrevista) (1) · Mīmāṃsā: Conhecimento e Linguagem (1) · Ceticismo na Índia Antiga (Debate entre Escolas) (1) · Hinduísmo e Filosofia (Painel/Entrevista) (1) · Mulheres na Índia Antiga (1) · Não-Violência (Ahimsā) (1) · Budismo: Teoria do Não-Self (Anattā) (1) · Upaniṣads (Painel/Entrevista) (1) · Panorama Histórico: Escolas e Sistemas Indianos (1) |
-| 55 | Egito antigo | Reino Antigo (9) · Reino Novo (6) · Dinastia 0 (5) · Período Tardio (5) · Reino Médio (4) · Período Dinástico Arcaico (3) · Segundo Período Intermediário (3) · Terceiro Período Intermediário (3) · Período Pré-dinástico (2) · Egito e Núbia (1) · Primeiro Período Intermediário (1) |
-| 55 | História na cultura popular | Literatura (33) · Cinema (14) · Televisão (4) · Jogos (2) · Luta livre profissional (1) |
+| 56 | Egito antigo | Reino Antigo (9) · Reino Novo (6) · Dinastia 0 (5) · Período Tardio (5) · Reino Médio (4) · Período Dinástico Arcaico (3) · Segundo Período Intermediário (3) · Terceiro Período Intermediário (3) · Egito e Núbia (2) · Período Pré-dinástico (2) · Primeiro Período Intermediário (1) |
+| 56 | Filosofia Indiana | Nagarjuna (4) · Dignaga (3) · Patañjali e o Yoga-Sūtra (2) · Teorias Materialistas do Self (Payasi e Cārvāka) (2) · Upaniṣads (2) · Animais na Filosofia Indiana (1) · Bhagavad-Gītā (1) · Bhartṛhari (1) · Buddhaghosa (1) · Budismo: Teoria do Não-Self (Anattā) (1) · Ceticismo na Índia Antiga (Debate entre Escolas) (1) · Epistemologia Jainista (1) · Escola Nyāya (Gautama) (1) · Escola Nyāya (Painel) (1) · Escola Vaiśeṣika (Kaṇāda) (1) · Estética do Rasa (1) · Filosofia da Mente Indiana (Debate Budista-Hindu) (1) · Gramática de Pāṇini (1) · Hinduísmo e Filosofia (Painel/Entrevista) (1) · Introdução: A Era dos Sutras (1) · Lógica Jainista (Saptabhaṅgī) (1) · Mahābhārata: Dharma e Ética (1) · Medicina Ayurvédica Antiga (Caraka-Saṃhitā) (1) · Mulheres na Índia Antiga (1) · Mīmāṃsā (Painel/Entrevista) (1) · Mīmāṃsā-Sūtra (Jaimini) (1) · Mīmāṃsā: Conhecimento e Linguagem (1) · Nyāya: Lógica da Inferência (1) · Nyāya: Percepção (1) · Nyāya: Self e Mente (1) · Não-Violência (Ahimsā) (1) · O Buda e as Quatro Nobres Verdades (1) · Origens do Karma (Upaniṣads e Bhagavad-Gītā) (1) · Panorama Histórico: Escolas e Sistemas Indianos (1) · Panorama Pós-Dignaga (1) · Panorama: Budismo e Jainismo até Dignāga (1) · Pensamento Político Indiano Antigo (Kautilya e Aśoka) (1) · Período Védico (Panorama) (1) · Sāṃkhya-Kārikā (Īśvarakṛṣṇa) (1) · Tantra (Xivaísmo da Caxemira e Tantra Budista) (1) · Teoria dos Pontos de Vista Jainista (Anekāntavāda) (1) · Upaniṣads (Painel/Entrevista) (1) · Vaiśeṣika: Debate com o Ceticismo Budista (1) · Vaiśeṣika: Tempo e Espaço (1) · Vasubandhu (1) · Vedānta (Painel/Entrevista) (1) · Vedānta-Sūtra (Bādarāyaṇa) (1) · Śaṅkara e o Advaita Vedānta (1) |
 | 51 | Guerras dos Diádocos | Segunda Guerra dos Sucessores (8) · Primeira Guerra dos Sucessores (3) |
+| 50 | Jogos de estratégia | Lore de ficção (26) · Total War (12) |
 | 50 | Revolução Russa de 1905 | Prelúdio (10) · Revolução de 1905 (9) · Pós-1905 (7) · Decembristas (3) |
-| 47 | Jogos de estratégia | Lore de ficção (26) · Total War (10) |
+| 48 | Filosofia Helenística e Romana | Epicuro e o Epicurismo (4) · O Renascimento Platônico (Eudoro, Alcínoo e Numênio) (4) · Os Primeiros Estoicos (Zenão, Cleantes e Crisipo) (4) · Cícero (2) · Fílon de Alexandria (2) · Platonismo Médio (Painel) (2) · A Academia Cética (1) · Alexandre de Afrodísias (1) · Antíoco de Ascalon (1) · Apuleio (1) · Aristotelismo Pós-Aristóteles (1) · As Origens Estoicas do Ocultismo Ocidental (1) · Diógenes e os Cínicos (1) · Epicteto (1) · Estoicismo Romano (Debate Moderno) (1) · Filosofia Helenística da Astrologia (Debate Moderno) (1) · Galeno (1) · Introdução: A Sombra de Platão (1) · Lucrécio (1) · Marco Aurélio (1) · Matemática Antiga e Filosofia (Debate Moderno) (1) · Medicina e Filosofia na Antiguidade (Herófilo a Galeno) (1) · Neopitagóricos (1) · O Estoicismo: Painel sobre a Escola (1) · O Self na Filosofia Helenística (Debate Moderno) (1) · O Submundo Platônico (1) · Os Cirenaicos (1) · Panorama: Filosofia no Império Romano (1) · Pirro e o Ceticismo Pirrônico (1) · Platonismo Médio e Cristianismo (1) · Plutarco (1) · Plutarco de Queroneia (1) · Ptolomeu: Astronomia, Astrologia e Filosofia (1) · Retórica e Filosofia Antiga (Temístio, Quintiliano e Luciano) (1) · Sexto Empírico (1) · Sêneca (1) |
 | 44 | Império Mongol | Rabban Bar Sauma (1) |
-| 43 | Filosofia Helenística e Romana | Epicuro e o Epicurismo (4) · Os Primeiros Estoicos (Zenão, Cleantes e Crisipo) (4) · O Renascimento Platônico (Eudoro, Alcínoo e Numênio) (3) · Cícero (2) · Platonismo Médio (Painel) (2) · Fílon de Alexandria (2) · Os Cirenaicos (1) · Diógenes e os Cínicos (1) · Pirro e o Ceticismo Pirrônico (1) · Introdução: A Sombra de Platão (1) · Aristotelismo Pós-Aristóteles (1) · A Academia Cética (1) · O Estoicismo: Painel sobre a Escola (1) · As Origens Estoicas do Ocultismo Ocidental (1) · Medicina e Filosofia na Antiguidade (Herófilo a Galeno) (1) · Filosofia Helenística da Astrologia (Debate Moderno) (1) · Antíoco de Ascalon (1) · Lucrécio (1) · Sêneca (1) · Retórica e Filosofia Antiga (Temístio, Quintiliano e Luciano) (1) · Plutarco (1) · Plutarco de Queroneia (1) · Epicteto (1) · Ptolomeu: Astronomia, Astrologia e Filosofia (1) · Marco Aurélio (1) · Galeno (1) · Alexandre de Afrodísias (1) · Sexto Empírico (1) · Matemática Antiga e Filosofia (Debate Moderno) (1) · Panorama: Filosofia no Império Romano (1) · O Self na Filosofia Helenística (Debate Moderno) (1) · Estoicismo Romano (Debate Moderno) (1) |
-| 43 | Guerras Napoleônicas | Marechais de Napoleão (7) · Guerra Peninsular (5) · Velha Guarda (Old Guard) (1) · Thomas Cochrane (1) · Grande Armée (Organização) (1) |
-| 42 | Resenhas de ficção | — |
-| 40 | Jogos de samurai | — |
-| 39 | Primeira Guerra Mundial | Prelúdio (5) · Guerra Naval (2) · Frente Oriental (2) · Frente do Oriente Médio (2) · Igrejas na Primeira Guerra Mundial (1) · Mar do Norte (1) |
-| 38 | Filosofia Moderna | René Descartes (11) · Cartesianismo Francês (9) · Moralistas Franceses (3) · Blaise Pascal (3) · República das Letras (2) · Gassendi e o Atomismo (2) · Elisabeth da Boêmia (2) · Teorias da Substância (Aquino a Locke e Leibniz) (1) · Tolerância Religiosa (1) · Ceticismo Francês (1) · Pierre Bayle (1) |
-| 38 | Revolução Americana | Lealistas (2) · Campanha de Saratoga (2) · Cerco de Gibraltar (2) · Traição de Benedict Arnold (1) · Igrejas na Revolução Americana (1) |
-| 37 | Alexandre, o Grande | — |
-| 35 | Hermetismo | Panorama da Transmutação Alquímica (3) · Datação e o Debate sobre a Autenticidade (Ficino a Casaubon) (3) · O Deus Sem Cabeça (Akephalos) e os Papiros Mágicos Gregos (2) · A Edição de 1505 do Corpus Hermeticum e Lazzarelli (2) · Tot e a Origem de Hermes Trismegisto (1) · Magia e Doença (Panorama Histórico) (1) · Os Magos (Mitologia e História) (1) · Petosíris, Sumo Sacerdote de Tot (Origens Egípcias) (1) · O Livro de Tot Egípcio (Ritual de Iniciação Demótico) (1) · Os Papiros Mágicos Gregos (PGM) (1) · Magia do Tesouro (Lore e Feitiçaria) (1) · Hermetica Técnica (Kyranides) (1) · Cosmologia e Teologia Hermética (Corpus Hermeticum) (1) · Fragmentos Herméticos Adicionais (Stobeu, Kore Kosmou) (1) · Maria, a Judia (Alquimia Greco-Egípcia) (1) · Cleópatra, a Alquimista (Crisopeia) (1) · A Perseguição de Dioclesiano aos Alquimistas (296 d.C.) (1) · Zósimo de Panópolis (Origens Egípcias da Alquimia) (1) · Símbolos Mágicos e Alfabetos Angélicos (Origens) (1) · A Tábua de Esmeralda (Origens e Transmissão) (1) · Tratado de Talismãs (De Imaginibus, Thabit ibn Qurra) (1) · A Fórmula do Caranguejo/Escorpião (Alquimia Greco-Egípcia) (1) · Turba Philosophorum (Assembleia dos Filósofos) (1) · O Livro da Composição da Alquimia (1144, Robert de Chester) (1) · Summa Perfectionis (Pseudo-Geber, c. 1310) (1) · João de Rupescissa e a Alquimia Apocalíptica (1) · Os Alquimistas Empreendedores (Pós-Peste Negra) (1) · A Inquisição contra a Alquimia (Nicholas Eymerich, 1396) (1) · Antologia Hermética Renascentista (1497) (1) |
+| 44 | Revolução Americana | Campanha de Saratoga (2) · Cerco de Gibraltar (2) · Lealistas (2) · Igrejas na Revolução Americana (1) · Traição de Benedict Arnold (1) |
+| 43 | Guerras Napoleônicas | Marechais de Napoleão (7) · Guerra Peninsular (5) · Grande Armée (Organização) (1) · Thomas Cochrane (1) · Velha Guarda (Old Guard) (1) |
+| 43 | Resenhas de ficção | — |
+| 42 | Filosofia Moderna | René Descartes (11) · Cartesianismo Francês (9) · Blaise Pascal (3) · Moralistas Franceses (3) · Pierre Bayle (3) · Elisabeth da Boêmia (2) · Gassendi e o Atomismo (2) · República Holandesa (2) · República das Letras (2) · Ceticismo Francês (1) · Teorias da Substância (Aquino a Locke e Leibniz) (1) · Tolerância Religiosa (1) |
+| 42 | Primeira Guerra Mundial | Prelúdio (5) · Frente do Oriente Médio (3) · Frente Oriental (2) · Guerra Naval (2) · Frente do Cáucaso (1) · Igrejas na Primeira Guerra Mundial (1) · Mar do Norte (1) |
+| 41 | Jogos de samurai | — |
+| 38 | Alexandre, o Grande | — |
+| 37 | Hermetismo | Datação e o Debate sobre a Autenticidade (Ficino a Casaubon) (3) · Panorama da Transmutação Alquímica (3) · A Edição de 1505 do Corpus Hermeticum e Lazzarelli (2) · O Deus Sem Cabeça (Akephalos) e os Papiros Mágicos Gregos (2) · Os Papiros Mágicos Gregos (PGM) (2) · A Fórmula do Caranguejo/Escorpião (Alquimia Greco-Egípcia) (1) · A Inquisição contra a Alquimia (Nicholas Eymerich, 1396) (1) · A Perseguição de Dioclesiano aos Alquimistas (296 d.C.) (1) · A Tábua de Esmeralda (Origens e Transmissão) (1) · Antologia Hermética Renascentista (1497) (1) · Cabala Química (Cabala e Alquimia) (1) · Cleópatra, a Alquimista (Crisopeia) (1) · Cosmologia e Teologia Hermética (Corpus Hermeticum) (1) · Fragmentos Herméticos Adicionais (Stobeu, Kore Kosmou) (1) · Hermetica Técnica (Kyranides) (1) · João de Rupescissa e a Alquimia Apocalíptica (1) · Magia do Tesouro (Lore e Feitiçaria) (1) · Magia e Doença (Panorama Histórico) (1) · Maria, a Judia (Alquimia Greco-Egípcia) (1) · O Livro da Composição da Alquimia (1144, Robert de Chester) (1) · O Livro de Tot Egípcio (Ritual de Iniciação Demótico) (1) · Os Alquimistas Empreendedores (Pós-Peste Negra) (1) · Os Magos (Mitologia e História) (1) · Petosíris, Sumo Sacerdote de Tot (Origens Egípcias) (1) · Summa Perfectionis (Pseudo-Geber, c. 1310) (1) · Símbolos Mágicos e Alfabetos Angélicos (Origens) (1) · Tot e a Origem de Hermes Trismegisto (1) · Tratado de Talismãs (De Imaginibus, Thabit ibn Qurra) (1) · Turba Philosophorum (Assembleia dos Filósofos) (1) · Zósimo de Panópolis (Origens Egípcias da Alquimia) (1) |
 | 35 | Expansão islâmica | Al-Andalus (1) |
+| 35 | Guerra Civil Americana | Prelúdio (4) · Campanha de Atlanta (2) · Teatro Ocidental (2) · Campanha Overland (1) · Campanha da Península (1) · Campanha de Chattanooga (1) · Campanha de Gettysburg (1) · Campanha de Vicksburg (1) · Marcha para o Mar (1) · Teatro naval (1) |
 | 34 | Revoluções de 1848 | — |
-| 33 | Guerra Civil Inglesa | Prelúdio (5) · Protetorado de Cromwell (4) · Puritanismo (1) · Coldstream Guards (1) |
-| 33 | Guerra Civil Americana | Prelúdio (4) · Teatro Ocidental (2) · Campanha de Atlanta (2) · Teatro naval (1) · Campanha da Península (1) · Campanha de Vicksburg (1) · Campanha de Chattanooga (1) · Campanha de Gettysburg (1) · Campanha Overland (1) · Marcha para o Mar (1) |
+| 33 | Guerra Civil Inglesa | Prelúdio (5) · Protetorado de Cromwell (4) · Coldstream Guards (1) · Puritanismo (1) |
 | 32 | Exército Romano | — |
 | 28 | Guerras de Independência Hispano-Americanas | — |
+| 27 | Inglaterra anglo-saxã | Invasão Viking (16) · Reino de Kent (1) |
 | 27 | Revolução Mexicana | — |
 | 26 | Guerra dos Cem Anos | Ascensão dos Arqueiros Ingleses (3) · Joana d'Arc (3) |
-| 26 | História do Cristianismo Moderno | Iluminismo e a Igreja (3) · John Wesley e George Whitefield (2) · Jansenismo (1) · Unitários, Batistas e Quacres (1) · Puritanismo (panorama) (1) · Panorama do Século XVII (1) · Inglaterra dos Stuart (1) · Peregrinos e Colônias Americanas (1) · Arminianismo e a Revolta Holandesa (1) · Pietismo Luterano (1) · Quietismo (1) · Panorama do Século XVIII (1) · Jonathan Edwards (1) · Primeiro Grande Despertar (1) · Segundo Grande Despertar (1) · Panorama do Século XIX (1) · Movimentos de Santidade e Restauração (1) · Catolicismo Imigrante nos EUA (1) · Movimento de Oxford (1) · Evangelho Social e Liberalismo Teológico (1) · Pentecostalismo (1) · Fundamentalismo (1) · Neoevangelicalismo (1) |
+| 26 | História do Cristianismo Moderno | Iluminismo e a Igreja (3) · John Wesley e George Whitefield (2) · Arminianismo e a Revolta Holandesa (1) · Catolicismo Imigrante nos EUA (1) · Evangelho Social e Liberalismo Teológico (1) · Fundamentalismo (1) · Inglaterra dos Stuart (1) · Jansenismo (1) · Jonathan Edwards (1) · Movimento de Oxford (1) · Movimentos de Santidade e Restauração (1) · Neoevangelicalismo (1) · Panorama do Século XIX (1) · Panorama do Século XVII (1) · Panorama do Século XVIII (1) · Pentecostalismo (1) · Peregrinos e Colônias Americanas (1) · Pietismo Luterano (1) · Primeiro Grande Despertar (1) · Puritanismo (panorama) (1) · Quietismo (1) · Segundo Grande Despertar (1) · Unitários, Batistas e Quacres (1) |
+| 25 | História de Gales | Reino de Gwynedd (6) · Conquista de Gales (1) |
 | 25 | Revolução Russa de 1917 | Prelúdio (7) · Revolução de Outubro (7) · Governo Provisório (6) · Revolução de Fevereiro (4) |
-| 24 | Inglaterra anglo-saxã | Invasão Viking (14) |
-| 24 | História de Gales | Reino de Gwynedd (6) |
-| 23 | Guerra dos Trinta Anos | Intervenção Sueca (9) · Fase Boêmia (3) · Fase Dinamarquesa (1) · Guerra de Sucessão de Mântua (1) · Fase Francesa (1) |
+| 24 | Babilônia Antiga | Período Paleobabilônico (6) · Império Neo-Babilônico (3) · Astronomia Babilônica (1) · Babilônia Helenística (1) · Dinastia Cassita (1) · Dinastia do Sealand (1) · Jardins Suspensos (1) · Mari (1) · O Ritual Maqlû (Contra-Magia Babilônica) (1) · Panorama Babilônico (curso) (1) · Período Isin-Larsa (1) · Ritual do Rei Substituto (1) · Segunda Dinastia de Isin (1) · Sociedade e Leis Babilônicas (1) · Séculos Obscuros da Babilônia (1) |
+| 24 | Grécia antiga | Idade das Trevas Grega (2) · Período Arcaico (2) · Demóstenes (1) · Filosofia Clássica (1) · Panorama Grego (curso) (1) · Panorama do Bronze Egeu (curso) (1) · Período Neolítico (1) · Safo de Lesbos (1) |
+| 23 | Guerra dos Trinta Anos | Intervenção Sueca (9) · Fase Boêmia (3) · Fase Dinamarquesa (1) · Fase Francesa (1) · Guerra de Sucessão de Mântua (1) |
 | 23 | Revolução Haitiana | — |
-| 22 | Grécia antiga | Idade das Trevas Grega (2) · Período Arcaico (2) · Período Neolítico (1) · Panorama do Bronze Egeu (curso) (1) · Panorama Grego (curso) (1) · Filosofia Clássica (1) · Demóstenes (1) |
-| 22 | Babilônia Antiga | Período Paleobabilônico (6) · Império Neo-Babilônico (2) · Mari (1) · Período Isin-Larsa (1) · Sociedade e Leis Babilônicas (1) · Panorama Babilônico (curso) (1) · Dinastia do Sealand (1) · Dinastia Cassita (1) · Segunda Dinastia de Isin (1) · Séculos Obscuros da Babilônia (1) · O Ritual Maqlû (Contra-Magia Babilônica) (1) · Jardins Suspensos (1) · Babilônia Helenística (1) · Astronomia Babilônica (1) |
-| 21 | Canaã Antiga | Religião Cananeia (7) · Reinos da Idade do Ferro (6) · Jericó e o Bronze Antigo (1) · Idade de Ouro Cananeia (Bronze Médio) (1) · Domínio Egípcio (Bronze Final) (1) · Demonologia do Antigo Israel (Pré-Exílica) (1) · Possessão e Exorcismo no Judaísmo Antigo (Mil Anos) (1) · Iom Kipur e o Ritual do Templo (1) |
-| 21 | Platão | Platão (16) · Sócrates (3) · A Loucura Divina de Platão e sua Recepção Renascentista (Ficino, Agripa e Bruno) (1) · As Doutrinas Não-Escritas de Platão (Pitagorismo) (1) |
+| 22 | Canaã Antiga | Religião Cananeia (7) · Reinos da Idade do Ferro (6) · Demonologia do Antigo Israel (Pré-Exílica) (1) · Domínio Egípcio (Bronze Final) (1) · Idade de Ouro Cananeia (Bronze Médio) (1) · Iom Kipur e o Ritual do Templo (1) · Jericó e o Bronze Antigo (1) · Possessão e Exorcismo no Judaísmo Antigo (Mil Anos) (1) |
 | 21 | Aristóteles | Aristóteles (16) · Sucessores de Platão e Aristóteles (Academia Antiga e Teofrasto) (3) · Aristóteles e Platão: Recepção Crítica (1) · Meteorologica e as Origens da Alquimia (1) |
-| 20 | Guerras Médicas | Invasão de Xerxes (11) · Revolta da Jônia (1) · Primeira Invasão Persa (Maratona) (1) |
-| 19 | Demonologia Ocidental | Anel e Selo de Salomão (7) · Lilith (5) · Demônios do Talmude (Daf Yomi) (2) · Set (Seth) (1) · Baal (1) · O Anjo da Morte (1) · Moloch (1) · Belial (1) |
-| 19 | Queda do Império Romano | — |
-| 19 | Xogunato do Japão | Período Edo (10) |
-| 19 | Guerra Civil Russa | Kronstadt e NEP (4) · Derrota dos Brancos (3) · Terror Vermelho (2) · Guerra Polaco-Soviética (2) · Frente Ucraniana (1) · Alexander Kolchak (1) |
+| 21 | Guerras Médicas | Invasão de Xerxes (12) · Primeira Invasão Persa (Maratona) (1) · Revolta da Jônia (1) |
+| 21 | Platão | Platão (16) · Sócrates (3) · A Loucura Divina de Platão e sua Recepção Renascentista (Ficino, Agripa e Bruno) (1) · As Doutrinas Não-Escritas de Platão (Pitagorismo) (1) |
+| 20 | Sociedade Romana | Literatura Romana (1) |
+| 19 | Caça às Bruxas | Demonólogos Medievais (de Agostinho ao Malleus) (2) · As Bruxas e a Ascensão do Capitalismo (Silvia Federici) (1) · As Origens da Inquisição Medieval (1) · Daemonologie de Jaime VI/I e as Bruxas de North Berwick (1590-1597) (1) · Filosofia e a Bruxaria (Agrippa a Espinosa) (1) · Johann Weyer e o Ceticismo da Bruxaria (1563) (1) · Julgamentos de Bruxaria Coloniais Antes de Salém (1) · Julgamentos de Salém (Sobreviventes e o Manual Puritano) (1) · Manuais Inquisitoriais e a Heresia Mágica (Nicholas Eymerich) (1) · Martín Del Rio e a Disquisitionum Magicarum (1599) (1) · O Formicarius de Johannes Nider (Origem do Conceito de Bruxa) (1) · O Malleus Maleficarum (1486) (1) · O Voo das Bruxas ao Sabá (Mito e Unguento Alucinógeno) (1) · Panorama da Bruxaria no Início da Era Moderna (Palestra) (1) · Possessões de Loudun (Urbain Grandier) (1) · Transformação da Feitiçaria em Heresia (João XXII) (1) · Ulrich Molitor e a Iconografia da Bruxa (1489) (1) |
+| 19 | Demonologia Ocidental | Anel e Selo de Salomão (7) · Lilith (5) · Demônios do Talmude (Daf Yomi) (2) · Baal (1) · Belial (1) · Moloch (1) · O Anjo da Morte (1) · Set (Seth) (1) |
+| 19 | Evolução da guerra | — |
+| 19 | Geografia Estratégica | Babilônia (1) · Estreito de Ormuz (1) · Grandes Muralhas (1) · Megido (1) · Naqsh-e Rustam (1) · Notre-Dame de Paris (1) · Susa (1) · Takht-e Soleyman (1) · Ur (1) |
+| 19 | Guerra Civil Russa | Kronstadt e NEP (4) · Derrota dos Brancos (3) · Guerra Polaco-Soviética (2) · Terror Vermelho (2) · Alexander Kolchak (1) · Frente Ucraniana (1) |
 | 19 | Jogos retrô | — |
-| 19 | Sociedade Romana | Literatura Romana (1) |
-| 18 | Suméria Antiga | Panorama Sumério (curso) (2) · Origens (2) · Lagash e Umma (2) · Amorreus (2) · Império Neo-Sumério (Ur III) (2) · Eridu (1) · Kish (1) · Cidades do Período Dinástico Arcaico (1) · Cemitério Real de Ur (1) · Bibliotecas Sumérias Primitivas (Shuruppak, Abu Salabikh e Ebla) (1) · Masterpieces de Mesopotâmia (1) · Gudea de Lagash (1) · Cuneiforme (1) |
-| 18 | Geografia Estratégica | Susa (1) · Megido (1) · Estreito de Ormuz (1) · Ur (1) · Babilônia (1) · Naqsh-e Rustam (1) · Notre-Dame de Paris (1) · Grandes Muralhas (1) |
-| 18 | Caça às Bruxas | Demonólogos Medievais (de Agostinho ao Malleus) (1) · As Origens da Inquisição Medieval (1) · Manuais Inquisitoriais e a Heresia Mágica (Nicholas Eymerich) (1) · O Voo das Bruxas ao Sabá (Mito e Unguento Alucinógeno) (1) · Transformação da Feitiçaria em Heresia (João XXII) (1) · As Bruxas e a Ascensão do Capitalismo (Silvia Federici) (1) · O Formicarius de Johannes Nider (Origem do Conceito de Bruxa) (1) · Panorama da Bruxaria no Início da Era Moderna (Palestra) (1) · O Malleus Maleficarum (1486) (1) · Ulrich Molitor e a Iconografia da Bruxa (1489) (1) · Filosofia e a Bruxaria (Agrippa a Espinosa) (1) · Johann Weyer e o Ceticismo da Bruxaria (1563) (1) · Daemonologie de Jaime VI/I e as Bruxas de North Berwick (1590-1597) (1) · Martín Del Rio e a Disquisitionum Magicarum (1599) (1) · Possessões de Loudun (Urbain Grandier) (1) · Julgamentos de Bruxaria Coloniais Antes de Salém (1) · Julgamentos de Salém (Sobreviventes e o Manual Puritano) (1) |
-| 18 | Evolução da guerra | — |
+| 19 | Queda do Império Romano | — |
+| 19 | Suméria Antiga | Amorreus (2) · Cemitério Real de Ur (2) · Império Neo-Sumério (Ur III) (2) · Lagash e Umma (2) · Origens (2) · Panorama Sumério (curso) (2) · Bibliotecas Sumérias Primitivas (Shuruppak, Abu Salabikh e Ebla) (1) · Cidades do Período Dinástico Arcaico (1) · Cuneiforme (1) · Eridu (1) · Gudea de Lagash (1) · Kish (1) · Masterpieces de Mesopotâmia (1) |
+| 19 | Xogunato do Japão | Período Edo (10) |
 | 18 | Comentário Político Contemporâneo | — |
-| 17 | Pré-Socráticos | Heráclito (2) · Parmênides (2) · Tales de Mileto (1) · Anaximandro e Anaxímenes (1) · Pitágoras (1) · Xenófanes (1) · Pitágoras e Parmênides (Esoterismo Filosófico) (1) · Anaxágoras (1) · Papiro de Derveni e os Mistérios Órficos (1) · Demócrito e Leucipo (Atomismo) (1) · Zenão de Eleia e Melisso (1) · Empédocles (1) · Os Sofistas (Protágoras e Górgias) (1) · Hipócrates e a Medicina Grega Antiga (1) · Painel sobre os Pré-Socráticos (Debate Moderno) (1) |
-| 17 | Neoplatonismo Tardo-Antigo | Plotino (5) · Jâmblico (2) · Proclo (2) · Estética Antiga (De Platão a Proclo) (1) · Oráculos Caldeus e a Teurgia (1) · Natureza no Neoplatonismo (Plotino e Porfírio) (1) · Porfírio (1) · Os Últimos Filósofos Pagãos (Juliano e as Escolas de Atenas e Alexandria) (1) · João Filópono (1) · Comentadores Antigos de Aristóteles (Debate Moderno) (1) · Neoplatonismo: Política e Matemática (Debate Moderno) (1) |
-| 16 | Cartago antiga | Guerra dos Mercenários (1) · Conquista Bárcida da Ibéria (1) |
-| 16 | Napoleão Bonaparte | Campanha da Itália (2) · Michel Ney (1) · Campanha do Egito (1) |
-| 15 | Esparta | Guerras Messênias (1) · Exército Espartano (1) |
-| 15 | Império Aquemênida | Panorama Aquemênida (curso) (3) · Reino de Anshan (1) · Pasárgada (1) · Conquista Persa do Egito (1) · Persépolis (1) · Expedição de Ciláx (1) |
-| 15 | Guerra do Peloponeso | — |
+| 17 | Napoleão Bonaparte | Campanha da Itália (2) · Campanha do Egito (1) · Michel Ney (1) |
+| 17 | Neoplatonismo Tardo-Antigo | Plotino (5) · Jâmblico (2) · Proclo (2) · Comentadores Antigos de Aristóteles (Debate Moderno) (1) · Estética Antiga (De Platão a Proclo) (1) · João Filópono (1) · Natureza no Neoplatonismo (Plotino e Porfírio) (1) · Neoplatonismo: Política e Matemática (Debate Moderno) (1) · Oráculos Caldeus e a Teurgia (1) · Os Últimos Filósofos Pagãos (Juliano e as Escolas de Atenas e Alexandria) (1) · Porfírio (1) |
+| 17 | Pré-Socráticos | Heráclito (2) · Parmênides (2) · Anaximandro e Anaxímenes (1) · Anaxágoras (1) · Demócrito e Leucipo (Atomismo) (1) · Empédocles (1) · Hipócrates e a Medicina Grega Antiga (1) · Os Sofistas (Protágoras e Górgias) (1) · Painel sobre os Pré-Socráticos (Debate Moderno) (1) · Papiro de Derveni e os Mistérios Órficos (1) · Pitágoras (1) · Pitágoras e Parmênides (Esoterismo Filosófico) (1) · Tales de Mileto (1) · Xenófanes (1) · Zenão de Eleia e Melisso (1) |
+| 16 | Cartago antiga | Conquista Bárcida da Ibéria (1) · Guerra dos Mercenários (1) |
+| 16 | Império Aquemênida | Panorama Aquemênida (curso) (3) · Conquista Persa do Egito (1) · Expedição de Ciláx (1) · Pasárgada (1) · Persépolis (1) · Reino de Anshan (1) |
 | 15 | Era Viking | Jomsvikings (1) |
-| 14 | Assíria Antiga | Reino Antigo Assírio (3) · Reino da Alta Mesopotâmia (3) · Período Médio Assírio (3) · Panorama Assírio (curso) (2) · Exército Assírio (1) · Semíramis (Sammu-ramat) (1) · Biblioteca de Assurbanipal (1) |
+| 15 | Esparta | Exército Espartano (1) · Guerras Messênias (1) |
+| 15 | Guerra do Peloponeso | — |
+| 14 | Assíria Antiga | Período Médio Assírio (3) · Reino Antigo Assírio (3) · Reino da Alta Mesopotâmia (3) · Panorama Assírio (curso) (2) · Biblioteca de Assurbanipal (1) · Exército Assírio (1) · Semíramis (Sammu-ramat) (1) |
 | 14 | Império Franco | Carlos Magno (4) · Merovíngios (2) · Exército carolíngio (1) · Guerras Saxônicas (1) |
+| 14 | Segunda Escolástica | Debate do Novo Mundo (3) · Escolástica Protestante (2) · Francisco Suárez (2) · Escolástica Britânica (1) · Luis de Molina (1) · Revival Tomista (1) |
 | 13 | Religião Romana | — |
-| 13 | Segunda Escolástica | Debate do Novo Mundo (2) · Escolástica Protestante (2) · Francisco Suárez (2) · Revival Tomista (1) · Escolástica Britânica (1) · Luis de Molina (1) |
+| 12 | Bretanha Antiga | — |
 | 12 | Guerra Genpei | — |
+| 12 | Guerra Medieval | — |
 | 12 | Revoluções de 1830 | — |
-| 11 | Bretanha Antiga | — |
-| 11 | História dos Feriados | Halloween (2) · Páscoa (1) · Papai Noel (1) · Advento (1) · Ação de Graças (1) · Presentes de Natal (1) · Silent Night (canção) (1) · Dia das Mães (1) |
-| 11 | Guerras Germânicas de Roma | — |
-| 11 | Guerra Medieval | — |
+| 11 | Cultura material samurai | — |
+| 11 | Dinastia Han | Filosofia Han (4) · Han Ocidental (1) · Han Oriental (1) |
 | 11 | Guerra Imjin | — |
+| 11 | Guerra de Sucessão Espanhola | — |
+| 11 | Guerras Germânicas de Roma | — |
+| 11 | História dos Feriados | Halloween (2) · Advento (1) · Ação de Graças (1) · Dia das Mães (1) · Papai Noel (1) · Presentes de Natal (1) · Páscoa (1) · Silent Night (canção) (1) |
+| 11 | Papado | Borgias (1) · Concílio Vaticano I (1) · Escavações do Túmulo de São Pedro (1) · Grande Cisma do Ocidente (1) · Leão Magno (1) · Papado de Avinhão (1) · Pio XII e a Segunda Guerra Mundial (1) |
 | 11 | Teoria da Revolução | — |
-| 10 | Vida urbana | Roma (3) · Constantinopla (2) · Hattusa (1) · Atenas (1) · Alexandria (1) · Antioquia (1) · Quioto (1) |
-| 10 | Reconquista | — |
-| 10 | História da Ucrânia | Russificação (1) · Holodomor (1) · Euromaidan (1) |
-| 10 | Guerra dos Oitenta Anos | — |
-| 10 | Grande Guerra do Norte | — |
 | 10 | Comuna de Paris | — |
-| 10 | Cultura material samurai | — |
+| 10 | Grande Guerra do Norte | — |
+| 10 | Guerra dos Oitenta Anos | — |
+| 10 | Guerras Greco-Púnicas na Sicília | — |
+| 10 | História da Ucrânia | Euromaidan (1) · Holodomor (1) · Russificação (1) |
+| 10 | Reconquista | — |
+| 10 | Vida urbana | Roma (3) · Constantinopla (2) · Alexandria (1) · Antioquia (1) · Atenas (1) · Hattusa (1) · Quioto (1) |
 | 9 | Civilização Micênica | Questão Ahhiyawa (1) |
-| 9 | Papado | Leão Magno (1) · Papado de Avinhão (1) · Grande Cisma do Ocidente (1) · Borgias (1) · Concílio Vaticano I (1) · Escavações do Túmulo de São Pedro (1) |
 | 9 | Fortalezas | Vauban (2) |
 | 9 | Guerras Italianas | — |
 | 9 | Sociedade Mesopotâmica | — |
+| 8 | Civilização Fenícia | Biblos (1) · Sidon (1) · Tiro (1) |
+| 8 | Colapso da Idade do Bronze | — |
+| 8 | Feudalismo | — |
+| 8 | Gladiadores | — |
+| 8 | Império Afexárida | — |
 | 8 | Macedônia Antiga | — |
 | 8 | Reino de Roma | — |
-| 8 | Guerras Greco-Púnicas na Sicília | — |
-| 8 | Gladiadores | — |
-| 8 | Feudalismo | — |
 | 8 | Rus de Kiev | — |
-| 7 | Civilização Fenícia | Tiro (1) · Biblos (1) · Sidon (1) |
+| 7 | Civilização Maia | Cidades Maias (2) · Período Clássico (2) · Colapso Maia (1) · Códice Maya de México (Almanaque de Vênus) (1) · Período Pré-Clássico (1) |
+| 7 | Conquista normanda da Inglaterra | Hereward, o Vigilante (1) |
+| 7 | Democracia Ateniense | — |
 | 7 | Império Acadiano | Estela da Vitória de Naram-Sin (2) · Enheduanna (1) · Rimush e Manishtushu (1) |
-| 7 | Colapso da Idade do Bronze | — |
-| 7 | Civilização Maia | Cidades Maias (2) · Período Clássico (2) · Período Pré-Clássico (1) · Colapso Maia (1) · Códice Maya de México (Almanaque de Vênus) (1) |
 | 7 | Período dos Três Reinos | Ascensão de Cao Cao (4) · Shu Han (1) |
-| 7 | Revolução Científica | Nicolau Copérnico (1) · Tycho Brahe (1) · Johannes Kepler (1) |
-| 7 | Guerra de Sucessão Espanhola | — |
-| 7 | Império Afexárida | — |
+| 7 | Revolução Científica | Johannes Kepler (1) · Nicolau Copérnico (1) · Tycho Brahe (1) |
 | 7 | União Soviética | Luta pela Sucessão (4) · Fundação da URSS (3) |
-| 6 | Elam Antigo | Período Proto-Elamita e Elamita Antigo (3) · Período Médio e Neo-Elamita (2) · Período Neo-Elamita (1) |
-| 6 | Colonização grega | Acragas (1) |
-| 6 | Manuscritos do Mar Morto (Qumran) | Painel sobre os Manuscritos do Mar Morto (Debate Moderno) (1) · Literatura de Exorcismo Davídica (1) · O Rolo da Guerra e a Batalha contra Belial (1) · Calendário Astrológico Cifrado e o Tesouro (Manuscritos do Mar Morto) (1) · Os Terapeutas (Filo de Alexandria) (1) · O Pergaminho de Cobre (3Q15) e o Tesouro do Templo (1) |
-| 6 | Dinastia Han | Han Ocidental (1) · Han Oriental (1) |
-| 6 | Formação do Japão Guerreiro | — |
 | 6 | Califado Abássida | — |
-| 6 | História da Rússia | — |
-| 6 | Reino Normando da Sicília | — |
-| 6 | Conquista normanda da Inglaterra | Hereward, o Vigilante (1) |
-| 6 | John Dee e a Magia Enocheana | A Língua Enocheana e o Liber Loagaeth (2) · As Mulheres da Magia Enocheana (Jane Dee e Joan Kelley) (1) · Ferramentas e Rituais Enocheanos (Heptarchia Mystica) (1) · O Alfabeto Enocheano (Origens e Paleografia) (1) · O Livro de Soyga e as Tábuas Cifradas (1) |
-| 6 | Miguel, o Bravo | — |
-| 6 | Guerras Indo-Paquistanesas | — |
+| 6 | Colonização grega | Acragas (1) |
+| 6 | Elam Antigo | Período Proto-Elamita e Elamita Antigo (3) · Período Médio e Neo-Elamita (2) · Período Neo-Elamita (1) |
+| 6 | Formação do Japão Guerreiro | — |
 | 6 | Guerra Israel-Hamas | — |
+| 6 | Guerras Anglo-Escocesas | — |
+| 6 | Guerras Indo-Paquistanesas | — |
 | 6 | História alternativa | — |
+| 6 | História da Rússia | — |
+| 6 | John Dee e a Magia Enocheana | A Língua Enocheana e o Liber Loagaeth (2) · As Mulheres da Magia Enocheana (Jane Dee e Joan Kelley) (1) · Ferramentas e Rituais Enocheanos (Heptarchia Mystica) (1) · O Alfabeto Enocheano (Origens e Paleografia) (1) · O Livro de Soyga e as Tábuas Cifradas (1) |
+| 6 | Manuscritos do Mar Morto (Qumran) | Calendário Astrológico Cifrado e o Tesouro (Manuscritos do Mar Morto) (1) · Literatura de Exorcismo Davídica (1) · O Pergaminho de Cobre (3Q15) e o Tesouro do Templo (1) · O Rolo da Guerra e a Batalha contra Belial (1) · Os Terapeutas (Filo de Alexandria) (1) · Painel sobre os Manuscritos do Mar Morto (Debate Moderno) (1) |
+| 6 | Miguel, o Bravo | — |
+| 6 | Reino Normando da Sicília | — |
+| 6 | Sacro Império Romano-Germânico | — |
+| 5 | Civilização do Vale do Indo | — |
+| 5 | Condottieri | Companhias Livres (4) |
+| 5 | Cátaros | Escrituras Cátaras (Visão de Isaías e Ceia Secreta de João) (1) · O Debate sobre a Existência Histórica dos Cátaros (1) · O Livro dos Dois Princípios (Liber de Duobus Principiis) (1) · Teologia Cátara (O Pai-Nosso Cátaro) (1) |
+| 5 | Dinastia Qing | Koxinga (2) · Conquista de Xinjiang (1) |
+| 5 | Guerra Anglo-Espanhola | — |
+| 5 | Guerra Polaco-Sueca | Guerra da Lituânia (1) · Guerra da Livônia (1) · Guerra da Prússia Real (1) · Prelúdio (1) |
+| 5 | Guerra de Independência da Grécia | — |
+| 5 | Guerra dos Sete Anos | Guerra Franco-Indígena (3) |
+| 5 | Guerras da Borgonha | — |
+| 5 | Guerras Árabe-Israelenses | — |
+| 5 | Harald Hardrada | — |
+| 5 | História dos Fantasmas | De Spectris (Ludwig Lavater, 1569) (1) · Fantasmas Medievais (Thietmar de Merseburg) (1) · Os Primeiros Fantasmas (Suméria, Babilônia e Assíria) (1) · Plínio, o Jovem e a Casa Assombrada (1) |
+| 5 | Hunos | — |
+| 5 | Império Parta | — |
+| 5 | Império Russo | Colonização Russa da América (1) · Conquista da Sibéria (1) · Gannibal (1) |
+| 5 | Marinha Britânica | — |
+| 5 | Núbia | Invasão Núbia do Egito (Piye) (1) · Invasão Romana da Núbia (1) |
 | 5 | Origens da guerra | — |
 | 5 | Povos indígenas da América do Norte | Grandes Planícies (2) |
-| 5 | Civilização do Vale do Indo | — |
-| 5 | Núbia | Invasão Núbia do Egito (Piye) (1) · Invasão Romana da Núbia (1) |
-| 5 | Império Parta | — |
-| 5 | Hunos | — |
-| 5 | Sacro Império Romano-Germânico | — |
 | 5 | Ranking de samurais | — |
-| 5 | Harald Hardrada | — |
-| 5 | Cátaros | Teologia Cátara (O Pai-Nosso Cátaro) (1) · O Livro dos Dois Princípios (Liber de Duobus Principiis) (1) · Escrituras Cátaras (Visão de Isaías e Ceia Secreta de João) (1) · O Debate sobre a Existência Histórica dos Cátaros (1) |
-| 5 | Guerras Anglo-Escocesas | — |
-| 5 | Condottieri | Companhias Livres (4) |
-| 5 | Guerras da Borgonha | — |
-| 5 | Império Russo | Conquista da Sibéria (1) · Gannibal (1) · Colonização Russa da América (1) |
-| 5 | Guerra Polaco-Sueca | Prelúdio (1) · Guerra da Livônia (1) · Guerra da Lituânia (1) · Guerra da Prússia Real (1) |
-| 5 | Guerra Anglo-Espanhola | — |
-| 5 | Dinastia Qing | Koxinga (2) · Conquista de Xinjiang (1) |
-| 5 | Guerra dos Sete Anos | Guerra Franco-Indígena (3) |
-| 5 | Marinha Britânica | — |
-| 5 | Guerra de Independência da Grécia | — |
-| 5 | Guerras Árabe-Israelenses | — |
 | 5 | Shinobi | — |
-| 4 | China antiga | — |
-| 4 | Índia antiga | Idade Védica (1) |
-| 4 | Civilização Minoica | — |
-| 4 | História dos Fantasmas | Os Primeiros Fantasmas (Suméria, Babilônia e Assíria) (1) · Plínio, o Jovem e a Casa Assombrada (1) · De Spectris (Ludwig Lavater, 1569) (1) |
-| 4 | Taiwan | Povos indígenas (1) |
-| 4 | Olmecas | San Lorenzo (1) · La Venta (1) |
-| 4 | Período homérico | — |
-| 4 | Etruscos | — |
-| 4 | Celtas antigos | — |
-| 4 | Democracia Ateniense | — |
-| 4 | Épiro antigo | — |
-| 4 | Lenda Arturiana | — |
-| 4 | Império Cazar | Guerras Árabe-Cazares (2) |
-| 4 | Idade de Ouro Islâmica | — |
-| 4 | Invasões Magiares | — |
-| 4 | Vida cortesã | Cortes Orientais (1) · Cortes Ocidentais (1) · Torneios (1) · Caça real (1) |
+| 5 | Vida cortesã | Torneios (2) · Caça real (1) · Cortes Ocidentais (1) · Cortes Orientais (1) |
+| 5 | Índia Britânica | Companhia das Índias Orientais (2) · Rebelião Indiana de 1857 (1) |
+| 4 | Aleister Crowley | Absinthe e o Bairro Francês de Nova Orleans (1918) (2) · Boleskine House (2) |
 | 4 | Casa de Habsburgo | — |
-| 4 | Formação das Monarquias Nacionais | Magna Carta (1) |
-| 4 | Marinha | — |
-| 4 | Vida do Soldado | — |
-| 4 | Conquistadores | Expedição de Narváez (1) |
-| 4 | Índia Britânica | Companhia das Índias Orientais (2) |
-| 4 | Máfia | Tríades Chinesas (1) · Máfia Siciliana (1) · Máfia Americana (1) |
-| 4 | Época Dourada da Pirataria | — |
-| 4 | Guerra Anglo-Americana de 1812 | Tecumseh (1) |
-| 4 | Inklings (Lewis e Tolkien) | J.R.R. Tolkien (2) · C.S. Lewis (2) |
-| 4 | Aleister Crowley | Boleskine House (2) · Absinthe e o Bairro Francês de Nova Orleans (1918) (2) |
-| 4 | Programa Apollo | — |
+| 4 | Celtas antigos | — |
+| 4 | China antiga | — |
+| 4 | Civilização Minoica | — |
+| 4 | Comércio Romano | — |
 | 4 | Conflito Israel-Hezbollah | — |
+| 4 | Conquistadores | Expedição de Narváez (1) |
+| 4 | Etruscos | — |
+| 4 | Formação das Monarquias Nacionais | Magna Carta (1) |
+| 4 | Guerra Anglo-Americana de 1812 | Tecumseh (1) |
+| 4 | Idade de Ouro Islâmica | — |
+| 4 | Império Cazar | Guerras Árabe-Cazares (2) |
+| 4 | Inklings (Lewis e Tolkien) | C.S. Lewis (2) · J.R.R. Tolkien (2) |
+| 4 | Invasões Magiares | — |
+| 4 | Lenda Arturiana | — |
+| 4 | Marinha | — |
+| 4 | Máfia | Máfia Americana (1) · Máfia Siciliana (1) · Tríades Chinesas (1) |
+| 4 | Olmecas | La Venta (1) · San Lorenzo (1) |
+| 4 | Período homérico | — |
+| 4 | Programa Apollo | — |
 | 4 | Revolução Marciana (ficção) | — |
+| 4 | Taiwan | Povos indígenas (1) |
 | 4 | Teologia Cristã | Doutrina em 90 segundos (3) · Sermões (1) |
-| 3 | Povoamento das Américas | Caribe (1) |
-| 3 | Maravilhas do Mundo Antigo | — |
-| 3 | Grécia Arcaica | — |
-| 3 | Eslavos | Chegada aos Bálcãs (2) |
-| 3 | Império Sassânida | — |
-| 3 | Dinastia Jin | Jin Oriental (2) · Jin Ocidental (1) |
-| 3 | Reino Vândalo | — |
-| 3 | Reinos pós-romanos da Britânia | Dumnónia (1) · Reino de Strathclyde (1) · Reino da Escócia (1) |
-| 3 | Declínio Carolíngio | — |
-| 3 | Ordem Teutônica | — |
-| 3 | Sultanato Mameluco | — |
-| 3 | Invasões Mongóis do Japão | — |
-| 3 | História da Arte | Giotto (1) · Rembrandt (1) |
-| 3 | Mercenários Suíços | — |
-| 3 | Restauração Kenmu | — |
-| 3 | Peste Negra | — |
-| 3 | Guerras Hussitas | — |
-| 3 | Guerra Otomano-Valáquia | — |
-| 3 | Siquismo | — |
-| 3 | Landsknechts | — |
-| 3 | Cruzada de Marrocos (1578) | — |
-| 3 | Rebelião de Shimabara | — |
-| 3 | História da Absinta | — |
-| 3 | Congresso de Viena | — |
-| 3 | Guerra de Inverno (1939-1940) | — |
-| 3 | Guerra do Irã | — |
-| 3 | Línguas indo-europeias | — |
+| 4 | Vida do Soldado | — |
+| 4 | Épiro antigo | — |
+| 4 | Época Dourada da Pirataria | — |
+| 4 | Índia antiga | Idade Védica (1) |
 | 3 | Animais na história | — |
-| 3 | Comércio Romano | — |
-| 2 | Corinto | — |
-| 2 | Divino Feminino (Sophia e Shekhinah) | Asherá (1) |
-| 2 | Reino de Mitani | Hurritas (povo) (1) |
-| 2 | Reinos de Chipre | — |
-| 2 | Comércio na Mesopotâmia Antiga | — |
-| 2 | Reino de Yamhad | Idrimi de Alalakh (1) |
-| 2 | Civilização Nurágica | — |
-| 2 | Império Hitita | — |
-| 2 | Filisteus | — |
-| 2 | Impérios Berberes | — |
-| 2 | Estepe Eurasiática | — |
-| 2 | Ilírios | Grande Revolta Ilíria (1) |
-| 2 | Império Neo-Assírio | — |
-| 2 | Germanos antigos | — |
-| 2 | Império Meda | — |
-| 2 | Lídios | — |
-| 2 | Samnitas | — |
+| 3 | Congresso de Viena | — |
+| 3 | Cruzada de Marrocos (1578) | — |
+| 3 | Declínio Carolíngio | — |
+| 3 | Dinastia Jin | Jin Oriental (2) · Jin Ocidental (1) |
+| 3 | Eslavos | Chegada aos Bálcãs (2) |
+| 3 | Grécia Arcaica | — |
+| 3 | Guerra Otomano-Valáquia | — |
+| 3 | Guerra Romano-Seléucida | — |
+| 3 | Guerra Russo-Japonesa | — |
+| 3 | Guerra de Inverno (1939-1940) | — |
+| 3 | Guerra de Pontiac | — |
+| 3 | Guerra do Irã | — |
+| 3 | Guerras Hussitas | — |
+| 3 | História da Absinta | — |
+| 3 | História da Arte | Giotto (1) · Rembrandt (1) |
+| 3 | História da Prússia | — |
+| 3 | Império Sassânida | — |
+| 3 | Invasões Mongóis do Japão | — |
+| 3 | Landsknechts | — |
+| 3 | Línguas indo-europeias | — |
+| 3 | Maravilhas do Mundo Antigo | — |
+| 3 | Mercenários Suíços | — |
+| 3 | Ordem Teutônica | — |
+| 3 | Peste Negra | — |
+| 3 | Povoamento das Américas | Caribe (1) |
+| 3 | Rebelião de Shimabara | — |
+| 3 | Reino Vândalo | — |
+| 3 | Reinos pós-romanos da Britânia | Dumnónia (1) · Reino da Escócia (1) · Reino de Strathclyde (1) |
+| 3 | Restauração Kenmu | — |
+| 3 | Siquismo | — |
+| 3 | Sultanato Mameluco | — |
 | 2 | Arábia Pré-Islâmica | — |
-| 2 | Zapotecas | — |
-| 2 | Exploração Antiga | Piteas de Massália (1) · Expedição Romana ao Nilo (Nero) (1) |
-| 2 | Biblioteca de Alexandria | — |
-| 2 | Guerra Romano-Seléucida | — |
-| 2 | Teotihuacan | — |
-| 2 | Mitraísmo | A Liturgia de Mitras (Ascensão Mística) (1) |
-| 2 | Tiwanaku | — |
-| 2 | Exército Sassânida | Daylamitas (1) · Cavalaria Sassânida (1) |
-| 2 | Credos e Confissões Cristãs | — |
-| 2 | Dezesseis Reinos | Antigo Qin (1) · Wei do Norte (1) |
-| 2 | Reino Ostrogodo | — |
-| 2 | Império Wari | — |
-| 2 | Mundo Medieval (Crusader Kings III) | — |
-| 2 | Toltecas | — |
 | 2 | Balestreiros Genoveses | — |
+| 2 | Biblioteca de Alexandria | — |
 | 2 | Cisma do Oriente e Ocidente | — |
-| 2 | Mercenários | — |
-| 2 | Guerra Georgiano-Seljúcida | — |
-| 2 | Marinha samurai | — |
-| 2 | Império Gurida | — |
-| 2 | Primeira Guerra dos Barões | — |
+| 2 | Citas | — |
+| 2 | Civilização Nurágica | — |
+| 2 | Comércio na Mesopotâmia Antiga | — |
+| 2 | Corinto | — |
+| 2 | Credos e Confissões Cristãs | — |
 | 2 | Crise medieval | — |
-| 2 | Império do Mali | — |
-| 2 | Guerras de Independência Suíça | — |
-| 2 | Reino da Boêmia | — |
-| 2 | Rus de Moscou | — |
-| 2 | Império Timúrida | — |
-| 2 | Inquisição Espanhola | — |
-| 2 | Guerra das Rosas | — |
-| 2 | Tércio Espanhol | — |
-| 2 | Império Mogol | Akbar, o Grande (1) · Malik Ambar (1) |
-| 2 | Últimas Resistências Samurai | — |
-| 2 | Jakob Böhme | A Teosofia de Böhme e O Caminho a Cristo (1) · A Alquimia Espiritual de Böhme (1) |
-| 2 | História da Prússia | — |
-| 2 | Sakoku | — |
-| 2 | Levante de Khmelnytsky | — |
-| 2 | Guerra Franco-Holandesa | — |
-| 2 | História da Alimentação | — |
+| 2 | Cultura de internet | — |
+| 2 | Dezesseis Reinos | Antigo Qin (1) · Wei do Norte (1) |
+| 2 | Divino Feminino (Sophia e Shekhinah) | Asherá (1) |
 | 2 | Era Vitoriana | — |
+| 2 | Esportes | — |
+| 2 | Estepe Eurasiática | — |
+| 2 | Exploração Antiga | Expedição Romana ao Nilo (Nero) (1) · Piteas de Massália (1) |
+| 2 | Exército Sassânida | Cavalaria Sassânida (1) · Daylamitas (1) |
+| 2 | Filisteus | — |
 | 2 | Fraudes Financeiras | — |
-| 2 | História do Iêmen | Insurgência Huthi (1) |
-| 2 | Guerra Russo-Japonesa | — |
+| 2 | Germanos antigos | — |
+| 2 | Guerra Civil Espanhola | — |
+| 2 | Guerra Franco-Holandesa | — |
+| 2 | Guerra Georgiano-Seljúcida | — |
+| 2 | Guerra Irã-Iraque | — |
 | 2 | Guerra Soviético-Afegã | — |
+| 2 | Guerra das Rosas | — |
+| 2 | Guerras Iugoslavas | — |
+| 2 | Guerras de Independência Suíça | — |
+| 2 | Guerras do Ópio | — |
+| 2 | Herança de Roma | — |
+| 2 | História da Alimentação | — |
+| 2 | História do Iêmen | Insurgência Huthi (1) |
+| 2 | Ilírios | Grande Revolta Ilíria (1) |
+| 2 | Império Gurida | — |
+| 2 | Império Hitita | — |
+| 2 | Império Meda | — |
+| 2 | Império Mogol | Akbar, o Grande (1) · Malik Ambar (1) |
+| 2 | Império Neo-Assírio | — |
+| 2 | Império Timúrida | — |
+| 2 | Império Wari | — |
+| 2 | Império do Mali | — |
+| 2 | Impérios Berberes | — |
+| 2 | Inquisição Espanhola | — |
+| 2 | Jakob Böhme | A Alquimia Espiritual de Böhme (1) · A Teosofia de Böhme e O Caminho a Cristo (1) |
+| 2 | Jogos de tabuleiro e cartas | — |
 | 2 | Lendas samurai | — |
+| 2 | Levante de Khmelnytsky | — |
+| 2 | Lídios | — |
+| 2 | Marinha samurai | — |
+| 2 | Mercenários | — |
+| 2 | Mitraísmo | A Liturgia de Mitras (Ascensão Mística) (1) |
+| 2 | Mundo Medieval (Crusader Kings III) | — |
+| 2 | Primeira Guerra dos Barões | — |
+| 2 | Reino Ostrogodo | — |
+| 2 | Reino da Boêmia | — |
+| 2 | Reino de Mitani | Hurritas (povo) (1) |
+| 2 | Reino de Yamhad | Idrimi de Alalakh (1) |
+| 2 | Reinos de Chipre | — |
+| 2 | Religião Grega | Xenia (Hospitalidade Sagrada) (1) |
+| 2 | Revolta dos Camponeses de 1381 | — |
+| 2 | Rus de Moscou | — |
+| 2 | Sakoku | — |
+| 2 | Samnitas | — |
 | 2 | Sociedade Egípcia Antiga | — |
-| 1 | História da Batata | — |
-| 1 | Çatalhöyük | — |
-| 1 | História do Milho | — |
-| 1 | Palestina antiga | — |
+| 2 | Teotihuacan | — |
+| 2 | Tiwanaku | — |
+| 2 | Toltecas | — |
+| 2 | Tércio Espanhol | — |
+| 2 | Zapotecas | — |
+| 2 | Últimas Resistências Samurai | — |
+| 1 | Ainu | — |
+| 1 | Albânia Caucasiana | — |
+| 1 | Anne Conway | — |
+| 1 | Anábase dos Dez Mil | — |
+| 1 | Arameus | — |
+| 1 | Argos antiga | — |
+| 1 | Arthur Schopenhauer | — |
+| 1 | As Origens do Gótico (Estética e Horror) | — |
+| 1 | Astecas | Nezahualcoyotl (1) |
+| 1 | Atenas Antiga | — |
+| 1 | Austin Osman Spare | — |
+| 1 | Baruch Spinoza | — |
+| 1 | Basketmaker | — |
+| 1 | Beócia antiga | — |
+| 1 | Blackbeard | — |
+| 1 | Budismo no Japão | — |
+| 1 | Cahokia | — |
+| 1 | Calendário Mesoamericano | — |
+| 1 | Califado Fatímida | — |
+| 1 | Calusa | — |
+| 1 | Canato Avar | — |
+| 1 | Carros de Guerra | — |
+| 1 | Cartas de Amarna | — |
+| 1 | Castelos Medievais | — |
+| 1 | Catástrofe Climática de 536 | — |
+| 1 | Cavaleiros Hospitalários | — |
+| 1 | Cerco de Jerusalém (70 d.C.) | — |
+| 1 | Chaco Canyon | — |
+| 1 | Chavín de Huántar | — |
+| 1 | China Moderna | — |
+| 1 | Cisma Sunita-Xiita | — |
+| 1 | Cisma entre Judaísmo e Cristianismo | — |
 | 1 | Civilização de Jiroft | — |
+| 1 | Civilização do Oxus (BMAC) | — |
+| 1 | Colonização Romana | — |
+| 1 | Colonização holandesa da Indonésia | — |
+| 1 | Comanches | — |
+| 1 | Comentários sobre criação de conteúdo | — |
+| 1 | Commonwealth Polaco-Lituano | — |
+| 1 | Comércio de escravos eslavos | — |
+| 1 | Concílios Ecumênicos | — |
+| 1 | Confederação Xiongnu | — |
+| 1 | Conflitos na Irlanda do Norte | — |
+| 1 | Conflitos no Oriente Médio | — |
+| 1 | Contato Polinésio-Americano | — |
+| 1 | Cossacos | — |
+| 1 | Crise Geral do Século XVII | — |
+| 1 | Crise de 1383-1385 | — |
+| 1 | Cristianismo no Japão | — |
 | 1 | Cultura Cicládica | — |
 | 1 | Cultura do Cobre Antigo | — |
-| 1 | Ebla | — |
-| 1 | Magan (Magan/Makkan) | — |
-| 1 | Civilização do Oxus (BMAC) | — |
-| 1 | Dilmun | — |
-| 1 | Carros de Guerra | — |
-| 1 | História do Chocolate | — |
-| 1 | Reino de Anitta (Precursor Hitita) | — |
-| 1 | Poverty Point | — |
-| 1 | Hititas | — |
-| 1 | Povo hebreu | — |
-| 1 | Basketmaker | — |
-| 1 | Ugarit | — |
-| 1 | Cartas de Amarna | — |
-| 1 | Povos do Zagros | — |
-| 1 | Arameus | — |
-| 1 | Frígia Antiga | — |
-| 1 | Estados Neo-Hititas | — |
-| 1 | Trácios | — |
-| 1 | Halicarnasso | — |
-| 1 | Chavín de Huántar | — |
-| 1 | Reino de Urartu | — |
-| 1 | Samos | — |
-| 1 | Egina | — |
-| 1 | Argos antiga | — |
-| 1 | Dácios | — |
+| 1 | Cumano-Quipchaques | — |
+| 1 | Curiosidades da História Chinesa | — |
+| 1 | Declínio do Budismo na Índia | — |
 | 1 | Delfos | — |
-| 1 | Pomério Romano | — |
-| 1 | Triunfo Romano | — |
-| 1 | Guerra Lelantina | — |
-| 1 | Atenas Antiga | — |
-| 1 | Citas | — |
-| 1 | Tessália antiga | — |
-| 1 | Calendário Mesoamericano | — |
-| 1 | Lícia Antiga | — |
-| 1 | Sogdiana | — |
-| 1 | Calusa | — |
-| 1 | Beócia antiga | — |
-| 1 | Gauleses | — |
-| 1 | Reino do Bósporo | — |
-| 1 | Anábase dos Dez Mil | — |
-| 1 | Reino da Armênia | — |
-| 1 | Reino Nabateu | — |
-| 1 | Teuchitlán | — |
-| 1 | Colonização Romana | — |
-| 1 | Guerras Galo-Romanas | — |
+| 1 | Descolonização do Império Britânico | — |
+| 1 | Dilmun | — |
+| 1 | Dinastia Médici | — |
 | 1 | Dinastia Qin | — |
+| 1 | Dinastia Tang | — |
+| 1 | Ditmársia | — |
+| 1 | Doutrina Monroe | — |
+| 1 | Duelos | — |
+| 1 | Dácios | — |
+| 1 | Ebla | — |
+| 1 | Egina | — |
+| 1 | Emirado de Córdoba | — |
+| 1 | Erupção do Vesúvio (79 d.C.) | — |
+| 1 | Espadas militares japonesas | — |
+| 1 | Espiritualismo Moderno | — |
+| 1 | Estados Neo-Hititas | — |
+| 1 | Exército Negro da Hungria | — |
+| 1 | Família Imperial do Japão | — |
+| 1 | Francis Drake | — |
+| 1 | França Medieval | — |
+| 1 | Frígia Antiga | — |
+| 1 | Fugger | — |
+| 1 | Galloglass | — |
+| 1 | Gauleses | — |
+| 1 | Gendarmes Franceses | — |
+| 1 | Genocídio Circassiano | — |
+| 1 | Georges Bataille | — |
+| 1 | Godos | — |
+| 1 | Grande Canal da China | — |
+| 1 | Grande Jogo | — |
+| 1 | Grupo Wagner | — |
+| 1 | Guerra Anglo-Francesa | — |
+| 1 | Guerra Bizantino-Sassânida | — |
+| 1 | Guerra Civil Síria | — |
+| 1 | Guerra Dano-Hanseática | — |
+| 1 | Guerra Durrani-Marata | — |
+| 1 | Guerra Escaniana | — |
+| 1 | Guerra Escocesa-Norueguesa | — |
+| 1 | Guerra Franco-Flamenga | — |
+| 1 | Guerra Fria | Macarthismo (1) |
+| 1 | Guerra Gótica | — |
+| 1 | Guerra Jacobita na Irlanda | — |
+| 1 | Guerra Lelantina | — |
+| 1 | Guerra Polaco-Otomana | — |
+| 1 | Guerra da Coreia | — |
+| 1 | Guerra da Fronteira Sul-Africana | — |
+| 1 | Guerra da Independência do Zimbábue | — |
+| 1 | Guerra do Iraque (2003) | — |
+| 1 | Guerra dos Nove Anos | — |
+| 1 | Guerras Civis do Sudão | — |
+| 1 | Guerras Galo-Romanas | — |
+| 1 | Guerras Jacobitas | — |
 | 1 | Guerras Sírias | — |
-| 1 | Confederação Xiongnu | — |
+| 1 | Guerras da Chechênia | Primeira Guerra da Chechênia (1) |
+| 1 | Guerras do Decão | — |
+| 1 | Guerreiras Samurai | — |
+| 1 | Gurkhas | — |
+| 1 | Halicarnasso | — |
+| 1 | Hashashins | — |
+| 1 | História da Batata | — |
+| 1 | História da Bíblia | — |
+| 1 | História da Pimenta | — |
+| 1 | História do Chocolate | — |
+| 1 | História do Milho | — |
+| 1 | História dos videogames | — |
+| 1 | Hititas | — |
+| 1 | Hohokam | — |
+| 1 | Hussardos Alados | — |
+| 1 | Ibn Fadlan | — |
+| 1 | Icenos | — |
+| 1 | Idade das Trevas Global | — |
+| 1 | Immanuel Kant | Kant e o Misticismo (Swedenborg) (1) |
+| 1 | Império Corásmio | — |
+| 1 | Império Gaznávida | — |
+| 1 | Império Khmer | — |
+| 1 | Império Kushan | — |
+| 1 | Império Majapahit | — |
+| 1 | Império Marata | — |
+| 1 | Império Seljúcida | — |
+| 1 | Isaac Newton | — |
+| 1 | Islamização da Indonésia | — |
+| 1 | Itália medieval | — |
+| 1 | Japoneses no exterior | — |
+| 1 | Johannes Bureus e a Runologia Esotérica | — |
+| 1 | Johannes Schiltberger | — |
+| 1 | Judaísmo | — |
+| 1 | Julgamentos de animais | — |
+| 1 | Karl Marx | — |
+| 1 | Legião Tchecoslovaca | — |
+| 1 | Liga Hanseática | — |
+| 1 | Lícia Antiga | — |
+| 1 | Magan (Magan/Makkan) | — |
+| 1 | Manejo do fogo indígena | — |
+| 1 | Maniqueísmo | — |
+| 1 | Mansa Musa | — |
+| 1 | Marajoara | — |
+| 1 | Meteoros na História | — |
+| 1 | Moche | — |
+| 1 | Moldávia de Estêvão, o Grande | — |
+| 1 | Mormonismo | — |
+| 1 | Mosqueteiros do Rei | — |
+| 1 | Muisca | — |
 | 1 | Nanman | — |
 | 1 | Nazca | — |
-| 1 | Revolta dos Macabeus | — |
-| 1 | Império Kushan | — |
-| 1 | Reino Himiarita | — |
-| 1 | Albânia Caucasiana | — |
-| 1 | Suevos | — |
-| 1 | Cisma entre Judaísmo e Cristianismo | — |
-| 1 | Moche | — |
-| 1 | Concílios Ecumênicos | — |
-| 1 | Icenos | — |
-| 1 | Cerco de Jerusalém (70 d.C.) | — |
-| 1 | Erupção do Vesúvio (79 d.C.) | — |
-| 1 | Reino de Aksum | — |
-| 1 | Tratados militares | — |
-| 1 | Maniqueísmo | — |
-| 1 | Godos | — |
-| 1 | Pictos | — |
-| 1 | Hohokam | — |
-| 1 | Guerra Gótica | — |
-| 1 | Idade das Trevas Global | — |
-| 1 | Marajoara | — |
-| 1 | História da Bíblia | — |
-| 1 | Vândalos | — |
-| 1 | Reino Borgonhão | — |
-| 1 | República de Veneza | — |
-| 1 | Herança de Roma | — |
-| 1 | Itália medieval | — |
-| 1 | Peregrinação Medieval | — |
-| 1 | Reino Visigodo | — |
-| 1 | Catástrofe Climática de 536 | — |
-| 1 | Budismo no Japão | — |
-| 1 | Tengrismo | — |
-| 1 | Reino Lombardo | — |
-| 1 | Canato Avar | — |
-| 1 | Quipu | — |
-| 1 | Guerra Bizantino-Sassânida | — |
-| 1 | Grande Canal da China | — |
-| 1 | Judaísmo | — |
-| 1 | Cisma Sunita-Xiita | — |
-| 1 | Emirado de Córdoba | — |
-| 1 | Pechenegues | — |
-| 1 | Comércio de escravos eslavos | — |
-| 1 | Tupinambá | — |
-| 1 | Muisca | — |
-| 1 | Império Khmer | — |
-| 1 | França Medieval | — |
-| 1 | Chaco Canyon | — |
-| 1 | Rússia Medieval | — |
-| 1 | Rebelião Zanje | — |
-| 1 | Dinastia Tang | — |
-| 1 | Primeiro Império Búlgaro | — |
-| 1 | Cumano-Quipchaques | — |
-| 1 | Castelos Medievais | — |
-| 1 | Ibn Fadlan | — |
-| 1 | Polônia Piasta | — |
-| 1 | Império Gaznávida | — |
-| 1 | Califado Fatímida | — |
-| 1 | Império Seljúcida | — |
-| 1 | Cavaleiros Hospitalários | — |
-| 1 | Cahokia | — |
-| 1 | Turquificação da Anatólia | — |
-| 1 | Querela das Investiduras | — |
-| 1 | Hashashins | — |
-| 1 | Império Corásmio | — |
-| 1 | Protestantismo | — |
-| 1 | Guerreiras Samurai | — |
-| 1 | Sohei | — |
-| 1 | Contato Polinésio-Americano | — |
-| 1 | Islamização da Indonésia | — |
-| 1 | Wakō | — |
-| 1 | Galloglass | — |
-| 1 | Ainu | — |
-| 1 | Segundo Império Búlgaro | — |
-| 1 | Guerra Anglo-Francesa | — |
-| 1 | Sultanato de Delhi | — |
-| 1 | Guerra Escocesa-Norueguesa | — |
-| 1 | Julgamentos de animais | — |
-| 1 | Império Majapahit | — |
-| 1 | Guerra Franco-Flamenga | — |
-| 1 | Mansa Musa | — |
-| 1 | Tarascos | — |
-| 1 | Liga Hanseática | — |
-| 1 | Guerra Dano-Hanseática | — |
-| 1 | Crise de 1383-1385 | — |
-| 1 | Johannes Schiltberger | — |
-| 1 | Astecas | Nezahualcoyotl (1) |
-| 1 | Rebelião Percy (1403) | — |
-| 1 | Reino de Ryukyu | — |
-| 1 | Dinastia Médici | — |
-| 1 | Gendarmes Franceses | — |
-| 1 | Exército Negro da Hungria | — |
-| 1 | Vlad III, o Empalador | — |
 | 1 | Ninjutsu | — |
-| 1 | Moldávia de Estêvão, o Grande | — |
-| 1 | Tratado de Tordesilhas | — |
-| 1 | Ditmársia | — |
-| 1 | Reiters Negros | — |
-| 1 | Cossacos | — |
-| 1 | Duelos | — |
-| 1 | Piratas Berberes | — |
-| 1 | Fugger | — |
-| 1 | Cristianismo no Japão | — |
-| 1 | Hussardos Alados | — |
-| 1 | Guerras do Decão | — |
-| 1 | Johannes Bureus e a Runologia Esotérica | — |
-| 1 | Commonwealth Polaco-Lituano | — |
-| 1 | Francis Drake | — |
-| 1 | Japoneses no exterior | — |
-| 1 | Crise Geral do Século XVII | — |
-| 1 | Mosqueteiros do Rei | — |
-| 1 | Guerras Jacobitas | — |
-| 1 | Colonização holandesa da Indonésia | — |
-| 1 | Tempo das Perturbações | — |
-| 1 | Guerra Polaco-Otomana | — |
-| 1 | Rebeliões Huguenotes | — |
-| 1 | Anne Conway | — |
-| 1 | Isaac Newton | — |
-| 1 | Baruch Spinoza | — |
-| 1 | Guerra Escaniana | — |
-| 1 | Guerra Jacobita na Irlanda | — |
-| 1 | Guerra dos Nove Anos | — |
-| 1 | Comanches | — |
-| 1 | Blackbeard | — |
-| 1 | Vampiros (Origens Históricas) | — |
-| 1 | Império Marata | — |
-| 1 | Immanuel Kant | Kant e o Misticismo (Swedenborg) (1) |
-| 1 | Guerra Durrani-Marata | — |
-| 1 | Guerra de Pontiac | — |
-| 1 | Genocídio Circassiano | — |
-| 1 | As Origens do Gótico (Estética e Horror) | — |
-| 1 | Partições da Polônia | — |
-| 1 | Arthur Schopenhauer | — |
-| 1 | William Blake | — |
-| 1 | Mormonismo | — |
-| 1 | Gurkhas | — |
-| 1 | Risorgimento | — |
-| 1 | Seminoles | — |
-| 1 | Karl Marx | — |
-| 1 | Doutrina Monroe | — |
-| 1 | Tráfico Transatlântico de Escravos | — |
-| 1 | Reforma Eleitoral de 1832 | — |
-| 1 | Grande Jogo | — |
-| 1 | Restauração Meiji | — |
-| 1 | Guerras do Ópio | — |
-| 1 | Pseudociência e Conspirações | — |
-| 1 | China Moderna | — |
-| 1 | Espiritualismo Moderno | — |
-| 1 | Espadas militares japonesas | — |
-| 1 | Austin Osman Spare | — |
-| 1 | Georges Bataille | — |
-| 1 | Puyi | — |
-| 1 | Legião Tchecoslovaca | — |
-| 1 | Revolução Alemã | — |
-| 1 | War Plan Red | — |
-| 1 | Sigmund Freud e a Psicanálise | A Pulsão de Morte e Georges Bataille (1) |
-| 1 | Guerra Fria | Macarthismo (1) |
-| 1 | Conflitos no Oriente Médio | — |
-| 1 | Guerra da Coreia | — |
-| 1 | Primeira Guerra Civil Sudanesa | — |
-| 1 | Conflitos na Irlanda do Norte | — |
-| 1 | Guerra da Independência do Zimbábue | — |
-| 1 | Guerra da Fronteira Sul-Africana | — |
-| 1 | Yukio Mishima | — |
-| 1 | Revolução Iraniana | — |
-| 1 | Pânico Satânico | — |
-| 1 | Segunda Guerra Civil Sudanesa | — |
-| 1 | História dos videogames | — |
-| 1 | Guerras da Chechênia | Primeira Guerra da Chechênia (1) |
-| 1 | Segunda Guerra da Chechênia | — |
-| 1 | Guerra do Iraque (2003) | — |
-| 1 | Guerra Civil Síria | — |
-| 1 | Política Chinesa Contemporânea | — |
-| 1 | Grupo Wagner | — |
-| 1 | Panorama de conflitos globais | — |
-| 1 | Retrospectiva Anual | — |
-| 1 | Ártico | — |
-| 1 | Cultura de internet | — |
-| 1 | Esportes | — |
-| 1 | Manejo do fogo indígena | — |
-| 1 | Comentários sobre criação de conteúdo | — |
-| 1 | Jogos de tabuleiro e cartas | — |
-| 1 | Família Imperial do Japão | — |
-| 1 | Curiosidades da História Chinesa | — |
-| 1 | Religião Grega | — |
 | 1 | Numismática Antiga | — |
-| 1 | Meteoros na História | — |
+| 1 | Palestina antiga | — |
+| 1 | Panorama de conflitos globais | — |
+| 1 | Partições da Polônia | — |
+| 1 | Pechenegues | — |
+| 1 | Peregrinação Medieval | — |
+| 1 | Pictos | — |
+| 1 | Piratas Berberes | — |
+| 1 | Política Chinesa Contemporânea | — |
+| 1 | Polônia Piasta | — |
+| 1 | Pomério Romano | — |
+| 1 | Poverty Point | — |
+| 1 | Povo Romani | — |
+| 1 | Povo hebreu | — |
+| 1 | Povos do Zagros | — |
+| 1 | Primeira Guerra Civil Sudanesa | — |
+| 1 | Primeiro Império Búlgaro | — |
+| 1 | Protestantismo | — |
+| 1 | Pseudociência e Conspirações | — |
+| 1 | Puyi | — |
+| 1 | Pânico Satânico | — |
+| 1 | Querela das Investiduras | — |
+| 1 | Quipu | — |
+| 1 | Rebelião Percy (1403) | — |
+| 1 | Rebelião Zanje | — |
+| 1 | Rebeliões Huguenotes | — |
+| 1 | Reforma Eleitoral de 1832 | — |
+| 1 | Reino Borgonhão | — |
+| 1 | Reino Himiarita | — |
+| 1 | Reino Lombardo | — |
+| 1 | Reino Nabateu | — |
+| 1 | Reino Visigodo | — |
+| 1 | Reino da Armênia | — |
+| 1 | Reino de Aksum | — |
+| 1 | Reino de Anitta (Precursor Hitita) | — |
+| 1 | Reino de Ryukyu | — |
+| 1 | Reino de Urartu | — |
+| 1 | Reino do Bósporo | — |
+| 1 | Reiters Negros | — |
+| 1 | República de Veneza | — |
+| 1 | Restauração Meiji | — |
+| 1 | Retrospectiva Anual | — |
+| 1 | Revolta dos Macabeus | — |
+| 1 | Revolução Alemã | — |
+| 1 | Revolução Iraniana | — |
+| 1 | Risorgimento | — |
+| 1 | Rússia Medieval | — |
+| 1 | Samos | — |
+| 1 | Segunda Guerra Civil Sudanesa | — |
+| 1 | Segunda Guerra da Chechênia | — |
+| 1 | Segundo Império Búlgaro | — |
+| 1 | Seminoles | — |
+| 1 | Sigmund Freud e a Psicanálise | A Pulsão de Morte e Georges Bataille (1) |
+| 1 | Sogdiana | — |
+| 1 | Sohei | — |
+| 1 | Suevos | — |
+| 1 | Sultanato de Delhi | — |
+| 1 | Tarascos | — |
+| 1 | Tempo das Perturbações | — |
+| 1 | Tengrismo | — |
+| 1 | Tessália antiga | — |
+| 1 | Teuchitlán | — |
+| 1 | Tratado de Tordesilhas | — |
+| 1 | Tratados militares | — |
+| 1 | Triunfo Romano | — |
+| 1 | Trácios | — |
+| 1 | Tráfico Transatlântico de Escravos | — |
+| 1 | Tupinambá | — |
+| 1 | Turquificação da Anatólia | — |
+| 1 | Ugarit | — |
+| 1 | Vampiros (Origens Históricas) | — |
+| 1 | Vlad III, o Empalador | — |
+| 1 | Vândalos | — |
+| 1 | Wakō | — |
+| 1 | War Plan Red | — |
+| 1 | William Blake | — |
+| 1 | Yukio Mishima | — |
+| 1 | Zoroastrismo | — |
+| 1 | Ártico | — |
+| 1 | Çatalhöyük | — |
+
 ### Sobreposições ainda por resolver
+
+Abertas na aprovação dos lotes 232-249 (reabertura dos vinte canais):
+
+- **`Guerra Civil Espanhola` (tema-raiz novo, lotes 232-233, 2 linhas) ×
+  `Segunda Guerra Mundial > Guerra Civil Espanhola` (subtema, 1 linha,
+  1936-1939)** — a linha antiga é um episódio da série "Eastern Front
+  Week-by-Week Prelude" do Kings and Generals, que trata a guerra como prelúdio
+  da Segunda Guerra; as novas são de uma série dedicada do mesmo canal. O
+  catálogo trata guerra civil como tema-raiz (Americana, Inglesa, Russa, Síria),
+  daí o tema novo. **A linha antiga não foi migrada: está travada de um ciclo
+  anterior.** Mesmo nome em dois lugares, com tratamentos diferentes — é a
+  armadilha do "mesmo nome de subtema em dois temas-raiz" do `protocolo.md`.
+- **`Guerras Civis do Sudão` (tema-raiz novo, lote 244, 1 linha) ×
+  `Primeira Guerra Civil Sudanesa` (1955-1972) × `Segunda Guerra Civil
+  Sudanesa` (1983-2005)** — o vídeo novo cobre as três guerras de uma vez e não
+  cabia em nenhum dos dois temas existentes; a terceira guerra (2023-) não tem
+  tema próprio. Três temas-raiz para o mesmo país, um deles panorâmico.
+  Alternativa não aplicada: transformar os dois antigos em subtemas do novo, ou
+  criar `Terceira Guerra Civil Sudanesa`.
+- **`Império Otomano > Skanderbeg` (subtema novo, lote 232)** — a linha antiga
+  do catálogo sobre o mesmo personagem ("Rise of Skanderbeg", 1443-1468) está
+  sob `Império Otomano` **sem** subtema, e está travada de um ciclo anterior.
+  O par ficou dividido; a correção exige autorização para sobrescrever célula
+  travada.
+- **`Espanha` como termo de região** — a aproximação `Península Ibérica` para a
+  Espanha passou de longe do critério de segunda ocorrência (Guerra Civil
+  Espanhola ×2, Villaviciosa, Reconquista, Inquisição Espanhola, Tércio,
+  Guerra Anglo-Espanhola, Guerra de Sucessão Espanhola). Não criado: criar o
+  termo implicaria reclassificar linhas antigas travadas.
+- **`Historiografia > Historiadores gregos` com tratamentos opostos** — a linha
+  "Herodotus - A Quick Look at his Life and Work" está como `Extra` (sem anos),
+  e "HoP 500b Melissa Lane on Herotodus and Thucydides" (lote 248) entrou na
+  linha do tempo com 484-400 a.C. Pelo teste das Decisões fechadas, a vida de
+  dois historiadores é datável, logo não é `Extra`. A linha antiga está travada.
+- **`Dinastia Zhou > Estados Combatentes`: Parte 1 engloba a Parte 2** — a linha
+  "The Warring States Period Explained - Part 1" ficou com 400-221 a.C. e a
+  Parte 2 (lote 242) com 338-221 a.C. Pelo título, a Parte 1 deveria terminar
+  onde a Parte 2 começa. Linha antiga travada, não reaberta.
+- **`Império Otomano > Mehmed II` recebendo episódios de um podcast cujo tema
+  é `Império Bizantino`** — os episódios 339 e 341 do The History of Byzantium
+  (lote 238) são posteriores a 1453 e tratam de política otomana, então foram
+  para `Império Otomano`, enquanto as outras ~400 linhas do canal estão em
+  `Império Bizantino` — inclusive "The Rise of the Ottomans, Part 1 e 2", que
+  trata dos otomanos vistos de dentro do império que ainda existia. Decisão
+  consciente, registrada aqui para não parecer descuido.
 
 - **Cluster "Nicholas Eymerich" espalhado em 3 subtemas de 2 temas-raiz
   diferentes**: `A Inquisição contra a Alquimia (Nicholas Eymerich, 1396)`
@@ -3014,9 +3070,9 @@ dentro do ciclo, é `Comentário Político Contemporâneo`.
 
 ---
 
-## Estado atual (10/08/2026)
+## Estado atual (17/11/2026)
 
-5415 linhas, ordenadas de 20000 a.C. a 2026.
+5567 linhas, ordenadas de 20000 a.C. a 2026.
 
 | | |
 |---|---|
@@ -3061,13 +3117,18 @@ dentro do ciclo, é `Comentário Político Contemporâneo`.
 | lotes 220-223 | 220 (25) · 221 (25) · 222 (25) · 223 (25) — segundo ciclo via `/rodada`, parada conjunta com o lote 215 e aprovação em 10/08/2026 |
 | lotes 224-227 | 224 (25) · 225 (25) · 226 (25) · 227 (25) — terceiro ciclo via `/rodada`, parada e aprovação em 10/08/2026 |
 | lotes 228-230 | 228 (25) · 229 (25) · 230 (8) — quarto ciclo via `/rodada`, encerrado por esgotamento real (mini-lote de 8 + coleta seguinte confirmando 0 novos), parada e aprovação em 10/08/2026 |
-| lote 231 | 231 (1) — revisita ao canal `encerrado` Magistra Vitae (1 vídeo novo publicado em 10/08/2026), parada e aprovação em 10/08/2026 |
-| status | 5415 `ok` · 0 `revisar` |
-| confiança | 1181 alta · 1675 média · 1725 chute · 834 n/a |
-| travadas | 5343 |
-| temas-raiz | 515 · regiões: 60 |
-| rótulos | 624 `Extra` · 210 `Aleatório` · 605 `Panorama` · 3975 na escada do ponto médio |
-| `descartados.txt` | 1454 ids |
+\1
+| lotes 232-235 | 232 (25) · 233 (21) · 234 (25) · 235 (5) — reabertura dos canais encerrados (Kings and Generals e Thersites), parada e aprovação em 17/11/2026 |
+| lotes 236-239 | 236 (1) · 237 (1) · 238 (3) · 239 (5) — Ancient Americas, Cambrian Chronicles, Byzantium Podcast e SandRhoman — quatro canais em 10 linhas, parada e aprovação em 17/11/2026 |
+| lotes 240-243 | 240 (7) · 241 (2) · 242 (1) · 243 (3) — The Shogunate, The Histories, GatesOfKilikien e Magistra Vitae, parada e aprovação em 17/11/2026 |
+| lotes 244-247 | 244 (5) · 245 (7) · 246 (9) · 247 (3) — Ryan M Reeves, HistoryMarche, History with Cy e Invicta, parada e aprovação em 17/11/2026 |
+| lotes 248-249 | 248 (15) · 249 (14) — History of Philosophy Without Any Gaps e ESOTERICA — encerra a reabertura, parada e aprovação em 17/11/2026 |
+| status | 5567 `ok` · 0 `revisar` |
+| confiança | 1210 alta · 1713 média · 1792 chute · 852 n/a |
+| travadas | 5495 |
+| temas-raiz | 525 · regiões: 60 |
+| rótulos | 635 `Extra` · 217 `Aleatório` · 633 `Panorama` · 4082 na escada do ponto médio |
+| `descartados.txt` | 1540 ids |
 
 **Lotes 216-219 (100 linhas) travados na aprovação de 10/08/2026 — primeiro
 ciclo rodado pelo comando `/rodada`, canal ESOTERICA segue `em andamento`,

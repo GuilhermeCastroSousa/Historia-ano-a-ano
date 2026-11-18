@@ -19,11 +19,10 @@ e, aqui, no máximo uma linha se houver uma **armadilha operacional** nova.
 
 ## Estado: vinte canais adotados, todos encerrados e **todos em dia**
 
-`verificar.py` (sem `--anterior`) confere limpo nesse estado: **5567 linhas, 121
-`revisar`, checklist ok**. As 121 `revisar` são as linhas dos lotes 232-249, que
-aguardam `/aprovar` — ver "Reabertura de 17/11/2026", abaixo. **Nenhum canal está
-`em andamento`** — a próxima sessão precisa adotar um canal novo ou reabrir um
-dos vinte antes de rodar `/lote` ou `/rodada`.
+`verificar.py` (sem `--anterior`) confere limpo nesse estado: **5567 linhas, 0
+`revisar`, checklist ok**. **Nenhum canal está `em andamento`** — a próxima
+sessão precisa adotar um canal novo ou reabrir um dos vinte antes de rodar
+`/lote` ou `/rodada`.
 
 | Canal | Lotes | Chave / comando de reabertura |
 |---|---|---|
@@ -61,8 +60,19 @@ publicou 39 vídeos, todos Short ou live).
 
 Os dossiês das cinco paradas estão em `paradas/parada-NNN-NNN.md` — um por
 rodada de quatro lotes, com vocabulário novo, fact-check e as cinco linhas
-sorteadas. **Nada foi travado e o vocabulário não foi mexido: `/aprovar` é o
-passo seguinte,** e há 23 pendências acumuladas listadas no fim de cada dossiê.
+sorteadas. **`/aprovar` rodou em 17/11/2026 sobre os 18 lotes de uma vez:** as
+152 linhas estão travadas, a Lista C foi regenerada (515 → 525 temas-raiz, 10
+novos) e seis correções foram aplicadas antes da trava — três de faixa apontadas
+pelo fact-check (`HARdgJjiR7s` Povo Romani 1000 → 500; `t6VFz7kXiLc` Reino de
+Kent 455 → 449; `OUJAl2VK1pw` Safo 630 → 612 a.C.) e três de tema, com
+autorização explícita para sobrescrever célula travada (as resenhas de precisão
+histórica saíram de `Resenhas de ficção` para `História na cultura popular >
+Cinema`).
+
+As pendências que **não** foram aplicadas estão no `vocabulario-canonico.md`,
+"Sobreposições ainda por resolver" — sete sobreposições de vocabulário, todas
+dependendo de sobrescrever linha travada de ciclo anterior ou de reclassificar
+linha antiga.
 
 ## Ressalvas ainda abertas
 
@@ -80,12 +90,17 @@ passo seguinte,** e há 23 pendências acumuladas listadas no fim de cada dossi�
   célula aprovada:** `xDV0UEgmEbQ` (HPI 60, lote 200) provavelmente devia ser
   `Panorama (973-1860)`/`média` em vez de `Extra`/`n/a`; no HistoryMarche,
   `TbVfFq16gK8` (lote 152) pode ter identificado a batalha errada e a compilação
-  "Hannibal PARTS 18-20" (lote 151) pode ter o início da faixa um ano adiantado;
-  e as três resenhas de precisão histórica dos lotes 234-235 (`R5qSZ2H2LyQ`,
-  `PBL32XROdBQ`, `2Vy2T5I6Y_0`) estão em `Resenhas de ficção`, que é o tema de
-  resenha de **obra de ficção**, e deveriam estar em `História na cultura
-  popular > Cinema`. Nos quatro casos o portão barra a correção porque a linha
-  está travada — e linha `Extra` nasce travada por design.
+  "Hannibal PARTS 18-20" (lote 151) pode ter o início da faixa um ano adiantado.
+  Nos dois casos o portão barra a correção porque a linha está travada.
+- **Corrigir linha travada é possível, e já foi feito uma vez.** Na aprovação
+  dos lotes 232-249, três linhas `Extra` (que nascem travadas por design)
+  tiveram Tema e Subtema corrigidos com autorização explícita do humano. O
+  `verificar.py` acusa "linhas TRAVADAS alteradas" de qualquer jeito — ele
+  compara valores, não motivos. O caminho é a checagem manual que o
+  `protocolo.md` descreve: comparar a planilha nova com o backup e confirmar que
+  **a única linha travada com qualquer diferença é exatamente a autorizada, e só
+  nas células que deveriam mudar**. Só depois disso a falha do portão vale como
+  falso-positivo esperado. Sem essa checagem, registre como pendente.
 - **Pendências de vocabulário não bloqueantes** (sobreposições, nomes parecidos,
   clusters a consolidar) estão em `vocabulario-canonico.md`, "Sobreposições ainda
   por resolver". Não travam lote nenhum.
