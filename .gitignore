@@ -5,6 +5,11 @@ chave.txt
 *.key
 .env
 
+# Credenciais OAuth do subir_playlist.py — vivem em ~/.chaves/, mas o mesmo
+# cinto de segurança vale aqui caso alguma cópia apareça no projeto.
+client_secret*.json
+token-youtube.json
+
 # ─── Gerado automaticamente ──────────────────────────────────────────
 backups/
 __pycache__/

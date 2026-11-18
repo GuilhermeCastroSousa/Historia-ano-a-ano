@@ -29,14 +29,19 @@ quem classificou.
 
 | Arquivo | O que é |
 | --- | --- |
-| `playlist-historia-v2.xlsx` | **O catálogo.** 5.415 linhas, 19 colunas. É o produto e a fonte de verdade. |
+| `playlist-historia-v2.xlsx` | **O catálogo.** 5.567 linhas, 19 colunas. É o produto e a fonte de verdade. |
 | `playlist-historia-v2.csv` | Espelho em texto do catálogo, para dar para ler e comparar aqui no GitHub. Derivado — gerado por `exportar_csv.py`, nunca editado à mão. |
 | `protocolo.md` | O manual de operação: como datar, como classificar, como decidir confiança. Inclui a seção "Armadilhas conhecidas", que é o registro de todo erro já cometido e a lição tirada dele. |
 | `vocabulario-canonico.md` | As listas fechadas de período, região, tema e subtema. Nada entra na planilha fora delas. |
 | `canais.json` | Estado por canal: status, faixa de lotes, datas, e um campo `observacoes` longo com o histórico de cada um. |
-| `coletar.py` | Puxa os vídeos novos de um canal pela YouTube Data API e monta o arquivo `lote-NN.md` para classificar. |
+| `coletar.py` | Puxa os vídeos novos de um canal pela YouTube Data API e monta o arquivo `lote-NN.md` para classificar. `--desde AAAA-MM-DD` restringe a coleta ao que foi publicado a partir de uma data. |
 | `verificar.py` | O portão. Confere 10+ invariantes da planilha. Saiu diferente de 0, não se grava. |
-| `Old_lote/` | Os 230 lotes já processados — a evidência bruta por trás de cada classificação. |
+| `gravar.py` | Grava o lote classificado: calcula os campos derivados, confere os ids contra o arquivo de lote e reordena a planilha pela chave completa. É o único script que escreve no catálogo. |
+| `auditar.py` | Auditoria de cobertura: varre a lista de uploads inteira de um canal e diz quantos vídeos o projeto nunca viu, separando o que é novo do que é buraco antigo. Somente leitura. |
+| `consultar.py` | Procura um termo em Tema, Subtema e Título na planilha — o passo obrigatório antes de propor termo de vocabulário novo. |
+| `amostra.py` | Sorteia as cinco linhas da parada de revisão, com semente fixa derivada dos lotes: o sorteio é reproduzível e não é escolha de quem apresenta. |
+| `paradas/` | Os dossiês das paradas de revisão: vocabulário novo, fact-check com fonte, as cinco linhas sorteadas e as pendências abertas. |
+| `Old_lote/` | Os lotes 0-230 já processados — a evidência bruta por trás de cada classificação. Os lotes 231-249 estão na raiz, ainda não arquivados aqui. |
 | `CLAUDE.md` / `GUIA.md` | Instruções para o agente e para o humano, respectivamente. |
 | `painel.html` | Visualização rápida do catálogo. |
 
@@ -45,6 +50,7 @@ quem classificou.
 ```bash
 python coletar.py @NomeDoCanal    # gera lote-NN.md com 25 vídeos
                                   # (classificar as 25 linhas)
+python gravar.py classificacao.json lote-NN.md
 python verificar.py --anterior backups/playlist-AAAA-MM-DD.xlsx
                                   # só grava se sair 0
 python exportar_csv.py            # atualiza o espelho .csv antes do commit

@@ -1,6 +1,11 @@
 # Necessário para coletar.py, verificar.py e completar_datas.py
 openpyxl
 
+# Necessário só para subir_playlist.py (OAuth: escrever numa playlist sua).
+# O catálogo em si não depende disso.
+google-auth-oauthlib
+google-api-python-client
+
 # Opcional — usado só por diagnostico.py, um script de investigação que
 # registra POR QUE as transcrições não são usadas neste projeto.
 # O catálogo em si nunca depende de transcrição.

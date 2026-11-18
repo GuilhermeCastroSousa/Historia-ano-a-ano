@@ -147,6 +147,80 @@ recomeçar. O vocabulário e a planilha continuam os mesmos.
 
 ---
 
+## Subir uma lista para uma playlist do YouTube
+
+`subir_playlist.py` pega um CSV (ou `.txt`) com links do YouTube e acrescenta os
+vídeos a uma playlist sua, **na ordem em que aparecem no arquivo**. É
+independente do catálogo — serve para qualquer lista, qualquer playlist.
+
+### Preparo, uma vez só
+
+A chave de API que o `coletar.py` usa **só serve para leitura**. Escrever numa
+playlist é ação em nome da sua conta, e o YouTube exige OAuth para isso. Então:
+
+1. Abra o [Google Cloud Console](https://console.cloud.google.com/), no **mesmo
+   projeto** onde a chave de API já existe.
+2. **APIs e serviços → Tela de permissão OAuth.** Tipo de usuário: **Externo**.
+   Preencha nome do app e seu e-mail. Adicione o escopo
+   `https://www.googleapis.com/auth/youtube`.
+3. Ainda nessa tela, mude o **status de publicação para "Em produção"**. Não
+   pule este passo: em "Teste", o Google invalida o acesso a cada 7 dias e você
+   teria que reautorizar toda semana. Em produção, como o app não é verificado,
+   a tela de login vai mostrar um aviso "app não verificado" — clique em
+   **Avançado → Acessar (não seguro)**. É o seu próprio app, na sua própria
+   conta.
+4. **Credenciais → Criar credenciais → ID do cliente OAuth → App para
+   computador.** Baixe o JSON.
+5. Salve o arquivo como `%USERPROFILE%\.chaves\client_secret.json` — mesma pasta
+   da chave de API, fora do projeto, para nunca entrar num commit.
+6. `python -m pip install google-auth-oauthlib google-api-python-client`
+
+Na primeira execução o navegador abre uma vez para você autorizar. O token fica
+em `%USERPROFILE%\.chaves\token-youtube.json` e as próximas execuções não pedem
+mais nada.
+
+### Uso
+
+```
+python subir_playlist.py --playlists              # descobre o id das suas playlists
+python subir_playlist.py lista.csv --playlist PLxxxx --simular
+python subir_playlist.py lista.csv --playlist PLxxxx
+python subir_playlist.py lista.csv --nova "Título da playlist nova"
+```
+
+Sempre rode com `--simular` antes: ele mostra a ordem exata que vai inserir sem
+escrever nada na sua conta.
+
+O arquivo pode ser um CSV com uma coluna de links (o script acha a coluna
+sozinho, ou você aponta com `--coluna Link`) ou um `.txt` com um link por linha.
+Aceita link normal, `youtu.be`, `/shorts/`, `/live/`, com `?t=` e `&list=` no
+meio, e id cru de 11 caracteres.
+
+### Duas coisas que valem saber
+
+**Repetir é seguro.** Antes de subir, o script lê o que já está na playlist e
+pula esses vídeos. Rodar o mesmo arquivo duas vezes não duplica nada; se parar
+no meio, rodar de novo retoma de onde estava; mandar um arquivo novo depois só
+acrescenta o que falta, no fim da playlist.
+
+**A quota limita a 199 vídeos por dia** — medido na prática, não estimado. Cada
+inserção custa 50 unidades, a cota diária é 10.000, e o que sobra depois da
+leitura da playlist dá exatamente 199. **Monte os arquivos com 199 linhas** que
+cada um fecha um dia redondo. Passando disso, o script para com uma mensagem
+dizendo quantos faltaram — é só rodar o mesmo comando no dia seguinte.
+
+A quota zera à meia-noite no horário do Pacífico, ou seja, por volta das **4h-5h
+da manhã** em Brasília.
+
+Vídeo privado, removido ou com restrição não entra. Atenção a um caso que já
+aconteceu: às vezes a API **aceita** a inserção (responde ok e gasta quota) e o
+vídeo mesmo assim não aparece na playlist — é o sintoma de vídeo removido depois
+de catalogado. Se a contagem final da playlist não bater com o total enviado, é
+isso. Como esse vídeo nunca consta como "já está lá", uma nova execução do mesmo
+arquivo tenta inseri-lo de novo e gasta 50 unidades à toa.
+
+---
+
 ## Onde cada coisa mora
 
 | Arquivo | Para que serve |
@@ -158,6 +232,12 @@ recomeçar. O vocabulário e a planilha continuam os mesmos.
 | `vocabulario-canonico.md` | Listas fechadas de período, região, tema, subtema. |
 | `verificar.py` | O portão. Reprova gravação com defeito. |
 | `coletar.py` | Busca os vídeos novos e gera o `lote-NN.md`. |
+| `gravar.py` | Grava o lote classificado e reordena a planilha. O único que escreve nela. |
+| `auditar.py` | Varre um canal inteiro e diz quantos vídeos nunca foram coletados. |
+| `consultar.py` | Procura um termo na planilha, antes de criar termo novo. |
+| `amostra.py` | Sorteia as cinco linhas da parada de revisão. |
+| `exportar_csv.py` | Regera o espelho `.csv` depois de cada gravação. |
+| `subir_playlist.py` | Sobe um CSV de links para uma playlist sua, na ordem. |
 | `catalogados.txt` | Ids já enviados. Evita recoleta. Não editar à mão. |
 | `descartados.txt` | Shorts, exclusivos e teasers recusados. Cresce sozinho. |
 | `backups\` | Cópias datadas. Sua rede de segurança. |
