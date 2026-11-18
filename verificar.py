@@ -1,6 +1,15 @@
 """
 Checklist executável do catálogo. Roda antes de salvar a planilha, sempre.
 
+ESTE É O PORTÃO DA v2, a camada de dado — e continua sendo o único portão que
+decide se uma classificação pode ser gravada. A ordenação que ele exige é a da
+v2: `ano_inicio`, `ano_fim`, `Mês`, `Dias`.
+
+A `playlist-historia-v3.xlsx`, ordenada para quem assiste, NÃO passa por aqui e
+não deve passar: ela é derivada da v2 pelo `ordenar.py` e tem portão próprio
+(`portao()`, lá), que confere outra coisa — que a derivação é fiel, não que o
+dado é válido. Ver `protocolo.md`, "Duas camadas".
+
 Converte em código o que antes era uma lista em prosa no protocolo.md. Erros
 de montagem já aconteceram: linhas que perderam 'publicado' e 'Título' por um
 desalinhamento de tupla, e linhas boas apagadas durante a correção. Nenhum dos

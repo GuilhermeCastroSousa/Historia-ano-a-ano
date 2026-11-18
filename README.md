@@ -36,7 +36,10 @@ quem classificou.
 | `canais.json` | Estado por canal: status, faixa de lotes, datas, e um campo `observacoes` longo com o histórico de cada um. |
 | `coletar.py` | Puxa os vídeos novos de um canal pela YouTube Data API e monta o arquivo `lote-NN.md` para classificar. `--desde AAAA-MM-DD` restringe a coleta ao que foi publicado a partir de uma data. |
 | `verificar.py` | O portão. Confere 10+ invariantes da planilha. Saiu diferente de 0, não se grava. |
-| `gravar.py` | Grava o lote classificado: calcula os campos derivados, confere os ids contra o arquivo de lote e reordena a planilha pela chave completa. É o único script que escreve no catálogo. |
+| `playlist-historia-v3.xlsx` | **A ordem de exibição.** Derivada da v2 pelo `ordenar.py`, com as colunas `ordem`, `era`, `tipo` e `regiao_historica`. A v2 é o dado; esta é o produto para assistir. |
+| `gravar.py` | Grava o lote classificado na v2: calcula os campos derivados, confere os ids contra o arquivo de lote e reordena a planilha pela chave completa. É o único script que escreve no catálogo. |
+| `ordenar.py` | Deriva a v3. Agrupa por civilização enquanto as datas são largas e vira cronologia única em 500 a.C.; dentro de cada bloco o panorama abre, os eventos vêm por data e o temático fecha. Tem portão próprio: recusa gravar se a derivação sujar dado da v2. |
+| `conferir_ordem.py` | Mede a ordem gerada contra uma planilha ordenada à mão — era, região, concordância de pares e sequência de blocos. |
 | `auditar.py` | Auditoria de cobertura: varre a lista de uploads inteira de um canal e diz quantos vídeos o projeto nunca viu, separando o que é novo do que é buraco antigo. Somente leitura. |
 | `consultar.py` | Procura um termo em Tema, Subtema e Título na planilha — o passo obrigatório antes de propor termo de vocabulário novo. |
 | `amostra.py` | Sorteia as cinco linhas da parada de revisão, com semente fixa derivada dos lotes: o sorteio é reproduzível e não é escolha de quem apresenta. |

@@ -27,6 +27,8 @@ Para cada lote:
    gravação próprio; ver `/lote`, passo 5
 6. `python verificar.py --anterior backups\<o backup que você acabou de fazer>`
    e, se passar, `python exportar_csv.py`
+7. `python ordenar.py --gravar` ao fim da rodada (uma vez só, não por lote) —
+   regera a ordem de exibição na `playlist-historia-v3.xlsx`
 
 **Checagem de confiança antes de seguir para o próximo lote:** para cada
 linha marcada `confianca = alta`, confirme que alguma data citada no bloco de

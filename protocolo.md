@@ -5,6 +5,47 @@ garante que qualquer conversa nova classifique do mesmo jeito que a anterior.
 
 ---
 
+## Duas camadas
+
+**`playlist-historia-v2.xlsx` é o dado. `playlist-historia-v3.xlsx` é o
+produto.** A v2 guarda uma linha por vídeo, ordenada por `ano_inicio`, com as
+invariantes que o `verificar.py` confere. A v3 é **derivada** dela pelo
+`ordenar.py` e ordenada para quem assiste em sequência. Nada se classifica na
+v3; nada se lê da v3 para decidir dado.
+
+O motivo da separação: as duas ordens são incompatíveis e as duas são certas. A
+ordem por `ano_inicio` é correta como dado e ruim como playlist — os 27 vídeos
+de Mesopotâmia Antiga aparecem em 16 trechos separados, porque uma faixa de
+7000 a.C. a 1365 a.C. se intercala com Egito, Canaã e Grécia a cada degrau.
+Quem assiste não consegue seguir. A ordem de exibição agrupa por civilização
+enquanto as datas são largas e vira cronologia única quando ficam precisas.
+
+| | v2 | v3 |
+|---|---|---|
+| papel | fonte de verdade | ordem de exibição |
+| ordem | `ano_inicio`, `ano_fim`, `Mês`, `Dias` | `ordem`, derivada |
+| período | Lista A (ponto médio) | Lista E (eras, pelo início) |
+| portão | `verificar.py` | `portao()` do `ordenar.py` |
+| quem escreve | `gravar.py` | `ordenar.py` |
+
+O portão da v3 não repete as checagens da v2: confere que a derivação é fiel —
+mesmos ids, datas intactas, `ordem` de 1 a n sem furo, `era`/`tipo`/
+`regiao_historica` preenchidos. Se a derivação sujar dado da v2, ele recusa
+gravar.
+
+**A ordem da v3 nunca é escrita à mão.** É isso que faz vídeo novo de lote cair
+no lugar certo sem ajuste manual, e é o que permite espelhar a playlist no
+YouTube (`subir_playlist.py --na-ordem`). Ajuste manual na v3 é perdido na
+próxima execução do `ordenar.py` — se uma linha ficou no lugar errado, o
+conserto é na coluna que a põe lá (tema, região, tipo), não na posição.
+
+O modelo de ordenação — eras, tipo, região histórica, a virada em 500 a.C. e o
+passeio geográfico — está documentado nas Listas E, F e G do
+`vocabulario-canonico.md` e no cabeçalho do `ordenar.py`. A aderência medida
+contra a planilha ordenada à mão pelo humano (290 vídeos, até 500 a.C.) foi de
+89% de acerto de era, 84% de região, concordância de pares de +0,643 e
+sequência de blocos de +0,672. O `conferir_ordem.py` refaz essa medição.
+
 ## O que este sistema faz
 
 Cataloga vídeos de história do YouTube em uma planilha ordenada cronologicamente

@@ -175,7 +175,27 @@ python gravar.py classificacao.json lote-NN.md
 python verificar.py --anterior backups/playlist-AAAA-MM-DD.xlsx
                                        # só salvar se sair 0
 python exportar_csv.py                 # espelho .csv, depois de gravar
+python ordenar.py --gravar             # regera a v3, a ordem de exibição
 ```
+
+## Duas camadas: v2 é o dado, v3 é o produto
+
+A **v2** (`playlist-historia-v2.xlsx`) é a fonte de verdade, ordenada por
+`ano_inicio`, com as invariantes do `verificar.py`. A **v3**
+(`playlist-historia-v3.xlsx`) é **derivada** dela pelo `ordenar.py` e ordenada
+para quem assiste em sequência: agrupa por civilização enquanto as datas são
+largas, vira cronologia única em 500 a.C., e dentro de cada bloco o Panorama
+abre, os Eventos vêm por data e o Temático fecha.
+
+**Classifique na v2, sempre.** Nada se decide na v3 e nada se lê dela para
+decidir dado. Ajuste manual de posição na v3 é perdido na próxima execução —
+se uma linha caiu no lugar errado, conserte a coluna que a põe lá (`Tema`,
+`Região`, ou a regra de `tipo`), não a posição.
+
+As colunas novas da v3 (`ordem`, `era`, `tipo`, `regiao_historica`) são todas
+derivadas. O modelo está nas Listas E, F e G do `vocabulario-canonico.md`; a
+medição contra a planilha que o humano ordenou à mão está no `protocolo.md`,
+seção "Duas camadas".
 
 **`gravar.py` é o jeito de gravar um lote.** Recebe um JSON com os quatro campos
 decididos por linha (`Ano`, `Regiao`, `Tema`, `Subtema`, mais `confianca`,
@@ -198,7 +218,9 @@ e ninguém consegue ver quais linhas entraram em cada lote. Nunca editar o `.csv
 
 | Script | Para que | Quando |
 |---|---|---|
-| `gravar.py` | grava o lote e reordena a planilha pela chave completa | todo lote |
+| `gravar.py` | grava o lote na v2 e reordena pela chave completa | todo lote |
+| `ordenar.py` | deriva a v3, a ordem de exibição, com seu próprio portão | depois de gravar |
+| `conferir_ordem.py` | mede a ordem gerada contra uma planilha ordenada à mão | ao mexer no modelo |
 | `consultar.py` | procura um termo em Tema, Subtema e Título **na planilha** | antes de propor termo novo |
 | `amostra.py` | sorteia as 5 linhas da parada, semente fixa pelos lotes | toda parada |
 | `auditar.py` | varre o uploads inteiro e acha buraco de cobertura | antes de encerrar; depois de revisita |

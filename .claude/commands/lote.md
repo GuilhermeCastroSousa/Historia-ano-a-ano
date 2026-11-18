@@ -24,6 +24,9 @@ Sequência obrigatória:
 6. `python verificar.py --anterior backups\<o backup que você acabou de fazer>`
 7. Se sair 1, restaure do backup e me diga o que falhou. Não salve com falha.
 8. `python exportar_csv.py`, depois de o portão passar
+9. `python ordenar.py --gravar` — regera a `playlist-historia-v3.xlsx`, a ordem
+   de exibição. Tem portão próprio: se a derivação sujar dado da v2, não grava.
+   **Classifique sempre na v2;** a v3 é derivada e ajuste manual nela se perde
 
 Antes de me responder, faça esta checagem e inclua o resultado:
 

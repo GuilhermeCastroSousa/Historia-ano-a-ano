@@ -426,7 +426,50 @@ def carregar():
     return [dict(zip(cab, r)) for r in it if r[cab.index("video_id")]]
 
 
-def gravar(rows):
+def portao(rows, originais):
+    """A v3 é derivada: o portão dela não repete as checagens do verificar.py,
+    confere que a derivação é fiel. Nada de dado novo entra aqui.
+
+    O `verificar.py` continua sendo o portão da v2, que segue sendo a fonte de
+    verdade e segue ordenada por `ano_inicio`. Esta planilha é a camada de
+    apresentação, e só pode errar de duas formas: perder/alterar dado da v2, ou
+    produzir uma ordem inválida."""
+    falhas = []
+    if len(rows) != len(originais):
+        falhas.append(f"{len(originais)} linhas na v2, {len(rows)} na v3")
+    antes = {r["video_id"] for r in originais}
+    depois = {r["video_id"] for r in rows}
+    if antes != depois:
+        falhas.append(f"ids diferentes: faltam {sorted(antes-depois)[:5]}, "
+                       f"sobram {sorted(depois-antes)[:5]}")
+    orig = {r["video_id"]: r for r in originais}
+    mexidas = [r["video_id"] for r in rows
+               if r["video_id"] in orig
+               and any(r[c] != orig[r["video_id"]][c]
+                       for c in ("Ano", "ano_inicio", "ano_fim", "video_id",
+                                 "Link", "publicado", "lote"))]
+    if mexidas:
+        falhas.append(f"dado da v2 alterado em {len(mexidas)} linha(s): "
+                       f"{mexidas[:5]}")
+    if [r["ordem"] for r in rows] != list(range(1, len(rows) + 1)):
+        falhas.append("coluna 'ordem' não é 1..n sem furo")
+    for campo in ("era", "tipo", "regiao_historica"):
+        vazias = [r["video_id"] for r in rows if not r.get(campo)]
+        if vazias:
+            falhas.append(f"'{campo}' vazio em {len(vazias)} linha(s): {vazias[:5]}")
+    tipos = {r["tipo"] for r in rows} - set(RANK_TIPO)
+    if tipos:
+        falhas.append(f"tipo fora da lista: {sorted(tipos)}")
+    return falhas
+
+
+def gravar(rows, originais):
+    falhas = portao(rows, originais)
+    if falhas:
+        print(f"\n{len(falhas)} FALHA(S) — não gravei {SAIDA}:\n")
+        for f in falhas:
+            print(f"  - {f}")
+        sys.exit(1)
     wb = openpyxl.Workbook()
     ws = wb.active
     ws.title = ABA
@@ -435,7 +478,8 @@ def gravar(rows):
     for r in rows:
         ws.append([r.get(c) for c in colunas])
     wb.save(SAIDA)
-    print(f"\n{SAIDA}: {len(rows)} linhas, {len(colunas)} colunas.")
+    print(f"\nportão da derivação: passou")
+    print(f"{SAIDA}: {len(rows)} linhas, {len(colunas)} colunas.")
 
 
 def relatorio(rows):
@@ -455,15 +499,20 @@ def relatorio(rows):
 
 
 def main():
-    rows = ordenar(carregar())
+    originais = carregar()
+    rows = ordenar([dict(r) for r in originais])
     relatorio(rows)
     if "--conferir" in sys.argv:
         from conferir_ordem import conferir
         conferir(rows, sys.argv[sys.argv.index("--conferir") + 1])
     if "--gravar" in sys.argv:
-        gravar(rows)
+        gravar(rows, originais)
     else:
-        print("\n(nada gravado; use --gravar para gerar " + SAIDA + ")")
+        falhas = portao(rows, originais)
+        print(f"\nportão da derivação: {'passou' if not falhas else 'FALHOU'}")
+        for f in falhas:
+            print(f"  - {f}")
+        print("(nada gravado; use --gravar para gerar " + SAIDA + ")")
 
 
 if __name__ == "__main__":

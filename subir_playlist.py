@@ -18,6 +18,23 @@ YouTube exige OAuth 2.0. Por isso este script tem credenciais próprias:
 
 Nenhum dos dois entra no repositório (ver .gitignore).
 
+NA ORDEM DO CATÁLOGO
+────────────────────
+    python subir_playlist.py lista.csv --playlist PLxxx --na-ordem
+
+Com `--na-ordem` o script lê `playlist-historia-v3.xlsx` (a planilha ordenada
+para quem assiste, gerada pelo `ordenar.py`) e insere cada vídeo na POSIÇÃO
+certa, em vez de no fim. É o que mantém a playlist no YouTube coerente com o
+catálogo quando entra vídeo de lote novo.
+
+O que ele NÃO faz, e é importante saber: reordenar uma playlist que já existe.
+Mover um item é `playlistItems.update`, 50 unidades cada, e a cota é de 10.000
+por dia — reordenar 5.567 itens custaria 278.000 unidades, ou 28 dias. Para
+uma playlist grande sair na ordem nova há dois caminhos: criar uma playlist
+nova e subir tudo em ordem (199 por dia, o mesmo teto de sempre), ou aceitar
+que a ordem nova vale só do ponto em que você começou a usar `--na-ordem`.
+O `--simular` mostra a posição calculada de cada vídeo sem gastar nada.
+
 COMO USAR
 ─────────
     python subir_playlist.py lista.csv --playlist PLxxxxxxxx
@@ -240,27 +257,59 @@ def criar_playlist(yt, titulo, privacidade="private"):
     return r["id"]
 
 
-def ids_ja_na_playlist(yt, playlist_id):
-    """Video_ids que já estão na playlist. É o que torna o script repetível."""
-    dentro, token = set(), None
+def ids_ja_na_playlist(yt, playlist_id, com_ordem=False):
+    """Video_ids que já estão na playlist. É o que torna o script repetível.
+
+    Com `com_ordem=True` devolve a LISTA na ordem da playlist, não o conjunto —
+    é o que permite calcular em que posição um vídeo novo deve entrar."""
+    dentro, token = [], None
     while True:
         r = yt.playlistItems().list(part="contentDetails", playlistId=playlist_id,
                                     maxResults=50, pageToken=token).execute()
         for item in r.get("items", []):
-            dentro.add(item["contentDetails"]["videoId"])
+            dentro.append(item["contentDetails"]["videoId"])
         token = r.get("nextPageToken")
         if not token:
             break
-    return dentro
+    return dentro if com_ordem else set(dentro)
 
 
-def inserir(yt, playlist_id, video_id):
-    yt.playlistItems().insert(
-        part="snippet",
-        body={"snippet": {"playlistId": playlist_id,
-                          "resourceId": {"kind": "youtube#video",
-                                         "videoId": video_id}}},
-    ).execute()
+def ordem_do_catalogo(caminho="playlist-historia-v3.xlsx"):
+    """{video_id: ordem} a partir da planilha ordenada para exibição.
+
+    É o que liga este script ao `ordenar.py`: a playlist no YouTube passa a
+    seguir a mesma ordem de quem assiste, e vídeo novo entra na posição certa
+    em vez de ir para o fim."""
+    if not os.path.exists(caminho):
+        erro(f"--na-ordem precisa de {caminho}. Rode `python ordenar.py --gravar`.")
+    import openpyxl
+    ws = openpyxl.load_workbook(caminho, read_only=True).active
+    it = ws.iter_rows(values_only=True)
+    cab = list(next(it))
+    i_id, i_ordem = cab.index("video_id"), cab.index("ordem")
+    return {r[i_id]: r[i_ordem] for r in it if r[i_id]}
+
+
+def posicao_de(video_id, dentro, ordem):
+    """Em que índice o vídeo entra para a playlist continuar na ordem do
+    catálogo: logo depois do último que já está lá e vem antes dele.
+
+    Se a playlist ainda não está na ordem do catálogo, isto NÃO a conserta —
+    só coloca o vídeo novo no lugar certo em relação ao que já existe. Ver a
+    nota sobre quota no topo do arquivo."""
+    meu = ordem.get(video_id)
+    if meu is None:
+        return None
+    return sum(1 for v in dentro
+               if ordem.get(v) is not None and ordem[v] < meu)
+
+
+def inserir(yt, playlist_id, video_id, posicao=None):
+    snippet = {"playlistId": playlist_id,
+               "resourceId": {"kind": "youtube#video", "videoId": video_id}}
+    if posicao is not None:
+        snippet["position"] = posicao
+    yt.playlistItems().insert(part="snippet", body={"snippet": snippet}).execute()
 
 
 def motivo_do_erro(exc):
@@ -291,6 +340,9 @@ def main():
                    help="mostra o que faria, sem escrever nada na sua conta")
     p.add_argument("--playlists", action="store_true",
                    help="lista suas playlists com id e contagem, e sai")
+    p.add_argument("--na-ordem", action="store_true",
+                   help="insere cada vídeo na posição da playlist-historia-v3.xlsx, "
+                        "em vez de no fim")
     args = p.parse_args()
 
     yt = autenticar()
@@ -310,6 +362,9 @@ def main():
     ids = ler_entrada(args.arquivo, args.coluna)
     print(f"{len(ids)} vídeo(s) únicos lidos de {args.arquivo}.")
 
+    ordem = ordem_do_catalogo() if args.na_ordem else None
+    dentro_em_ordem = []
+
     if args.nova:
         if args.simular:
             print(f"[simulação] criaria a playlist \"{args.nova}\".")
@@ -322,11 +377,21 @@ def main():
     else:
         playlist_id = args.playlist
         try:
-            ja_dentro = ids_ja_na_playlist(yt, playlist_id)
+            dentro_em_ordem = ids_ja_na_playlist(yt, playlist_id, com_ordem=True)
+            ja_dentro = set(dentro_em_ordem)
         except Exception as e:
             erro(f"não consegui ler a playlist {playlist_id}. "
                  f"Confira o id e se ela é sua.\n{e}")
         print(f"A playlist já tem {len(ja_dentro)} vídeo(s).")
+
+    if ordem:
+        fora = [v for v in ids if v not in ordem]
+        if fora:
+            print(f"aviso: {len(fora)} vídeo(s) da lista não estão na "
+                  f"playlist-historia-v3.xlsx — vão para o fim.")
+        # Sobe na ordem do catálogo: com a lista já ordenada, cada posição
+        # calculada continua válida depois da inserção anterior.
+        ids = sorted(ids, key=lambda v: (ordem.get(v) is None, ordem.get(v, 0)))
 
     faltam = [v for v in ids if v not in ja_dentro]
     pulados = len(ids) - len(faltam)
@@ -348,8 +413,18 @@ def main():
 
     if args.simular:
         print("\n[simulação] nada foi escrito. Ordem de inserção:")
+        simulada = list(dentro_em_ordem)
         for i, v in enumerate(faltam, 1):
-            print(f"  {i:>4}. https://www.youtube.com/watch?v={v}")
+            if ordem:
+                pos = posicao_de(v, simulada, ordem)
+                alvo = f" -> posição {pos}" if pos is not None else " -> fim"
+                if pos is not None:
+                    simulada.insert(pos, v)
+                else:
+                    simulada.append(v)
+            else:
+                alvo = ""
+            print(f"  {i:>4}. https://www.youtube.com/watch?v={v}{alvo}")
         return
 
     try:
@@ -361,9 +436,15 @@ def main():
     for i, vid in enumerate(faltam, 1):
         for tentativa in range(4):
             try:
-                inserir(yt, playlist_id, vid)
+                pos = posicao_de(vid, dentro_em_ordem, ordem) if ordem else None
+                inserir(yt, playlist_id, vid, pos)
+                if pos is not None:
+                    dentro_em_ordem.insert(pos, vid)
+                else:
+                    dentro_em_ordem.append(vid)
                 subidos += 1
-                print(f"  [{i}/{len(faltam)}] ok  {vid}")
+                lugar = f" na posição {pos}" if pos is not None else ""
+                print(f"  [{i}/{len(faltam)}] ok  {vid}{lugar}")
                 break
             except HttpError as e:
                 motivo = motivo_do_erro(e)

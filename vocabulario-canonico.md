@@ -9,6 +9,12 @@ dos lotes 26-29.
 
 ## Lista A — Período
 
+**A Lista A vale para a v2, a camada de dado.** Para a ordem de exibição existe
+agora a **Lista E — Eras**, mais abaixo: faixas largas, pelo ano de INÍCIO, sem
+ponto médio. As duas coexistem de propósito — a v2 continua sendo a fonte de
+verdade ordenada por `ano_inicio`, e a `playlist-historia-v3.xlsx` é derivada
+dela pelo `ordenar.py`. Ver `protocolo.md`, "Duas camadas".
+
 **Não é escolhida pela IA.** É calculada pelo Python a partir do **ponto médio**
 entre `ano_inicio` e `ano_fim`. Testada contra as 155 linhas originais: reproduz
 a classificação manual em 142 casos (92%).
@@ -2893,6 +2899,73 @@ onde a busca não foi feita e isso está admitido na nota.
   do Noroeste do Pacífico estavam em `Estados Unidos`, mas a proibição do potlatch
   que o vídeo narra é lei canadense.
 - **`Áustria`** entrou na Lista B, para os Habsburgos.
+
+## Lista E — Eras (camada de exibição)
+
+Usada pela `playlist-historia-v3.xlsx`. O vídeo entra na era em que **começa**,
+não no ponto médio: Susa (4200 a.C. - 2026) é material da Antiguidade remota,
+porque é lá que o assunto nasce. Definida em `ERAS`, no `ordenar.py`.
+
+| Era | Faixa pelo ano de início |
+|---|---|
+| Antiguidade remota | até 1100 a.C. |
+| Idade do Ferro | 1100 a.C. - 500 a.C. |
+| Antiguidade Clássica | 500 a.C. - 500 d.C. |
+| Idade Média | 500 - 1500 |
+| Era Moderna | 1500 - 1800 |
+| Era Contemporânea | 1800 - hoje |
+
+**A virada está em 500 a.C.** Até ali a ordem agrupa por civilização; dali em
+diante é cronologia única, com Roma, Pérsia e China intercaladas por data. O
+corte saiu de medição, não de gosto: por século de início, a mediana da largura
+de faixa é de 144 a 2.784 anos antes de 600 a.C., com menos de 15% dos vídeos
+em faixa de até 25 anos; em 500 a.C. a mediana cai para 79 anos e 35% já são
+eventos; em 300 a.C. a mediana é 4 anos e 71% são eventos. Antes da virada não
+há o que intercalar, porque não há data. Limiar em `VIRADA`.
+
+## Lista F — Tipo (camada de exibição)
+
+Três valores, que decidem a posição do vídeo DENTRO do bloco:
+
+| Tipo | O que é | Onde entra |
+|---|---|---|
+| `Panorama` | apresenta uma civilização, um período ou um assunto | abre o bloco, antes do primeiro evento que cobre |
+| `Evento` | um fato ou período curto (faixa de até 60 anos) | no meio, em ordem cronológica |
+| `Temático` | cultura, cidade, legado, religião, filosofia — atravessa períodos | fecha o bloco, depois do último evento que cobre |
+
+Exemplo: "Short History of Ancient Egypt" antes das dinastias; as dinastias em
+ordem; Tebas, Núbia, cotidiano e religião depois. Derivado por regra em
+`tipo_de()`, não escrito à mão — e **é a coluna de maior risco do modelo**,
+porque as 5.567 linhas nunca foram classificadas por tipo por ninguém.
+
+## Lista G — Regiões históricas (camada de exibição)
+
+Região **histórica**, não país atual: `Mesopotâmia`, `Canaã`, `Anatólia`,
+`Magna Grécia`, `Frância`, `Britânia`, `Rus`, `Estepe`, `Mesoamérica` — não
+Iraque, Israel, Turquia, França. É a unidade de agrupamento antes da virada: é
+por ela que os 27 vídeos de Mesopotâmia Antiga ficam juntos, em vez de
+aparecerem nos 16 trechos separados que a ordem por `ano_inicio` produzia.
+
+A região sai do **tema** (a civilização manda), com a região da v2 como ponte
+quando o tema não está na tabela. Tabelas em `REGIAO_POR_TEMA` e
+`PONTE_REGIAO`, no `ordenar.py`.
+
+**A sequência das regiões dentro de cada era é dado, não dedução.** Nada nas
+colunas da planilha diz que Mesopotâmia vem antes de Irã, que vem antes de
+Egito — é uma escolha editorial de passeio geográfico, e está em `SEQUENCIA`.
+Sem ela a ordem não é reproduzível por script. Vale só antes da virada; depois,
+quem ordena é a data.
+
+Decisões de vocabulário tomadas ao montar a Lista G, resolvendo inconsistências
+da planilha manual:
+
+- `Turquia` → **Anatólia** na Antiguidade (a planilha manual tinha as duas).
+- `América Central`/`Américas` → **Mesoamérica** para olmecas, zapotecas,
+  maias, astecas (os olmecas estavam em duas regiões diferentes).
+- Filosofia grega → **Grécia**, mesmo com o filósofo nascido em Mileto: o tema
+  manda, não o lugar de nascimento. Sem isso os pré-socráticos caíam na
+  Anatólia e partiam o bloco grego em dois.
+- Religião e demonologia do Levante → **Canaã**, não Mesopotâmia.
 
 ## Regras de normalização (Python, sem IA)
 

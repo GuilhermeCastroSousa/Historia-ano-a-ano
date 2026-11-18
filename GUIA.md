@@ -232,7 +232,10 @@ arquivo tenta inseri-lo de novo e gasta 50 unidades à toa.
 | `vocabulario-canonico.md` | Listas fechadas de período, região, tema, subtema. |
 | `verificar.py` | O portão. Reprova gravação com defeito. |
 | `coletar.py` | Busca os vídeos novos e gera o `lote-NN.md`. |
-| `gravar.py` | Grava o lote classificado e reordena a planilha. O único que escreve nela. |
+| `playlist-historia-v3.xlsx` | A ordem de exibição, derivada da v2. É a playlist, não o dado. |
+| `gravar.py` | Grava o lote classificado na v2 e reordena a planilha. O único que escreve nela. |
+| `ordenar.py` | Regera a v3: agrupa por civilização até 500 a.C., cronologia única depois. |
+| `conferir_ordem.py` | Compara a ordem gerada com uma planilha que você ordenou à mão. |
 | `auditar.py` | Varre um canal inteiro e diz quantos vídeos nunca foram coletados. |
 | `consultar.py` | Procura um termo na planilha, antes de criar termo novo. |
 | `amostra.py` | Sorteia as cinco linhas da parada de revisão. |

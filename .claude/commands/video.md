@@ -38,17 +38,20 @@ se adota o canal com `python coletar.py @Handle` (mesmo que só para registrar
    `revisar` e explique na resposta — nunca insira em silêncio, mesmo sendo
    uma linha só.
 
-5. **Insira na posição cronológica certa**, nunca no fim da planilha:
-   ordenação é por `ano_inicio`, depois `ano_fim` (`protocolo.md`). Ache a
-   linha vizinha certa antes de escrever, use `ws.insert_rows(n)`, e confira
-   a posição contra as duas linhas ao redor depois de gravar.
+5. `python gravar.py classificacao.json lote-NN.md` — **não escreva script de
+   inserção próprio.** Ele cuida da posição: reordena a v2 pela chave completa
+   (`ano_inicio`, `ano_fim`, `Mês`, `Dias`). O `protocolo.md` registra três
+   bugs de ordenação vindos de script de inserção escrito na hora, e um deles
+   foi exatamente num lote de um vídeo.
 
-6. Grave usando `cell.value = v`, **nunca** `ws.cell(row, col, value=v)` —
-   esse último não limpa célula quando o valor é `None`.
+6. `python verificar.py --anterior backups\<o backup que você acabou de fazer>`
 
-7. `python verificar.py --anterior backups\<o backup que você acabou de fazer>`
+7. Se sair 1, restaure do backup e me diga o que falhou. Não salve com falha.
 
-8. Se sair 1, restaure do backup e me diga o que falhou. Não salve com falha.
+8. `python exportar_csv.py` e `python ordenar.py --gravar` — o segundo regera a
+   ordem de exibição na `playlist-historia-v3.xlsx`. Um vídeo avulso quase
+   sempre muda a posição de exibição de outros, porque pode abrir ou fechar um
+   bloco.
 
 ## Antes de responder
 
