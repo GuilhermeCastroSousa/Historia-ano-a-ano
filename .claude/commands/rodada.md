@@ -17,14 +17,16 @@ a classificação de mais de 25 vídeos numa só gravação.
 
 Para cada lote:
 
-1. `python coletar.py` para gerar o `lote-NN.md`
+1. `python coletar.py` para gerar o `lote-NN.md` — com `--desde AAAA-MM-DD` se
+   for revisita de canal `encerrado` (ver `/lote` e `CLAUDE.md`)
 2. Leia o arquivo inteiro antes de classificar
 3. Copie a planilha para `backups\playlist-AAAA-MM-DD-HHMM.xlsx`
-4. Classifique as 25 linhas
-5. Grave usando `cell.value = v`, **nunca** `ws.cell(row, col, value=v)` —
-   esse último não limpa célula quando o valor é `None` e já corrompeu
-   linhas antigas neste projeto
+4. Classifique as 25 linhas (`python consultar.py <termo>` antes de propor
+   termo novo)
+5. `python gravar.py classificacao.json lote-NN.md` — não escreva script de
+   gravação próprio; ver `/lote`, passo 5
 6. `python verificar.py --anterior backups\<o backup que você acabou de fazer>`
+   e, se passar, `python exportar_csv.py`
 
 **Checagem de confiança antes de seguir para o próximo lote:** para cada
 linha marcada `confianca = alta`, confirme que alguma data citada no bloco de

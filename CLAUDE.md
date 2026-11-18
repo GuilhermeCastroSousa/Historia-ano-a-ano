@@ -194,6 +194,19 @@ espelho, o histórico do repositório vira uma sequência de "binary files diffe
 e ninguém consegue ver quais linhas entraram em cada lote. Nunca editar o `.csv`
 à mão.
 
+## Ferramentas, além do loop
+
+| Script | Para que | Quando |
+|---|---|---|
+| `gravar.py` | grava o lote e reordena a planilha pela chave completa | todo lote |
+| `consultar.py` | procura um termo em Tema, Subtema e Título **na planilha** | antes de propor termo novo |
+| `amostra.py` | sorteia as 5 linhas da parada, semente fixa pelos lotes | toda parada |
+| `auditar.py` | varre o uploads inteiro e acha buraco de cobertura | antes de encerrar; depois de revisita |
+| `exportar_csv.py` | espelho `.csv` | depois de gravar |
+
+Nenhum deles escreve na planilha, menos o `gravar.py`. O `auditar.py` não
+escreve em arquivo nenhum — nem em `catalogados.txt`, nem em `descartados.txt`.
+
 A cada quatro lotes, uma parada: validação de vocabulário, fact-check por amostra
 e **cinco linhas sorteadas apresentadas ao humano** com a evidência ao lado.
 Essa amostra não é opcional. É o único ponto em que alguém de fora olha o que foi

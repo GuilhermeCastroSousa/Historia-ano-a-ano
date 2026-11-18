@@ -35,17 +35,39 @@ Se houver mais de um, pergunte.
 5. **Atualize o `CLAUDE.md`** para refletir que o canal saiu de cena e qual é o
    estado geral agora.
 
+## Antes de encerrar: prove o esgotamento, não o presuma
+
+```
+python auditar.py @Handle
+```
+
+**"A coleta seguinte veio com 0 vídeos novos" não prova nada se o canal já
+estava `encerrado`** — esse 0 pode ser a parada antecipada, que o próprio
+status liga. É circular, e custou caro: a auditoria de 17/11/2026 achou 1216
+vídeos catalogáveis nunca coletados em canais marcados "esgotamento real" —
+1009 no Invicta, 204 no Kings and Generals. Ver `protocolo.md`, "esgotamento
+que se auto-confirma".
+
+O `auditar.py` varre o uploads inteiro sem parada antecipada e diz quantos
+vídeos o projeto nunca viu, separando os publicados depois da última coleta
+(novos) dos mais antigos (buraco de cobertura). **Se aparecer qualquer ANTIGO,
+o canal não está esgotado** — diga isso antes de encerrar.
+
 ## O que o encerramento muda na prática
 
 `status = encerrado` autoriza o `coletar.py` a **parar de paginar** assim que
 encontra uma página inteira já conhecida, na próxima vez que esse canal for
-coletado. Isso só é seguro porque um canal encerrado foi consumido até o fim —
-não há vídeo antigo desconhecido abaixo. Por isso **não marque encerrado um
-canal que foi abandonado no meio**: use outro status, ou deixe `em andamento`.
+coletado. Esse atalho pressupõe que não há vídeo antigo desconhecido abaixo — e
+essa premissa já falhou duas vezes. Por isso **não marque encerrado um canal
+que foi abandonado no meio**: use outro status, ou deixe `em andamento`.
 
-Revisitar depois é só rodar `python coletar.py @Handle` de novo. Ele vai pegar
-só o que foi publicado desde a última coleta, gravar um lote parcial (3 vídeos
-viram um lote de 3, e está certo) e continuar a numeração única de lotes.
+Revisitar depois é `python coletar.py @Handle --desde AAAA-MM-DD`, com a
+`ultima_coleta` anterior à revisita. O `--desde` desliga a parada antecipada e
+a troca por uma parada por data: pega o que foi publicado desde o corte, grava
+um lote parcial (3 vídeos viram um lote de 3, e está certo) e não arrasta nem
+descarta o acervo antigo. **Sem o `--desde`, a partir do segundo lote de uma
+revisita a primeira página fica toda conhecida e os vídeos novos das páginas
+seguintes ficam invisíveis** — foi o que travou o lote 233.
 
 ## Responda com
 
