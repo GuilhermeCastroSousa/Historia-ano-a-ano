@@ -111,9 +111,14 @@ REGIAO_POR_TEMA = {
     # Egito e Núbia
     "Egito antigo": "Egito", "Sociedade Egípcia Antiga": "Egito",
     "Núbia": "Núbia", "Reino de Aksum": "Etiópia",
-    # Levante
+    # Levante. 'Canaã Antiga', 'Palestina antiga' e 'Povo hebreu' deixaram de
+    # ser tema-raiz na fusão de 26/11/2026 e viraram subtema de 'Religião e
+    # misticismo'; as entradas ficam porque agora é o subtema que resolve a
+    # região (ver `regiao_de`). 'Religião Cananeia' entra pelo mesmo motivo —
+    # nomeia a região no próprio nome.
     "Canaã Antiga": "Canaã", "Civilização Fenícia": "Canaã", "Ugarit": "Canaã",
     "Palestina antiga": "Canaã", "Povo hebreu": "Canaã", "Filisteus": "Canaã",
+    "Religião Cananeia": "Canaã",
     "Cartas de Amarna": "Canaã", "Reino Himiarita": "Arábia",
     "Arábia Pré-Islâmica": "Arábia", "Expansão islâmica": "Arábia",
     "Revolta dos Macabeus": "Judeia", "Cerco de Jerusalém (70 d.C.)": "Judeia",
@@ -150,6 +155,11 @@ REGIAO_POR_TEMA = {
     "Filosofia Judaica Medieval": "Judeia", "Judaísmo": "Judeia",
     "Guerras dos Diádocos": "Grécia", "Alexandre, o Grande": "Grécia",
     # Itália e Roma
+    # 'Roma antiga' é o tema-raiz neutro, criado em 26/11/2026: recebe o que
+    # atravessa Reino/República/Império ou não tem data. As entradas dos temas
+    # de aspecto que ele absorveu ficam aqui de propósito — se um deles voltar
+    # a aparecer num lote novo, a região já está resolvida.
+    "Roma antiga": "Roma",
     "Reino de Roma": "Roma", "República Romana": "Roma",
     "Império Romano": "Roma", "Queda do Império Romano": "Roma",
     "Religião Romana": "Roma", "Sociedade Romana": "Roma",
@@ -322,6 +332,15 @@ def regiao_de(r):
     t = r["Tema"]
     if t in REGIAO_POR_TEMA:
         return REGIAO_POR_TEMA[t]
+    # A fusão de temas empurra o nome da civilização para o Subtema quando a
+    # célula está vazia (ver `aplicar_merge.py`), então o subtema ainda carrega
+    # o sinal que o tema perdeu: depois de `Canaã Antiga` ser fundida em
+    # `Religião e misticismo`, é o subtema que diz Canaã. Sem este passo a
+    # linha cai na ponte do `Oriente Médio` da v2, que só sabe apontar para
+    # Mesopotâmia. Fica DEPOIS do tema de propósito: tema explícito ganha.
+    s = r["Subtema"]
+    if s in REGIAO_POR_TEMA:
+        return REGIAO_POR_TEMA[s]
     return PONTE_REGIAO.get(r["Região"], r["Região"] or "Global")
 
 

@@ -285,15 +285,49 @@ conteúdo pré-colombiano ou colonial.
   Ucrânia`), não para a guerra atual — essa continua em `Rússia`, pela
   convenção acima. As duas coisas coexistem de propósito.
 
+### Tema-raiz: a civilização ou uma fase dela?
+
+Algumas civilizações têm na Lista C um tema-raiz **neutro** (o nome da
+civilização) *e* temas-raiz de **fase política**. Roma é o caso mais completo:
+`Roma antiga` (69), `Reino de Roma` (8), `República Romana` (383), `Império
+Romano` (112), mais `Queda do Império Romano` (19). A regra que separa os dois
+tipos:
+
+- **O neutro recebe o que atravessa as fases ou não tem data datável** —
+  aspectos e instituições (exército, sociedade, religião, comércio), vida
+  material, panorama da civilização inteira. `Roma antiga > Exército Romano` é
+  isso: 32 linhas, de 509 a.C. a 500 d.C., 24 delas sem data.
+- **A fase recebe o que cabe dentro dela** — evento, guerra, dinastia,
+  biografia de quem viveu ali. Uma batalha de 216 a.C. é `República Romana`,
+  não `Roma antiga`.
+- **Na dúvida, decide a faixa de datas.** Se ela cruza a fronteira entre duas
+  fases (para Roma, 509 a.C. ou 27 a.C.), é o neutro.
+
+Mesma lógica em `Egito antigo` (56, com as fases como subtema: `Reino Antigo`,
+`Reino Novo`…), `Grécia antiga` (77) e `Mesopotâmia Antiga` (77) — nesses três
+as fases nunca viraram tema-raiz, então o neutro leva tudo. Roma é a exceção
+porque `República Romana` e `Império Romano` cresceram grandes demais, com 495
+linhas somadas, para serem subtema de alguma coisa.
+
+**Isto não é convite para criar neutros novos.** `Roma antiga` nasceu em
+26/11/2026 de um problema concreto: 69 linhas de aspecto romano não tinham
+destino honesto, porque mandá-las para uma das fases rotularia vídeo imperial
+como República. Antes de propor outro neutro, confira que existe o mesmo
+problema — linhas reais que atravessam fases e não cabem em nenhuma —, e não
+só a vontade de simetria. Ver a armadilha "padrão de aspecto" no
+`protocolo.md`.
+
 ---
 
-## Lista C — Tema e Subtema (485 temas-raiz)
+## Lista C — Tema e Subtema (482 temas-raiz)
 
-Regenerada em 26/11/2026, depois da aplicação das camadas **A1**, **R**, **A3** e de metade da **A2** da proposta de fusão de temas (`merge-temas-proposta.md`): **525 → 485 temas-raiz**, 252 linhas afetadas em duas passadas, nenhuma linha criada ou removida. O tema passou a bater com a planilha que o humano ordenou à mão em **256/290 (88%)**, contra 146/290 (50%) antes, e os trechos contíguos (região + tema) na v3 caíram de 2657 para 2610.
+Regenerada em 26/11/2026, depois da aplicação das camadas **A1**, **R**, **A3** e de metade da **A2** da proposta de fusão de temas (`merge-temas-proposta.md`), mais a criação do tema-raiz **`Roma antiga`**: **525 → 482 temas-raiz**, 321 linhas afetadas em três passadas, nenhuma linha criada ou removida. O tema passou a bater com a planilha que o humano ordenou à mão em **254/290 (88%)**, contra 146/290 (50%) antes, e os trechos contíguos (região + tema) na v3 caíram de 2657 para 2607.
+
+A **terceira passada** criou **`Roma antiga`** (69 linhas) e é a resposta ao que travou a camada B: o padrão de aspecto só funciona quando o destino é o nome da civilização, e Roma só tinha fases políticas (`Reino de Roma`, `República Romana`, `Império Romano`). O tema novo recebeu `Exército Romano` (32), `Sociedade Romana` (19 + 1 que guardou o subtema `Literatura Romana`), `Religião Romana` (13) e `Comércio Romano` (4), cada um virando subtema. A forma segue `Egito antigo`, `Grécia antiga`, `Índia antiga`.
 
 A **segunda passada** (A2 e A3) moveu 97 linhas: `Babilônia Antiga` (24) para `Mesopotâmia Antiga`, que fecha em 77 linhas; `Hermetismo` (37), `História dos Fantasmas`, `Divino Feminino`, `Palestina antiga` e `Povo hebreu` para `Religião e misticismo` (87); sete temas de uma linha (`História da Batata`, `do Milho`, `do Chocolate`, `Manejo do fogo indígena`, `Cultura do Cobre Antigo`, `Poverty Point`, `Basketmaker`) para `Povos indígenas das Américas` (12); onze cidades e regiões gregas (`Atenas Antiga`, `Argos antiga`, `Tessália antiga`, `Egina`, `Samos`, `Halicarnasso`, `Delfos`, `Cultura Cicládica`, `Guerra Lelantina`, `Numismática Antiga`) para `Grécia antiga` (77); `Império Acadiano` para `Mesopotâmia Antiga`; `Ugarit` para `Civilização Fenícia`; `Hititas` para `Império Hitita`; `Curiosidades da História Chinesa` para `China`. `Palestina antiga` ia para `Canaã Antiga` na proposta — o destino foi encadeado para `Religião e misticismo`, onde a A1 já havia posto `Canaã Antiga`.
 
-**Três itens da proposta não foram aplicados, por contradizerem os dados** (o detalhe e o motivo estão em `merges/a2-a3.json`, campo `nao_aplicado`): `Vida urbana` → `Império Hitita` (10 linhas que são Hattusa, Roma, Constantinopla, Atenas, Alexandria, Antioquia e Quioto — tema transversal, uma só linha hitita); `Cultura material samurai` e `Marinha samurai` → `Jogos de samurai` (o destino são 41 resenhas de videogame); e os quatro aspectos romanos — `Exército Romano`, `Sociedade Romana`, `Religião Romana`, `Comércio Romano`, 69 linhas. Este último é o achado que importa: **o padrão de aspecto só funciona quando o destino é o nome da civilização**, como em `Sociedade Mesopotâmica` → `Mesopotâmia Antiga` e `Sociedade Egípcia Antiga` → `Egito antigo`. Roma não tem esse tema neutro — só `República Romana` e `Império Romano`, que são fases políticas —, e os quatro aspectos atravessam as duas. Resolver isso pede um tema-raiz novo, **`Roma antiga`**, na forma de `Egito antigo` e `Grécia antiga`; é decisão do humano e está pendente. Com isso a camada **B** da proposta ficou inteiramente sem aplicar, e vale registrar que ela quase não mexia na aderência aos 290 (88% com ela fora) — foi construída de padrão de nome mais massa de linhas, e nenhum dos seis itens sobreviveu à leitura das linhas reais.
+**Três itens da proposta não foram aplicados, por contradizerem os dados** (o detalhe e o motivo estão em `merges/a2-a3.json`, campo `nao_aplicado`): `Vida urbana` → `Império Hitita` (10 linhas que são Hattusa, Roma, Constantinopla, Atenas, Alexandria, Antioquia e Quioto — tema transversal, uma só linha hitita); `Cultura material samurai` e `Marinha samurai` → `Jogos de samurai` (o destino são 41 resenhas de videogame); e os quatro aspectos romanos, que viraram a terceira passada acima. Com isso a camada **B** da proposta ficou inteiramente sem aplicar como estava escrita, e vale registrar que ela quase não mexia na aderência aos 290 — foi construída de padrão de nome mais massa de linhas, e nenhum dos seis itens sobreviveu à leitura das linhas reais.
 
 A **primeira passada** (A1 e R) moveu 155 linhas: 525 → 512 temas-raiz. A **A1** fundiu 17 temas que o humano fundiu à mão na maioria das linhas que revisou — `Suméria Antiga`, `Assíria Antiga`, `Sociedade Mesopotâmica`, `Reino de Yamhad` e `Comércio na Mesopotâmia Antiga` em **`Mesopotâmia Antiga`** (tema-raiz novo, 46 linhas); `Esparta`, `Corinto`, `Civilização Micênica`, `Civilização Minoica`, `Democracia Ateniense` e `Colonização grega` em **`Grécia antiga`** (67); `Canaã Antiga` e `Demonologia Ocidental` em `Religião e misticismo` (41); `Sociedade Egípcia Antiga` em `Egito antigo` (58); `Índia antiga` em `Civilização do Vale do Indo`; `China antiga` em `China`; `Povos indígenas da América do Norte` em `Povos indígenas das Américas`. A **R** renomeou 6 (`Línguas indo-europeias` → `Línguas`, `Civilização Nurágica` → `Cultura Nurágica`, `Impérios Berberes` → `Berberes`, `Povos do Zagros` → `Zagros`, `Civilização de Jiroft` → `Jiroft`, `Civilização do Oxus (BMAC)` → `Oxus`). Regra do `Subtema` na fusão, medida contra as 84 linhas da amostra de 290 que caem na A1: **subtema vazio recebe o tema antigo** (foi o que ele fez nas 23 linhas em que pôs o tema antigo ali, todas sem subtema na v2) e **subtema cheio é preservado** — aqui ele reescreveu à mão, caso a caso, sem regra extraível, e empurrar o tema antigo por cima destruiria `Império Neo-Sumério (Ur III)`, `Guerras Messênias`, `Cuneiforme`. As camadas **A2**, **A3**, **B** e a lista de trabalho **C** da proposta seguem sem aplicar.
 
@@ -321,6 +355,7 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 77 | Grécia antiga | Esparta (13) · Civilização Micênica (8) · Democracia Ateniense (7) · Colonização grega (5) · Civilização Minoica (4) · Corinto (2) · Idade das Trevas Grega (2) · Período Arcaico (2) · Acragas (1) · Argos antiga (1) · Atenas Antiga (1) · Cultura Cicládica (1) · Delfos (1) · Demóstenes (1) · Egina (1) · Exército Espartano (1) · Filosofia Clássica (1) · Guerra Lelantina (1) · Guerras Messênias (1) · Halicarnasso (1) · Numismática Antiga (1) · Panorama Grego (curso) (1) · Panorama do Bronze Egeu (curso) (1) · Período Neolítico (1) · Questão Ahhiyawa (1) · Safo de Lesbos (1) · Samos (1) · Tessália antiga (1) |
 | 77 | Mesopotâmia Antiga | Sociedade Mesopotâmica (9) · Período Paleobabilônico (6) · Império Acadiano (3) · Império Neo-Babilônico (3) · Período Médio Assírio (3) · Reino Antigo Assírio (3) · Reino da Alta Mesopotâmia (3) · Amorreus (2) · Babilônia Antiga (2) · Cemitério Real de Ur (2) · Comércio na Mesopotâmia Antiga (2) · Estela da Vitória de Naram-Sin (2) · Império Neo-Sumério (Ur III) (2) · Lagash e Umma (2) · Origens (2) · Panorama Assírio (curso) (2) · Panorama Sumério (curso) (2) · Astronomia Babilônica (1) · Babilônia Helenística (1) · Biblioteca de Assurbanipal (1) · Bibliotecas Sumérias Primitivas (Shuruppak, Abu Salabikh e Ebla) (1) · Cidades do Período Dinástico Arcaico (1) · Cuneiforme (1) · Dinastia Cassita (1) · Dinastia do Sealand (1) · Enheduanna (1) · Eridu (1) · Exército Assírio (1) · Gudea de Lagash (1) · Idrimi de Alalakh (1) · Jardins Suspensos (1) · Kish (1) · Mari (1) · Masterpieces de Mesopotâmia (1) · O Ritual Maqlû (Contra-Magia Babilônica) (1) · Panorama Babilônico (curso) (1) · Período Isin-Larsa (1) · Reino de Yamhad (1) · Rimush e Manishtushu (1) · Ritual do Rei Substituto (1) · Segunda Dinastia de Isin (1) · Semíramis (Sammu-ramat) (1) · Sociedade e Leis Babilônicas (1) · Séculos Obscuros da Babilônia (1) |
 | 69 | Cristianismo Primitivo | Gnosticismo (23) · Agostinho de Hipona (9) · Apologistas e Heresias Primitivas (3) · Atanásio e Niceia (3) · Boécio (3) · O Jesus Histórico (3) · Perseguições aos Cristãos (2) · Ambrósio de Milão (1) · Ambrósio e Jerônimo (1) · Ascetismo Cristão (Antão, Macrina e Evágrio) (1) · Concílio de Calcedônia (1) · Concílio de Constantinopla (1) · Formação da Doutrina da Trindade (1) · Magia Cristã Copta Primitiva (Proteção, Exorcismo e Amor) (1) · Monasticismo Primitivo (1) · Máximo o Confessor (1) · Nestório e o Concílio de Éfeso (1) · Orígenes (1) · Padres Apostólicos (1) · Padres Capadócios (1) · Padres Gregos e a Bíblia (Debate Moderno) (1) · Padres Latinos (Tertuliano a Jerônimo) (1) · Platonismo Latino (Apuleio a Calcídio) (1) · Pseudo-Dionísio Areopagita (1) · São Paulo (1) |
+| 69 | Roma antiga | Exército Romano (32) · Sociedade Romana (19) · Religião Romana (13) · Comércio Romano (4) · Literatura Romana (1) |
 | 60 | Dinastia Zhou | Cem Escolas do Pensamento (53) · Estados Combatentes (5) · Zhou Ocidental e Primavera e Outono (1) |
 | 58 | Egito antigo | Reino Antigo (9) · Reino Novo (6) · Dinastia 0 (5) · Período Tardio (5) · Reino Médio (4) · Período Dinástico Arcaico (3) · Segundo Período Intermediário (3) · Terceiro Período Intermediário (3) · Egito e Núbia (2) · Período Pré-dinástico (2) · Sociedade Egípcia Antiga (2) · Primeiro Período Intermediário (1) |
 | 58 | História na cultura popular | Literatura (33) · Cinema (17) · Televisão (4) · Jogos (2) · Luta livre profissional (1) |
@@ -343,7 +378,6 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 35 | Guerra Civil Americana | Prelúdio (4) · Campanha de Atlanta (2) · Teatro Ocidental (2) · Campanha Overland (1) · Campanha da Península (1) · Campanha de Chattanooga (1) · Campanha de Gettysburg (1) · Campanha de Vicksburg (1) · Marcha para o Mar (1) · Teatro naval (1) |
 | 34 | Revoluções de 1848 | — |
 | 33 | Guerra Civil Inglesa | Prelúdio (5) · Protetorado de Cromwell (4) · Coldstream Guards (1) · Puritanismo (1) |
-| 32 | Exército Romano | — |
 | 28 | Guerras de Independência Hispano-Americanas | — |
 | 27 | Inglaterra anglo-saxã | Invasão Viking (16) · Reino de Kent (1) |
 | 27 | Revolução Mexicana | — |
@@ -356,7 +390,6 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 21 | Aristóteles | Aristóteles (16) · Sucessores de Platão e Aristóteles (Academia Antiga e Teofrasto) (3) · Aristóteles e Platão: Recepção Crítica (1) · Meteorologica e as Origens da Alquimia (1) |
 | 21 | Guerras Médicas | Invasão de Xerxes (12) · Primeira Invasão Persa (Maratona) (1) · Revolta da Jônia (1) |
 | 21 | Platão | Platão (16) · Sócrates (3) · A Loucura Divina de Platão e sua Recepção Renascentista (Ficino, Agripa e Bruno) (1) · As Doutrinas Não-Escritas de Platão (Pitagorismo) (1) |
-| 20 | Sociedade Romana | Literatura Romana (1) |
 | 19 | Caça às Bruxas | Demonólogos Medievais (de Agostinho ao Malleus) (2) · As Bruxas e a Ascensão do Capitalismo (Silvia Federici) (1) · As Origens da Inquisição Medieval (1) · Daemonologie de Jaime VI/I e as Bruxas de North Berwick (1590-1597) (1) · Filosofia e a Bruxaria (Agrippa a Espinosa) (1) · Johann Weyer e o Ceticismo da Bruxaria (1563) (1) · Julgamentos de Bruxaria Coloniais Antes de Salém (1) · Julgamentos de Salém (Sobreviventes e o Manual Puritano) (1) · Manuais Inquisitoriais e a Heresia Mágica (Nicholas Eymerich) (1) · Martín Del Rio e a Disquisitionum Magicarum (1599) (1) · O Formicarius de Johannes Nider (Origem do Conceito de Bruxa) (1) · O Malleus Maleficarum (1486) (1) · O Voo das Bruxas ao Sabá (Mito e Unguento Alucinógeno) (1) · Panorama da Bruxaria no Início da Era Moderna (Palestra) (1) · Possessões de Loudun (Urbain Grandier) (1) · Transformação da Feitiçaria em Heresia (João XXII) (1) · Ulrich Molitor e a Iconografia da Bruxa (1489) (1) |
 | 19 | Evolução da guerra | — |
 | 19 | Geografia Estratégica | Babilônia (1) · Estreito de Ormuz (1) · Grandes Muralhas (1) · Megido (1) · Naqsh-e Rustam (1) · Notre-Dame de Paris (1) · Susa (1) · Takht-e Soleyman (1) · Ur (1) |
@@ -374,7 +407,6 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 15 | Guerra do Peloponeso | — |
 | 14 | Império Franco | Carlos Magno (4) · Merovíngios (2) · Exército carolíngio (1) · Guerras Saxônicas (1) |
 | 14 | Segunda Escolástica | Debate do Novo Mundo (3) · Escolástica Protestante (2) · Francisco Suárez (2) · Escolástica Britânica (1) · Luis de Molina (1) · Revival Tomista (1) |
-| 13 | Religião Romana | — |
 | 12 | Bretanha Antiga | — |
 | 12 | Guerra Genpei | — |
 | 12 | Guerra Medieval | — |
@@ -448,7 +480,6 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 4 | Aleister Crowley | Absinthe e o Bairro Francês de Nova Orleans (1918) (2) · Boleskine House (2) |
 | 4 | Casa de Habsburgo | — |
 | 4 | Celtas antigos | — |
-| 4 | Comércio Romano | — |
 | 4 | Conflito Israel-Hezbollah | — |
 | 4 | Conquistadores | Expedição de Narváez (1) |
 | 4 | Etruscos | — |

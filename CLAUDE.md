@@ -85,17 +85,26 @@ linha antiga.
   decisão pendente do humano: são ~41 lotes só no Invicta.
 - **A proposta de fusão de temas (`merge-temas-proposta.md`) está aplicada,
   menos a camada B.** Em 26/11/2026 entraram **A1** (17 fusões), **R** (6
-  renomeações), **A3** (26) e metade da **A2**: **525 → 485 temas-raiz**, 252
-  linhas em duas passadas, e o tema passou a bater com a planilha que o humano
-  ordenou à mão em 256/290 (88%), contra 50% antes. O que ficou de fora, com o
-  motivo por extenso em `merges/a2-a3.json` (`nao_aplicado`): `Vida urbana` →
-  `Império Hitita` (transversal — Quioto e Alexandria iriam para um tema de 2
-  linhas sobre hititas) e a **camada B inteira**, que não sobreviveu à leitura
-  das linhas. **Pendente de decisão do humano: criar `Roma antiga`** como
-  tema-raiz neutro, para receber `Exército Romano`, `Sociedade Romana`,
-  `Religião Romana` e `Comércio Romano` (69 linhas) — ver a armadilha "padrão
-  de aspecto" no `protocolo.md`. A lista de trabalho **C** da proposta é
-  inventário, nunca foi proposta.
+  renomeações), **A3** (26), metade da **A2** e o tema-raiz novo **`Roma
+  antiga`** (69 linhas, a resposta ao que travou a camada B): **525 → 482
+  temas-raiz**, 321 linhas em três passadas, e o tema passou a bater com a
+  planilha que o humano ordenou à mão em 254/290 (88%), contra 50% antes. Cada
+  passada tem seu JSON em `merges/`, com a autorização citada e o que ficou de
+  fora. O que não entrou: `Vida urbana` → `Império Hitita` (transversal —
+  Quioto e Alexandria iriam para um tema de 2 linhas sobre hititas) e os dois
+  itens samurai da camada B (o destino eram 41 resenhas de videogame). A lista
+  de trabalho **C** da proposta é inventário, nunca foi proposta.
+- **Escolher entre tema-raiz neutro e tema-raiz de fase** (`Roma antiga` ×
+  `República Romana`) segue a regra em `vocabulario-canonico.md`, seção
+  "Tema-raiz: a civilização ou uma fase dela?". Não crie neutro novo por
+  simetria — ver a armadilha "padrão de aspecto" no `protocolo.md`.
+- **Pendente: a coluna `Região` da v2 não distingue Canaã de Mesopotâmia.**
+  As duas são `Oriente Médio`, e a `PONTE_REGIAO` do `ordenar.py` só sabe
+  mandar isso para Mesopotâmia. Depois da fusão de `Canaã Antiga` em `Religião
+  e misticismo`, 7 linhas cananeias caem na região errada na v3 — o `regiao_de`
+  recupera as outras pelo `Subtema`. A correção certa é estreitar a `Região`
+  dessas linhas na v2, não remendar a ponte. Ver a armadilha "fundir um tema
+  geográfico dentro de um tema temático" no `protocolo.md`.
 - **A Lista C do `vocabulario-canonico.md` não cobre os lotes 107-109**
   (SandRhoman History). Antes de propor um tema que pode já existir, confira o
   `observacoes` desse canal em `canais.json`.

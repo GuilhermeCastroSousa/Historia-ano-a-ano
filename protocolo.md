@@ -42,9 +42,13 @@ conserto é na coluna que a põe lá (tema, região, tipo), não na posição.
 O modelo de ordenação — eras, tipo, região histórica, a virada em 500 a.C. e o
 passeio geográfico — está documentado nas Listas E, F e G do
 `vocabulario-canonico.md` e no cabeçalho do `ordenar.py`. A aderência medida
-contra a planilha ordenada à mão pelo humano (290 vídeos, até 500 a.C.) foi de
-89% de acerto de era, 84% de região, concordância de pares de +0,643 e
-sequência de blocos de +0,672. O `conferir_ordem.py` refaz essa medição.
+contra a planilha ordenada à mão pelo humano (290 vídeos, até 500 a.C.) é, em
+26/11/2026, de **91% de acerto de era, 82% de região, concordância de pares de
++0,676 e sequência de blocos de +0,679**. O `conferir_ordem.py` refaz essa
+medição; rode-o com `python ordenar.py --conferir <planilha>`. Na primeira
+versão do modelo era 89% / 84% / +0,643 / +0,672 — a fusão de temas de
+26/11/2026 melhorou era e ordem e piorou região, pelo motivo na armadilha
+"fundir um tema geográfico dentro de um tema temático".
 
 ## O que este sistema faz
 
@@ -781,8 +785,25 @@ discutível: é **erro no dado**, porque rotula vídeo de época imperial como
 República. A regra que sai daí: **antes de absorver um aspecto, confira se o
 destino é a civilização ou uma fase dela.** Se for fase, a fusão está
 bloqueada até existir o tema neutro — para Roma, `Roma antiga`, na forma de
-`Egito antigo`, `Grécia antiga`, `Índia antiga`. Criar esse tema-raiz é
-decisão do humano, e estava pendente quando isto foi escrito.
+`Egito antigo`, `Grécia antiga`, `Índia antiga`. O humano autorizou criar esse
+tema no mesmo dia, e as 69 linhas entraram. A regra de uso — o que vai para o
+neutro e o que vai para a fase — está no `vocabulario-canonico.md`, seção
+"Tema-raiz: a civilização ou uma fase dela?".
+
+**Corolário, e eu errei nele antes de acertar:** criado o tema neutro, a
+tentação é varrer para dentro dele todo tema de aspecto parecido. Eu
+acrescentei por conta própria `Triunfo Romano`, `Pomério Romano` e
+`Colonização Romana` — três temas de uma linha, instituições que atravessam as
+fases, exatamente o mesmo padrão dos quatro aprovados. A medição derrubou:
+a aderência de tema à planilha ordenada à mão caiu de 256/290 para 252/290, e
+as linhas que pioraram mostraram por quê — na fatia dele, ele **manteve**
+`Pomério Romano` e `Triunfo Romano` como temas próprios. Eu tinha analogia a
+favor; ele tinha decisão. Restaurei o backup e rodei só o aprovado. Lição:
+**"ele manteve o tema" é evidência, não ausência de evidência** — e a camada
+de fusão que vale é a que mede contra o que ele fez, não a que estende o
+padrão por simetria. A ressalva é que manter também é o que se faz quando não
+se chegou lá ainda, então "manteve" é mais fraco que "fundiu"; o peso vem de
+ser o único dado que existe sobre aquele tema.
 
 A camada B foi escolhida por padrão de nome **mais massa de linhas na mesma
 região**, e nenhum dos seis itens sobreviveu à leitura das linhas reais. O
@@ -797,6 +818,39 @@ Dinastia Han`), e ele voltou disfarçado. Lição mais geral: **proposta de fus�
 automática se confere lendo as linhas, não a tabela.** As camadas A1, A3 e
 metade da A2 passaram porque tinham evidência direta — o humano fez aquela
 fusão à mão. A B tinha só analogia, e analogia não sobreviveu.
+
+**Fundir um tema geográfico dentro de um tema temático custa a região da v3.**
+Achado em 26/11/2026, medindo o efeito das fusões. A camada A1 mandou `Canaã
+Antiga` (22 linhas) para `Religião e misticismo`, com evidência direta — o
+humano fez isso em 10 das 13 linhas que revisou. Só que o `ordenar.py` deriva a
+`regiao_historica` a partir do **tema**, pela `REGIAO_POR_TEMA`, e `Canaã
+Antiga` apontava para `Canaã` enquanto `Religião e misticismo` é largo e não
+aponta para lugar nenhum. Sem o tema, a derivação cai na `PONTE_REGIAO` a
+partir da coluna `Região` da v2 — que nessas linhas diz `Oriente Médio`, e a
+ponte só sabe mandar `Oriente Médio` para Mesopotâmia. Resultado: 12 linhas
+cananeias passaram a aparecer na Mesopotâmia, e a aderência de região aos 290
+caiu de 84% para 80%.
+
+A correção foi no mecanismo, não linha por linha: **`regiao_de` agora consulta
+o `Subtema` quando o `Tema` não resolve a região.** Funciona porque a fusão
+empurra o nome da civilização para o subtema quando a célula está vazia (é a
+regra do `aplicar_merge.py`), então o sinal que o tema perdeu está ali ao lado
+— `Religião e misticismo > Canaã Antiga` ainda diz Canaã. O subtema vem
+**depois** do tema de propósito: tema explícito ganha. Com isso a região subiu
+para 82% e a concordância de pares foi de +0,657 para **+0,676**, o melhor
+medido até aqui.
+
+**O que sobrou, e por que eu não forcei:** 7 linhas ainda caem em Mesopotâmia,
+e nelas o subtema é nome de divindade ou de sítio — `Baal`, `Asherá`, `Lilith`
+(3), `O Anjo da Morte`, `Megido`. Dava para subir a métrica pondo esses nomes
+na `REGIAO_POR_TEMA`, mas aí ela deixaria de ser um mapa de civilizações para
+virar uma lista de exceções, e `Lilith` sobretudo não é geográfico: as linhas
+dela falam de tigelas de encantamento aramaicas, que são mesopotâmicas mesmo —
+o humano as agrupou em Canaã pelo cluster de demonologia bíblica, não pela
+geografia. **A causa de fundo é a coluna `Região` da v2 ser de país e
+`Oriente Médio` não distinguir Canaã de Mesopotâmia.** O caminho honesto é
+estreitar essa região na v2 para as linhas levantinas, não remendar a ponte.
+Fica pendente.
 
 **A checagem "só essas linhas, só essas células" agora é um script:
 `conferir_travadas.py`.** Recebe o backup de antes da edição e um arquivo com

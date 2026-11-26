@@ -1,0 +1,22 @@
+{
+  "rotulo": "criação do tema-raiz neutro 'Roma antiga'",
+  "data": "26/11/2026",
+  "autorizacao": "Aprovado por escrito pelo humano em 26/11/2026 ('Crie'), em resposta à pergunta 'crio Roma antiga como tema-raiz neutro?'. A autorização para mexer em Tema e Subtema de linha travada vem da mensagem que abriu a reorganização: 'Todo o catálogo está destravado para esta revisão. Ordem, tema, subtema, região e período podem mudar em qualquer linha. Datas e video_id ficam intactos.'",
+
+  "por_que": "A camada B da proposta de fusão não pôde ser aplicada porque o padrão de aspecto ('Exército X' absorvido por 'X') só funciona quando o destino é o nome da CIVILIZAÇÃO. Deu certo em 'Sociedade Mesopotâmica' -> 'Mesopotâmia Antiga' e 'Sociedade Egípcia Antiga' -> 'Egito antigo'. Roma não tinha esse tema: só 'Reino de Roma', 'República Romana' e 'Império Romano', que são FASES POLÍTICAS da mesma civilização. Os aspectos romanos atravessam as três -- 'Exército Romano' vai de 509 a.C. a 500 d.C. e 24 das 32 linhas não têm data; 'Sociedade Romana' são 20 linhas todas sem data; 'Religião Romana' vai de 753 a.C. a 600 d.C. Mandar isso para uma das fases seria erro no dado, não escolha de ordem. 'Roma antiga' é a forma que 'Egito antigo', 'Grécia antiga' e 'Índia antiga' já usam.",
+
+  "regra_de_uso": "'Roma antiga' recebe o que atravessa Reino/República/Império ou não tem data datável: aspectos e instituições (exército, sociedade, religião, comércio, triunfo, pomério, colonização), vida material, panoramas da civilização inteira. 'Reino de Roma', 'República Romana' e 'Império Romano' continuam recebendo o que cabe dentro de UMA fase -- evento, guerra, dinastia, biografia de quem viveu ali. Na dúvida entre as duas coisas, decide a faixa de datas: se ela cruza 509 a.C. ou 27 a.C., é 'Roma antiga'.",
+
+  "escopo": "Só os quatro aspectos da camada B que o humano aprovou: Exército, Sociedade, Religião e Comércio Romano, 69 linhas.",
+
+  "tentei_estender_e_voltei_atras": "Primeiro rodei com três temas de uma linha a mais -- 'Triunfo Romano' (753 a.C. - 403), 'Pomério Romano' (753 a.C. - 275) e 'Colonização Romana' (264 a.C. - 200) --, por serem o mesmo padrão: instituições que atravessam as fases, que ficariam como raízes órfãs ao lado do tema novo. A medição contra a planilha que ele ordenou à mão derrubou isso: a aderência de tema caiu de 256/290 para 252/290, e as linhas que pioraram mostram por quê -- na fatia dele, ele MANTEVE 'Pomério Romano' e 'Triunfo Romano' como temas próprios, não fundiu em nada. É evidência direta contra, e eu só tinha analogia a favor -- a mesma analogia que fez a camada B inteira falhar. Restaurei o backup e rodei só com os quatro aprovados. As duas linhas de 'Religião Romana' que estão na fatia dele também divergem, mas essa fusão ele aprovou por escrito e nomeadamente, e a fatia dele vai só até 500 a.C., onde Roma quase não existe: aprovação explícita e recente ganha de inferência sobre quatro linhas.",
+
+  "fora": "'Herança de Roma' (2 linhas, 753 a.C. - 1917) NÃO entra: trata do que veio DEPOIS de Roma -- quem é o herdeiro, quando os romanos deixaram de ser romanos -- e sua região é Europa, não Itália. É recepção, não aspecto. 'Queda do Império Romano' (19) cabe dentro de uma fase. 'Reino de Roma' (8) é fase, não aspecto. 'Etruscos' e 'Samnitas' são outros povos. 'Triunfo Romano', 'Pomério Romano' e 'Colonização Romana' seguem como temas-raiz próprios, pelo motivo acima.",
+
+  "fusao": {
+    "Exército Romano": "Roma antiga",
+    "Sociedade Romana": "Roma antiga",
+    "Religião Romana": "Roma antiga",
+    "Comércio Romano": "Roma antiga"
+  }
+}

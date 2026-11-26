@@ -10,7 +10,8 @@ Saiu do cruzamento da sua planilha ordenada à mão com a v2.
 > |---|---|---|---|
 > | antes | — | 525 | 146/290 (50%) |
 > | A1 + R | 155 | 512 | 227/290 (78%) |
-> | A2 (metade) + A3 | 97 | **485** | **256/290 (88%)** |
+> | A2 (metade) + A3 | 97 | 485 | 256/290 (88%) |
+> | `Roma antiga` | 69 | **482** | **254/290 (88%)** |
 >
 > Nenhuma linha foi criada ou removida; `trechos contíguos` caiu de 2657 para
 > 2610. A Lista C do `vocabulario-canonico.md` foi regerada e registra o
@@ -36,16 +37,21 @@ Saiu do cruzamento da sua planilha ordenada à mão com a v2.
 >   são fases políticas, e os quatro aspectos atravessam as duas —
 >   `Religião Romana` vai de 753 a.C. a 305 d.C., `Sociedade Romana` são 20
 >   linhas sem data. Rotular isso `República Romana` seria mentira no dado,
->   não só na ordem. **O caminho é criar `Roma antiga` como tema-raiz neutro**,
->   na forma de `Egito antigo` e `Grécia antiga`. É decisão sua e está
->   pendente.
+>   não só na ordem. **Você autorizou o caminho: criar `Roma antiga` como
+>   tema-raiz neutro**, na forma de `Egito antigo` e `Grécia antiga`. As 69
+>   linhas entraram ali, cada aspecto virando subtema. Feito.
 >
-> Com isso a **camada B ficou inteiramente sem aplicar**: nenhum dos seis
-> itens sobreviveu à leitura das linhas. E ela quase não pesava na aderência
-> — os 88% acima já são sem ela. A B foi construída de padrão de nome mais
-> massa de linhas na mesma região, e é o mesmo defeito que me fez abandonar a
-> camada de família de nome; ele sobreviveu ali porque a massa de linhas
-> também é um sinal ruim.
+> Então a **camada B não foi aplicada como estava escrita**: dos seis itens,
+> quatro foram resolvidos por um destino que a tabela não tinha, e dois — os
+> samurai — seguem fora. Ela foi construída de padrão de nome mais massa de
+> linhas na mesma região, que é o mesmo defeito que me fez abandonar a camada
+> de família de nome; ele sobreviveu ali porque a massa de linhas também é um
+> sinal ruim. **Acrescentei três itens por conta própria e tive que voltar
+> atrás:** `Triunfo Romano`, `Pomério Romano` e `Colonização Romana` também
+> atravessam as fases, então pus os três em `Roma antiga` — e a aderência aos
+> seus 290 caiu de 256 para 252, porque na sua fatia você **manteve** esses
+> temas. Restaurei o backup e rodei só o que você aprovou. Está em
+> `merges/roma-antiga.json`.
 >
 > Sobra a lista de trabalho **C**, que nunca foi proposta — é inventário.
 
@@ -152,7 +158,15 @@ sua planilha tem o erro, a v2 está certa; confirme qual você quer).
 |  | `Civilização de Jiroft` | `Jiroft` | 1 | 1/1 |
 |  | `Civilização do Oxus (BMAC)` | `Oxus` | 1 | 1/1 |
 
-## B — padrão de aspecto  ·  ✖ NÃO APLICADA: nenhum dos seis itens sobreviveu
+## B — padrão de aspecto  ·  ✖ NÃO APLICADA como estava; os 4 romanos foram resolvidos de outro jeito
+
+> Os quatro aspectos romanos (69 linhas) não foram para `Império Romano` nem
+> para `República Romana`, como esta tabela propunha. Em 26/11/2026 você
+> autorizou criar **`Roma antiga`** como tema-raiz neutro, e eles entraram
+> ali, cada um virando subtema: `Roma antiga > Exército Romano`, `> Sociedade
+> Romana`, `> Religião Romana`, `> Comércio Romano`. Ver
+> `merges/roma-antiga.json` e a regra de uso no `vocabulario-canonico.md`.
+> Os dois itens samurai seguem sem aplicar.
 
 `Sociedade X`, `Exército X`, `Comércio X` absorvidos por `X`, na mesma
 região. Não é palpite sobre o assunto: o nome do tema já diz que ele é
