@@ -806,6 +806,24 @@ padrão por simetria. A ressalva é que manter também é o que se faz quando n�
 se chegou lá ainda, então "manteve" é mais fraco que "fundiu"; o peso vem de
 ser o único dado que existe sobre aquele tema.
 
+**O assunto decide o tema, não a embalagem do canal.** Erro cometido e corrigido
+duas vezes, com a mesma forma nas duas. Primeira: nos lotes 234-235, três
+resenhas de precisão histórica de filmes foram para `Resenhas de ficção` — o
+tema que o The Shogunate usa para resenhar ficção, com 42 linhas anteriores —
+quando o assunto delas é história no cinema; a aprovação corrigiu para
+`História na cultura popular > Cinema`. Segunda: a linha `evt7NpKTlUg` estava em
+`Segunda Guerra Mundial > Guerra Civil Espanhola` porque é o episódio #7 de uma
+série de prelúdio da Segunda Guerra do Kings and Generals; o assunto dela é a
+Guerra Civil Espanhola, e em 26/11/2026 foi para `Guerra Civil Espanhola >
+Prelúdio da Segunda Guerra`. **A regra: o nome da série, a numeração do
+episódio e o tema que o canal usa para aquele tipo de conteúdo são fatos sobre
+como o canal empacotou, não sobre o que o vídeo trata.** O catálogo ordena pelo
+período que o vídeo trata e o `Tema` é a chave de agrupamento do assunto, então
+é o assunto que manda. A embalagem não se perde: ela é exatamente o que o
+`Subtema` serve para guardar. O sintoma de ter errado é a colisão de nome —
+mesmo nome existindo como tema-raiz e como subtema ao mesmo tempo, que é a
+armadilha do "mesmo nome de subtema em dois temas-raiz".
+
 **O teste "existe o mesmo problema?" foi aplicado ao Japão e disse não.** Criado
 o `Roma antiga`, a pergunta óbvia era se os aspectos samurai que a camada B não
 conseguiu colocar — `Cultura material samurai` (11 linhas, sem data), `Marinha
