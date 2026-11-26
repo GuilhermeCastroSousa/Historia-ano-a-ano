@@ -764,6 +764,20 @@ o resultado do portão como aviso e não como bloqueio.** Sem essa checagem
 manual, é mais seguro seguir o padrão antigo (registrar como pendente, não
 editar).
 
+**A checagem "só essas linhas, só essas células" agora é um script:
+`conferir_travadas.py`.** Recebe o backup de antes da edição e um arquivo com
+um `video_id` por linha — o conjunto autorizado — e compara a planilha nova
+com o backup célula por célula, em *todas* as linhas, travadas ou não. Sai 0
+só se as três coisas valerem ao mesmo tempo: nenhuma linha fora do conjunto
+mudou, nenhuma linha do conjunto deixou de mudar, e nenhuma mudança caiu em
+coluna que não devia mudar (as permitidas vêm na linha de comando). Ele nasceu
+em 26/11/2026, na aplicação das camadas A1 e R da proposta de fusão de temas,
+que mexeu em 155 linhas de uma vez — a maioria travada de ciclos antigos. Com
+esse volume a checagem na mão deixa de ser viável, e sem ela a autorização por
+escrito não vale nada na prática, porque ninguém consegue conferir que o que
+mudou é só o autorizado. **Rodar o `conferir_travadas.py` não substitui a
+autorização**; ele confere que a edição ficou dentro dela.
+
 **Nota da linha promete um subtema que a célula não tem.** Achado na parada
 dos lotes 64-67: `Sibyrtios` (`zOX04aIJm2g`, lote 64) tinha uma nota dizendo
 que essa linha "fecha o trio" do subtema `Segunda Guerra dos Sucessores`

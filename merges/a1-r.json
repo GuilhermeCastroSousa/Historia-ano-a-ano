@@ -1,0 +1,33 @@
+{
+  "rotulo": "camadas A1 e R da proposta de fusão de temas",
+  "data": "26/11/2026",
+  "autorizacao": "Aprovadas por escrito pelo humano em 26/11/2026 ('Aplica A1 e R'). A autorização para mexer em Tema e Subtema de linha travada vem da mensagem que abriu a reorganização: 'Todo o catálogo está destravado para esta revisão. Ordem, tema, subtema, região e período podem mudar em qualquer linha. Datas e video_id ficam intactos.'",
+  "nota_grafia": "'Cultura Nurágica' e não 'Nuráguica': a mudança que ele fez é Civilização -> Cultura, e 'Nuráguica' é erro de grafia na planilha dele. A v2 escreve certo, então aplico a mudança estrutural com a grafia correta.",
+  "fusao": {
+    "Canaã Antiga": "Religião e misticismo",
+    "Suméria Antiga": "Mesopotâmia Antiga",
+    "Demonologia Ocidental": "Religião e misticismo",
+    "Esparta": "Grécia antiga",
+    "Assíria Antiga": "Mesopotâmia Antiga",
+    "Sociedade Mesopotâmica": "Mesopotâmia Antiga",
+    "Civilização Micênica": "Grécia antiga",
+    "Democracia Ateniense": "Grécia antiga",
+    "Colonização grega": "Grécia antiga",
+    "Povos indígenas da América do Norte": "Povos indígenas das Américas",
+    "Civilização Minoica": "Grécia antiga",
+    "Índia antiga": "Civilização do Vale do Indo",
+    "China antiga": "China",
+    "Reino de Yamhad": "Mesopotâmia Antiga",
+    "Comércio na Mesopotâmia Antiga": "Mesopotâmia Antiga",
+    "Sociedade Egípcia Antiga": "Egito antigo",
+    "Corinto": "Grécia antiga"
+  },
+  "renomeacao": {
+    "Línguas indo-europeias": "Línguas",
+    "Civilização Nurágica": "Cultura Nurágica",
+    "Impérios Berberes": "Berberes",
+    "Povos do Zagros": "Zagros",
+    "Civilização de Jiroft": "Jiroft",
+    "Civilização do Oxus (BMAC)": "Oxus"
+  }
+}

@@ -83,6 +83,11 @@ linha antiga.
   "esgotamento que se auto-confirma" no `protocolo.md`. Os outros 18 canais
   foram auditados com varredura completa e estão íntegros. Reabrir esse acervo é
   decisão pendente do humano: são ~41 lotes só no Invicta.
+- **A proposta de fusão de temas (`merge-temas-proposta.md`) está parcialmente
+  aplicada.** As camadas **A1** (17 fusões) e **R** (6 renomeações) entraram na
+  v2 em 26/11/2026: 525 → 512 temas-raiz, 155 linhas. As camadas **A2** (2),
+  **A3** (26), **B** (6) e a lista de trabalho **C** seguem pendentes de
+  decisão do humano. O arquivo marca o que já foi.
 - **A Lista C do `vocabulario-canonico.md` não cobre os lotes 107-109**
   (SandRhoman History). Antes de propor um tema que pode já existir, confira o
   `observacoes` desse canal em `canais.json`.
@@ -92,9 +97,13 @@ linha antiga.
   `TbVfFq16gK8` (lote 152) pode ter identificado a batalha errada e a compilação
   "Hannibal PARTS 18-20" (lote 151) pode ter o início da faixa um ano adiantado.
   Nos dois casos o portão barra a correção porque a linha está travada.
-- **Corrigir linha travada é possível, e já foi feito uma vez.** Na aprovação
+- **Corrigir linha travada é possível, e já foi feito duas vezes.** Na aprovação
   dos lotes 232-249, três linhas `Extra` (que nascem travadas por design)
-  tiveram Tema e Subtema corrigidos com autorização explícita do humano. O
+  tiveram Tema e Subtema corrigidos com autorização explícita do humano. Em
+  26/11/2026, a aplicação das camadas A1 e R da proposta de fusão de temas
+  mexeu em **155 linhas**, a maioria travada de ciclos antigos, sob a
+  autorização por escrito que abriu a reorganização ("todo o catálogo está
+  destravado para esta revisão"). Nos dois casos o caminho foi o mesmo. O
   `verificar.py` acusa "linhas TRAVADAS alteradas" de qualquer jeito — ele
   compara valores, não motivos. O caminho é a checagem manual que o
   `protocolo.md` descreve: comparar a planilha nova com o backup e confirmar que
@@ -225,8 +234,12 @@ e ninguém consegue ver quais linhas entraram em cada lote. Nunca editar o `.csv
 | `amostra.py` | sorteia as 5 linhas da parada, semente fixa pelos lotes | toda parada |
 | `auditar.py` | varre o uploads inteiro e acha buraco de cobertura | antes de encerrar; depois de revisita |
 | `exportar_csv.py` | espelho `.csv` | depois de gravar |
+| `aplicar_merge.py` | aplica uma camada aprovada de `merge-temas-proposta.md` (JSON em `merges/`) | só com aprovação por escrito |
+| `conferir_travadas.py` | confere que só as linhas e células autorizadas mudaram | sempre que mexer em linha travada |
 
-Nenhum deles escreve na planilha, menos o `gravar.py`. O `auditar.py` não
+Nenhum deles escreve na planilha, menos o `gravar.py` e o `aplicar_merge.py`
+(este só com aprovação por escrito, e seguido do `conferir_travadas.py`). O
+`auditar.py` não
 escreve em arquivo nenhum — nem em `catalogados.txt`, nem em `descartados.txt`.
 
 A cada quatro lotes, uma parada: validação de vocabulário, fact-check por amostra

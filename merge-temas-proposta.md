@@ -1,7 +1,16 @@
 # Proposta de fusão de temas — para você aprovar linha por linha
 
-Saiu do cruzamento da sua planilha ordenada à mão com a v2. **Nada foi
-aplicado em planilha nenhuma.** Marque `x` na coluna `ok?` do que
+Saiu do cruzamento da sua planilha ordenada à mão com a v2.
+
+> **Estado em 26/11/2026: as camadas A1 e R foram aprovadas por você e estão
+> aplicadas na v2.** 155 linhas afetadas (145 da A1, 10 da R), 525 → 512
+> temas-raiz, nenhuma linha criada ou removida, `trechos contíguos` 2657 →
+> 2638, e o tema passou a bater com o seu em **227/290 (78%)** contra 146/290
+> (50%) antes. A Lista C do `vocabulario-canonico.md` foi regerada e registra
+> o detalhe. **A2, A3, B e a lista de trabalho C seguem sem aplicar** — as
+> tabelas abaixo continuam valendo para elas.
+
+Para o que ainda não foi aplicado: marque `x` na coluna `ok?` do que
 aprovar e me devolva o arquivo; o que ficar em branco não entra.
 
 Fusão aplicada **não perde informação**: o tema antigo vira o `Subtema`
@@ -19,7 +28,7 @@ Aprove por camada se quiser ir rápido: A1 e R são as seguras.
 | tema igual ao seu, nos 290 | 146/290 (50%) → 257/290 (89%) |
 | idem, só com A1 aprovada | → 221/290 (76%) |
 
-## A1 — você fez, com maioria clara
+## A1 — você fez, com maioria clara  ·  ✔ APLICADA em 26/11/2026
 
 Fusão aplicada por você em 2 ou mais linhas daquele tema, em 60% ou
 mais das que revisou. É a camada com evidência direta e é a que eu
@@ -91,7 +100,7 @@ sobre um caso único, não padrão medido.
 |  | `Halicarnasso` | `Grécia antiga` | 1 | 1/1 |
 |  | `Delfos` | `Grécia antiga` | 1 | 1/1 |
 
-## R — renomeação, não fusão
+## R — renomeação, não fusão  ·  ✔ APLICADA em 26/11/2026
 
 Aqui o destino **não existe** como tema no catálogo: você não juntou
 dois temas, deu outro nome ao mesmo assunto. Barato e seguro de
