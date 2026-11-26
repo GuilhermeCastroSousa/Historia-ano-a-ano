@@ -365,7 +365,7 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 87 | História dos Estados Unidos | Candidatos Derrotados (43) · Política (24) · Bush 43 Still Sucks (6) · Presidência (5) · Fundação (2) · Guerras Índias (2) · Diplomacia (1) · Igreja Negra e Direitos Civis (1) · Marinha (1) |
 | 87 | Religião e misticismo | Anel e Selo de Salomão (7) · Religião Cananeia (7) · Reinos da Idade do Ferro (6) · Lilith (5) · Canaã Antiga (3) · Datação e o Debate sobre a Autenticidade (Ficino a Casaubon) (3) · Panorama da Transmutação Alquímica (3) · A Edição de 1505 do Corpus Hermeticum e Lazzarelli (2) · Demônios do Talmude (Daf Yomi) (2) · O Deus Sem Cabeça (Akephalos) e os Papiros Mágicos Gregos (2) · Os Papiros Mágicos Gregos (PGM) (2) · A Fórmula do Caranguejo/Escorpião (Alquimia Greco-Egípcia) (1) · A Inquisição contra a Alquimia (Nicholas Eymerich, 1396) (1) · A Perseguição de Dioclesiano aos Alquimistas (296 d.C.) (1) · A Tábua de Esmeralda (Origens e Transmissão) (1) · Antologia Hermética Renascentista (1497) (1) · Asherá (1) · Baal (1) · Belial (1) · Cabala Química (Cabala e Alquimia) (1) · Cleópatra, a Alquimista (Crisopeia) (1) · Cosmologia e Teologia Hermética (Corpus Hermeticum) (1) · De Spectris (Ludwig Lavater, 1569) (1) · Demonologia do Antigo Israel (Pré-Exílica) (1) · Divino Feminino (Sophia e Shekhinah) (1) · Domínio Egípcio (Bronze Final) (1) · Fantasmas Medievais (Thietmar de Merseburg) (1) · Fragmentos Herméticos Adicionais (Stobeu, Kore Kosmou) (1) · Hermetica Técnica (Kyranides) (1) · História dos Fantasmas (1) · Idade de Ouro Cananeia (Bronze Médio) (1) · Iom Kipur e o Ritual do Templo (1) · Jericó e o Bronze Antigo (1) · João de Rupescissa e a Alquimia Apocalíptica (1) · Magia do Tesouro (Lore e Feitiçaria) (1) · Magia e Doença (Panorama Histórico) (1) · Maria, a Judia (Alquimia Greco-Egípcia) (1) · Moloch (1) · O Anjo da Morte (1) · O Livro da Composição da Alquimia (1144, Robert de Chester) (1) · O Livro de Tot Egípcio (Ritual de Iniciação Demótico) (1) · Os Alquimistas Empreendedores (Pós-Peste Negra) (1) · Os Magos (Mitologia e História) (1) · Os Primeiros Fantasmas (Suméria, Babilônia e Assíria) (1) · Palestina antiga (1) · Petosíris, Sumo Sacerdote de Tot (Origens Egípcias) (1) · Plínio, o Jovem e a Casa Assombrada (1) · Possessão e Exorcismo no Judaísmo Antigo (Mil Anos) (1) · Povo hebreu (1) · Set (Seth) (1) · Summa Perfectionis (Pseudo-Geber, c. 1310) (1) · Símbolos Mágicos e Alfabetos Angélicos (Origens) (1) · Tot e a Origem de Hermes Trismegisto (1) · Tratado de Talismãs (De Imaginibus, Thabit ibn Qurra) (1) · Turba Philosophorum (Assembleia dos Filósofos) (1) · Zósimo de Panópolis (Origens Egípcias da Alquimia) (1) |
 | 83 | Reforma Protestante | Martinho Lutero (21) · João Calvino (14) · Reforma Católica (Contrarreforma) (6) · Puritanismo Inglês e Colonial (3) · A Bíblia em Inglês (2) · Assentamento Elisabetano (2) · Calvino e a Tradição Reformada (2) · Erasmo x Lutero: Livre-Arbítrio (2) · Henrique VIII e o Anglicanismo Primitivo (2) · Jan Hus e a Profecia da Reforma (2) · John Knox e a Reforma Escocesa (2) · John Wycliffe (2) · Luteranismo Posterior (2) · Panorama da Reforma (2) · Calvino e o Caso Sérveto (1) · Covenanters Escoceses (1) · Erasmo de Roterdã (1) · Guerra dos Camponeses e Reforma Radical (1) · Huguenotes e a Reforma Francesa (1) · Huldrych Zwínglio (1) · Indulgências (1) · Lutero e Calvino: Teologia Comparada (1) · Lutero e Melanchthon (1) · Menno Simons e os Menonitas (1) · Pano de Fundo Medieval da Reforma (1) · Panorama da Reforma Britânica (1) · Philip Melanchthon (1) · Protestantismo Espanhol (1) · Reino Anabatista de Münster (1) · Thomas Cranmer (1) · William Tyndale (1) |
-| 82 | Império Otomano | Mehmed II (13) · Guerra Otomano-Portuguesa (4) · Cercos de Viena (3) · Bayezid II e Selim I (2) · Guerra de Chipre (2) · Janízaros (2) · Cem Sultan (1) · Guerra de Candia (1) · Guerras Otomano-Safávidas (1) · Islamização da Bósnia (1) · João Hunyadi (1) · Kapikulu (Exército Permanente) (1) · Skanderbeg (1) · Sultanato das Mulheres (1) |
+| 82 | Império Otomano | Mehmed II (13) · Guerra Otomano-Portuguesa (4) · Cercos de Viena (3) · Bayezid II e Selim I (2) · Guerra de Chipre (2) · Janízaros (2) · Skanderbeg (2) · Cem Sultan (1) · Guerra de Candia (1) · Guerras Otomano-Safávidas (1) · Islamização da Bósnia (1) · João Hunyadi (1) · Kapikulu (Exército Permanente) (1) · Sultanato das Mulheres (1) |
 | 77 | Filosofia Judaica Medieval | Misticismo Merkavah (Hekhalot) (25) · Cabala (Zohar e Abraham Abulafia) (7) · Cabala de Safed (Cordovero, Luria e Israel Sarug) (5) · Cabala Primitiva (Círculos de Provença e Castela) (4) · Maimônides (4) · Sabbatai Zevi e o Messianismo Cabalístico (Nathan de Gaza) (3) · Sefer Yetzirah e Sefer Bahir (Origens da Cabala) (2) · A Espada de Moisés (Harba de-Moshe) (1) · Ascensão do Apocalipticismo Judaico (Daniel e Enoque) (1) · Astrologia Médica Hebraica (Kelal Qatan) (1) · Astrologia no Judaísmo e Islã Antigos (1) · Cabala Cristã e Cabala Luriânica (1) · Cabala Moderna (R. Yosef Ergas) (1) · Cabala Tardia e o Surgimento do Hassidismo (1) · Controvérsia Maimonidiana (1) · Gersônides (1) · Gersônides e Hasdai Crescas (1) · Glória Divina e o Proto-Cabalismo dos Querubins (Akhatriel) (1) · Hasdai Crescas (1) · Ibn Gabirol (1) · Joseph Albo e Isaac Abravanel (1) · Judah Halevi (1) · Liberdade e Astrologia na Filosofia Judaica (Ibn Ezra, Ibn Daud e Maimônides) (1) · Magia Judaica Antiga e Medieval (1) · Neoplatonismo Judaico (Isaac Israeli, Ibn Gabirol e Maimônides) (1) · Panorama do Pensamento Judaico Andaluz (Debate Moderno) (1) · Profecia e Teofania Israelita (Fundamentos Pré-Cabalísticos) (1) · Raízes da Filosofia Judaica no Mundo Islâmico (Mishnah, Talmud e Isaac Israeli) (1) · Saadia Gaon (1) · Sar Torah e os Hasidei Ashkenaz (1) · Sefer HaMalbush e Sefer HaYashar (Magia do Manto) (1) · Sofrimento na Filosofia Judaica (Saadia a Gersônides) (1) · Zohar sobre Ester (Piada de 1º de Abril) (1) · Ética e Judaísmo (Baḥya Ibn Paquda e Maimônides) (1) |
 | 77 | Grécia antiga | Esparta (13) · Civilização Micênica (8) · Democracia Ateniense (7) · Colonização grega (5) · Civilização Minoica (4) · Corinto (2) · Idade das Trevas Grega (2) · Período Arcaico (2) · Acragas (1) · Argos antiga (1) · Atenas Antiga (1) · Cultura Cicládica (1) · Delfos (1) · Demóstenes (1) · Egina (1) · Exército Espartano (1) · Filosofia Clássica (1) · Guerra Lelantina (1) · Guerras Messênias (1) · Halicarnasso (1) · Numismática Antiga (1) · Panorama Grego (curso) (1) · Panorama do Bronze Egeu (curso) (1) · Período Neolítico (1) · Questão Ahhiyawa (1) · Safo de Lesbos (1) · Samos (1) · Tessália antiga (1) |
 | 77 | Mesopotâmia Antiga | Sociedade Mesopotâmica (9) · Período Paleobabilônico (6) · Império Acadiano (3) · Império Neo-Babilônico (3) · Período Médio Assírio (3) · Reino Antigo Assírio (3) · Reino da Alta Mesopotâmia (3) · Amorreus (2) · Babilônia Antiga (2) · Cemitério Real de Ur (2) · Comércio na Mesopotâmia Antiga (2) · Estela da Vitória de Naram-Sin (2) · Império Neo-Sumério (Ur III) (2) · Lagash e Umma (2) · Origens (2) · Panorama Assírio (curso) (2) · Panorama Sumério (curso) (2) · Astronomia Babilônica (1) · Babilônia Helenística (1) · Biblioteca de Assurbanipal (1) · Bibliotecas Sumérias Primitivas (Shuruppak, Abu Salabikh e Ebla) (1) · Cidades do Período Dinástico Arcaico (1) · Cuneiforme (1) · Dinastia Cassita (1) · Dinastia do Sealand (1) · Enheduanna (1) · Eridu (1) · Exército Assírio (1) · Gudea de Lagash (1) · Idrimi de Alalakh (1) · Jardins Suspensos (1) · Kish (1) · Mari (1) · Masterpieces de Mesopotâmia (1) · O Ritual Maqlû (Contra-Magia Babilônica) (1) · Panorama Babilônico (curso) (1) · Período Isin-Larsa (1) · Reino de Yamhad (1) · Rimush e Manishtushu (1) · Ritual do Rei Substituto (1) · Segunda Dinastia de Isin (1) · Semíramis (Sammu-ramat) (1) · Sociedade e Leis Babilônicas (1) · Séculos Obscuros da Babilônia (1) |
@@ -835,6 +835,42 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 
 ### Sobreposições ainda por resolver
 
+**Triagem de 26/11/2026.** Com o `conferir_travadas.py`, "a linha está travada"
+deixou de ser motivo para não corrigir — então as sobreposições foram separadas
+entre as que tinham resposta por **regra já escrita** e as que dependem de
+decisão ou de evidência que o projeto não permite buscar. As duas primeiras
+foram resolvidas e estão riscadas abaixo. O que **não** foi mexido, e por quê:
+
+- **`Guerra Civil Espanhola` tema-raiz × subtema de `Segunda Guerra Mundial`** —
+  as duas leituras têm regra do projeto a favor. A convenção diz que guerra civil
+  é tema-raiz; mas a linha antiga (`evt7NpKTlUg`, lote 5) é o episódio #7 de uma
+  série de prelúdio da Segunda Guerra, e `Segunda Guerra Mundial > Prelúdio` é
+  subtema estabelecido com 20 linhas. Empate que precisa do humano. Uma saída
+  que preserva os dois fatos e mata a colisão de nome: mover para
+  `Guerra Civil Espanhola > Prelúdio da Segunda Guerra`.
+- **`Dinastia Zhou > Estados Combatentes`, Parte 1 englobando a Parte 2** — a
+  Parte 1 (`IBJErXV5tno`) está com **confiança `alta`**, o que pelas regras
+  significa que um ano dentro da faixa apareceu na descrição ou nos capítulos do
+  próprio vídeo. Encurtar 400-221 para 400-338 por inferência seria sobrescrever
+  evidência registrada com palpite, e o `protocolo.md` já proíbe estender ponta
+  de faixa por inferência — encurtar não é diferente. Só se resolve relendo a
+  descrição do vídeo.
+- **`Espanha` como termo de região** — passou do critério de segunda ocorrência
+  há muito, mas são **94 linhas** em `Península Ibérica` e a divisão exige
+  julgamento linha por linha: boa parte é ibérica de verdade (`Filosofia Judaica
+  Medieval` 19, `República Romana` 16, `Reconquista` 10, `Expansão islâmica`,
+  `Emirado de Córdoba`), parte é especificamente espanhola (`Inquisição
+  Espanhola`, `Tércio Espanhol`, `Guerra de Sucessão Espanhola`, `Guerra Civil
+  Espanhola`) e parte é portuguesa (`Crise de 1383-1385`, `Tratado de
+  Tordesilhas`). Diferente do `Levante`, que tinha um recorte nítido de 18
+  linhas. É trabalho editorial com tamanho conhecido, à espera de decisão.
+- **`Guerras Civis do Sudão`, três temas-raiz para um país** — as alternativas
+  estão escritas abaixo e nenhuma é obviamente certa. Editorial.
+- **Os clusters de nome parecido** (Eymerich, manuais de necromancia,
+  Aristotelismo, Platonismo Médio, Gersônides, Maimônides, traduções para o
+  latim) — todos marcados "não bloqueante" e todos dependem de gosto. Nada
+  mexido.
+
 Abertas na aprovação dos lotes 232-249 (reabertura dos vinte canais):
 
 - **`Guerra Civil Espanhola` (tema-raiz novo, lotes 232-233, 2 linhas) ×
@@ -853,21 +889,26 @@ Abertas na aprovação dos lotes 232-249 (reabertura dos vinte canais):
   tema próprio. Três temas-raiz para o mesmo país, um deles panorâmico.
   Alternativa não aplicada: transformar os dois antigos em subtemas do novo, ou
   criar `Terceira Guerra Civil Sudanesa`.
-- **`Império Otomano > Skanderbeg` (subtema novo, lote 232)** — a linha antiga
-  do catálogo sobre o mesmo personagem ("Rise of Skanderbeg", 1443-1468) está
-  sob `Império Otomano` **sem** subtema, e está travada de um ciclo anterior.
-  O par ficou dividido; a correção exige autorização para sobrescrever célula
-  travada.
+- ~~**`Império Otomano > Skanderbeg` (subtema novo, lote 232)**~~ —
+  **RESOLVIDA em 26/11/2026.** A linha antiga ("Rise of Skanderbeg",
+  `wHAT_JDwFOY`, lote 10) ganhou o subtema `Skanderbeg`, que a linha nova já
+  usava. Dedup puro: mesmo personagem, mesmo tema, mesma região, mesma faixa
+  (1443-1468) — não havia decisão a tomar, o par só estava dividido porque o
+  portão barrava a correção na linha travada. O `conferir_travadas.py` resolveu
+  esse bloqueio.
 - **`Espanha` como termo de região** — a aproximação `Península Ibérica` para a
   Espanha passou de longe do critério de segunda ocorrência (Guerra Civil
   Espanhola ×2, Villaviciosa, Reconquista, Inquisição Espanhola, Tércio,
   Guerra Anglo-Espanhola, Guerra de Sucessão Espanhola). Não criado: criar o
   termo implicaria reclassificar linhas antigas travadas.
-- **`Historiografia > Historiadores gregos` com tratamentos opostos** — a linha
-  "Herodotus - A Quick Look at his Life and Work" está como `Extra` (sem anos),
-  e "HoP 500b Melissa Lane on Herotodus and Thucydides" (lote 248) entrou na
-  linha do tempo com 484-400 a.C. Pelo teste das Decisões fechadas, a vida de
-  dois historiadores é datável, logo não é `Extra`. A linha antiga está travada.
+- ~~**`Historiografia > Historiadores gregos` com tratamentos opostos**~~ —
+  **RESOLVIDA em 26/11/2026.** A linha do Heródoto (`i93LwbsXncM`, lote 163)
+  saiu de `Extra` para `Apogeu Grego (500 a.C. - 250 a.C.)`, faixa
+  **484-425 a.C.** — a vida de Heródoto só; a irmã (`rToCeZcFDQM`, lote 248) vai
+  até 400 porque cobre Tucídides também. Confiança de `n/a` para `média`: as
+  pontas vêm da biografia conhecida, não de ano declarado pelo vídeo. É a mesma
+  regra aplicada no mesmo dia ao `xDV0UEgmEbQ` (HPI 60) — conteúdo conceitual ou
+  biográfico sem evento datável entra pela faixa, nunca por `Extra`.
 - **`Dinastia Zhou > Estados Combatentes`: Parte 1 engloba a Parte 2** — a linha
   "The Warring States Period Explained - Part 1" ficou com 400-221 a.C. e a
   Parte 2 (lote 242) com 338-221 a.C. Pelo título, a Parte 1 deveria terminar

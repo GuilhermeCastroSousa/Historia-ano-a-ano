@@ -137,7 +137,15 @@ linha antiga.
   falso-positivo esperado. Sem essa checagem, registre como pendente.
 - **Pendências de vocabulário não bloqueantes** (sobreposições, nomes parecidos,
   clusters a consolidar) estão em `vocabulario-canonico.md`, "Sobreposições ainda
-  por resolver". Não travam lote nenhum.
+  por resolver". Não travam lote nenhum. **Triadas em 26/11/2026:** duas que
+  tinham resposta por regra já escrita foram resolvidas (Heródoto saiu de
+  `Extra`; a linha antiga do Skanderbeg ganhou o subtema que a nova já tinha).
+  O resto ficou com o motivo anotado — `Guerra Civil Espanhola` é empate entre
+  duas convenções do projeto, a Parte 1 dos Estados Combatentes está em
+  confiança `alta` e encurtar a faixa seria sobrescrever evidência com palpite,
+  e `Espanha` como termo de região são 94 linhas de trabalho editorial.
+  **"A linha está travada" não é mais motivo para não corrigir** — o
+  `conferir_travadas.py` cobre isso.
 
 ## Convenções que valem para qualquer canal
 
