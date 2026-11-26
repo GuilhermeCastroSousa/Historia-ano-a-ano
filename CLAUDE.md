@@ -108,12 +108,20 @@ linha antiga.
 - **A Lista C do `vocabulario-canonico.md` não cobre os lotes 107-109**
   (SandRhoman History). Antes de propor um tema que pode já existir, confira o
   `observacoes` desse canal em `canais.json`.
-- **Pendências travadas aguardando autorização explícita para sobrescrever
-  célula aprovada:** `xDV0UEgmEbQ` (HPI 60, lote 200) provavelmente devia ser
-  `Panorama (973-1860)`/`média` em vez de `Extra`/`n/a`; no HistoryMarche,
-  `TbVfFq16gK8` (lote 152) pode ter identificado a batalha errada e a compilação
-  "Hannibal PARTS 18-20" (lote 151) pode ter o início da faixa um ano adiantado.
-  Nos dois casos o portão barra a correção porque a linha está travada.
+- **Das três pendências que o portão barrava, duas foram fechadas em
+  26/11/2026 e uma fica.** `xDV0UEgmEbQ` (HPI 60, lote 200) saiu de
+  `Extra`/`n/a` para `Panorama (973 - 1860)`/`média`, pela convenção de que
+  conteúdo conceitual sem evento datável entra pela faixa ampla do conceito —
+  a recepção vai de al-Bīrūnī (973-1048) a Schopenhauer; o rótulo é o que a
+  escada calcula. A compilação "Hannibal PARTS 18-20" (`OtqFPmkBiqI`, lote
+  151) teve a faixa **conferida e mantida**: a suspeita era o início estar um
+  ano adiantado, e o próprio catálogo resolve — a Parte 18 é a Batalha de
+  Cumae e o título dela diz 215 a.C., e a compilação anterior, PARTS 14-17,
+  fecha em 215. **Fica `TbVfFq16gK8`** (HistoryMarche, Basílio II Part 7, lote
+  152): a dúvida é se o vídeo trata da batalha certa, e isso não se resolve com
+  a evidência permitida — a descrição é só bibliografia, o título não tem data
+  e o projeto não usa transcrição. A linha já está honesta, com `chute` e nota.
+  Não é mais o portão que barra; é a falta de evidência.
 - **Corrigir linha travada é possível, e já foi feito duas vezes.** Na aprovação
   dos lotes 232-249, três linhas `Extra` (que nascem travadas por design)
   tiveram Tema e Subtema corrigidos com autorização explícita do humano. Em
