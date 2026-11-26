@@ -77,7 +77,7 @@ a linha fica.
 
 ---
 
-## Lista B — Região (60 termos)
+## Lista B — Região (61 termos)
 
 Regra: a região que o vídeo cobre **por inteiro**. Se cobre várias, sobe um nível
 (Inglaterra + França → Europa Ocidental). Se é global, `Global`.
@@ -88,7 +88,7 @@ Inglaterra · Escócia · Irlanda · Gales · França · Alemanha · Áustria ·
 Turquia · Ucrânia · Suécia · Noruega · Países Baixos · Hungria · Suíça · Dinamarca
 
 **Mediterrâneo e Oriente Médio**
-Mediterrâneo · Oriente Médio · Judeia · Egito · Irã · Cáucaso · Iêmen
+Mediterrâneo · Oriente Médio · Levante · Judeia · Egito · Irã · Cáucaso · Iêmen
 
 **Ásia**
 Índia · China · Japão · Indonésia · Sudeste Asiático · Ásia Central · Taiwan ·
@@ -106,6 +106,21 @@ Atlântico · Pacífico · Índico · Ártico · Melanésia
 
 **Genérico**
 Global
+
+**`Levante` entrou em 26/11/2026**, pelo mesmo critério do `Iêmen` e do `Gales`:
+um lugar que aparece mais de uma vez ganha termo próprio. Aqui são 18 linhas —
+Canaã, Ugarit, a religião cananeia, Megido —, e o motivo não é só precisão
+geográfica. A coluna `Região` alimenta a derivação da região histórica na v3
+pela `PONTE_REGIAO` do `ordenar.py`, e `Oriente Médio` só sabe apontar para
+Mesopotâmia. Enquanto `Canaã Antiga` era tema-raiz, o tema resolvia a região;
+depois da fusão dela em `Religião e misticismo`, sete linhas cananeias caíram na
+Mesopotâmia sem sinal nenhum para recuperar, porque o subtema delas é nome de
+divindade (`Baal`, `Asherá`, `Lilith`) ou de sítio (`Megido`). `Levante` →
+`Canaã` na ponte resolve na origem. **Use `Levante`** para Canaã, Fenícia
+levantina, Ugarit e Filisteia; `Judeia` segue para o que é especificamente
+judaico; `Oriente Médio` para Mesopotâmia e o que a atravessa. A região subiu
+de 80% para 84% de acerto contra a planilha ordenada à mão, e a concordância de
+pares de +0,676 para **+0,700**.
 
 **Iêmen entrou na parada dos lotes 10-13** para o Reino Himiarita e a História do
 Iêmen, que antes caíam em `Oriente Médio` por aproximação. `Iraque` (Califado

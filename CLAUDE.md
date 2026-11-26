@@ -98,13 +98,13 @@ linha antiga.
   `República Romana`) segue a regra em `vocabulario-canonico.md`, seção
   "Tema-raiz: a civilização ou uma fase dela?". Não crie neutro novo por
   simetria — ver a armadilha "padrão de aspecto" no `protocolo.md`.
-- **Pendente: a coluna `Região` da v2 não distingue Canaã de Mesopotâmia.**
-  As duas são `Oriente Médio`, e a `PONTE_REGIAO` do `ordenar.py` só sabe
-  mandar isso para Mesopotâmia. Depois da fusão de `Canaã Antiga` em `Religião
-  e misticismo`, 7 linhas cananeias caem na região errada na v3 — o `regiao_de`
-  recupera as outras pelo `Subtema`. A correção certa é estreitar a `Região`
-  dessas linhas na v2, não remendar a ponte. Ver a armadilha "fundir um tema
-  geográfico dentro de um tema temático" no `protocolo.md`.
+- **`Levante` é termo novo da Lista B** (61 termos), de 26/11/2026: use para
+  Canaã, Fenícia levantina, Ugarit e Filisteia. `Judeia` segue para o que é
+  especificamente judaico e `Oriente Médio` para Mesopotâmia. Entrou porque
+  `Oriente Médio` não distinguia Canaã de Mesopotâmia e a `PONTE_REGIAO` do
+  `ordenar.py` só sabia apontar para Mesopotâmia — 18 linhas foram
+  reclassificadas. Ver a armadilha "fundir um tema geográfico dentro de um
+  tema temático" no `protocolo.md`.
 - **A Lista C do `vocabulario-canonico.md` não cobre os lotes 107-109**
   (SandRhoman History). Antes de propor um tema que pode já existir, confira o
   `observacoes` desse canal em `canais.json`.

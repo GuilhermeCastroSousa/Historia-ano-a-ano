@@ -43,12 +43,13 @@ O modelo de ordenação — eras, tipo, região histórica, a virada em 500 a.C.
 passeio geográfico — está documentado nas Listas E, F e G do
 `vocabulario-canonico.md` e no cabeçalho do `ordenar.py`. A aderência medida
 contra a planilha ordenada à mão pelo humano (290 vídeos, até 500 a.C.) é, em
-26/11/2026, de **91% de acerto de era, 82% de região, concordância de pares de
-+0,676 e sequência de blocos de +0,679**. O `conferir_ordem.py` refaz essa
+26/11/2026, de **91% de acerto de era, 84% de região, concordância de pares de
++0,700 e sequência de blocos de +0,687**. O `conferir_ordem.py` refaz essa
 medição; rode-o com `python ordenar.py --conferir <planilha>`. Na primeira
-versão do modelo era 89% / 84% / +0,643 / +0,672 — a fusão de temas de
-26/11/2026 melhorou era e ordem e piorou região, pelo motivo na armadilha
-"fundir um tema geográfico dentro de um tema temático".
+versão do modelo era 89% / 84% / +0,643 / +0,672: a fusão de temas de
+26/11/2026 melhorou era e ordem, e a região deu uma volta — caiu para 80% pelo
+motivo na armadilha "fundir um tema geográfico dentro de um tema temático" e
+voltou a 84% quando `Levante` entrou na Lista B.
 
 ## O que este sistema faz
 
@@ -805,6 +806,21 @@ padrão por simetria. A ressalva é que manter também é o que se faz quando n�
 se chegou lá ainda, então "manteve" é mais fraco que "fundiu"; o peso vem de
 ser o único dado que existe sobre aquele tema.
 
+**O teste "existe o mesmo problema?" foi aplicado ao Japão e disse não.** Criado
+o `Roma antiga`, a pergunta óbvia era se os aspectos samurai que a camada B não
+conseguiu colocar — `Cultura material samurai` (11 linhas, sem data), `Marinha
+samurai` (2, 1180-1880), `Ranking de samurais` (5), `Guerreiras Samurai`,
+`Lendas samurai`, `Últimas Resistências Samurai` — pediam um neutro japonês
+pelo mesmo motivo. Medido: não. O que faria o caso ser igual ao de Roma era o
+tema grande do Japão ser uma **fase** estreita, como `República Romana` é. Não
+é: `Sengoku Jidai` tem 119 linhas e **118 delas caem dentro de 1467-1615**, que
+é o Sengoku de verdade — a única fora é 1616, a morte de Ieyasu, que fecha a
+série. O tema está bem delimitado e bem nomeado, a fragmentação que sobra é de
+~20 linhas em temas pequenos, e sobre o Japão não existe nenhuma decisão do
+humano para medir contra (a planilha que ele ordenou à mão para em 500 a.C.).
+Três motivos para não inventar o neutro, e nenhum a favor além da simetria —
+que é exatamente o que a regra proíbe. Os aspectos samurai ficam como estão.
+
 A camada B foi escolhida por padrão de nome **mais massa de linhas na mesma
 região**, e nenhum dos seis itens sobreviveu à leitura das linhas reais. O
 segundo caso mostra por que a massa de linhas é um sinal ruim: `Cultura
@@ -840,17 +856,22 @@ regra do `aplicar_merge.py`), então o sinal que o tema perdeu está ali ao lado
 para 82% e a concordância de pares foi de +0,657 para **+0,676**, o melhor
 medido até aqui.
 
-**O que sobrou, e por que eu não forcei:** 7 linhas ainda caem em Mesopotâmia,
-e nelas o subtema é nome de divindade ou de sítio — `Baal`, `Asherá`, `Lilith`
-(3), `O Anjo da Morte`, `Megido`. Dava para subir a métrica pondo esses nomes
-na `REGIAO_POR_TEMA`, mas aí ela deixaria de ser um mapa de civilizações para
-virar uma lista de exceções, e `Lilith` sobretudo não é geográfico: as linhas
-dela falam de tigelas de encantamento aramaicas, que são mesopotâmicas mesmo —
-o humano as agrupou em Canaã pelo cluster de demonologia bíblica, não pela
-geografia. **A causa de fundo é a coluna `Região` da v2 ser de país e
-`Oriente Médio` não distinguir Canaã de Mesopotâmia.** O caminho honesto é
-estreitar essa região na v2 para as linhas levantinas, não remendar a ponte.
-Fica pendente.
+**Sobraram 7 linhas, e a correção certa foi na origem.** Nelas o subtema é nome
+de divindade ou de sítio — `Baal`, `Asherá`, `Lilith` (3), `O Anjo da Morte`,
+`Megido` —, então não havia sinal para a herança pelo subtema pegar. Dava para
+subir a métrica pondo esses nomes na `REGIAO_POR_TEMA`, mas aí ela deixaria de
+ser um mapa de civilizações para virar uma lista de exceções, e `Lilith`
+sobretudo não é geográfico: as linhas dela falam de tigelas de encantamento
+aramaicas, que são mesopotâmicas mesmo — o humano as agrupou em Canaã pelo
+cluster de demonologia bíblica, não pela geografia. **A causa de fundo era a
+coluna `Região` da v2 ser de país, com `Oriente Médio` não distinguindo Canaã
+de Mesopotâmia.** Então a correção foi lá: `Levante` entrou na Lista B, 18
+linhas levantinas saíram de `Oriente Médio`, e a ponte ganhou `Levante` →
+`Canaã`. A divergência `Canaã → Mesopotâmia` desapareceu inteira, a região
+voltou a 84% e a concordância de pares chegou a **+0,700**. Lição: **quando a
+derivação erra porque a coluna de origem é grossa, estreite a coluna, não a
+derivação** — remendar a ponte ou o mapa resolve as linhas de hoje e deixa a
+armadilha armada para as de amanhã.
 
 **A checagem "só essas linhas, só essas células" agora é um script:
 `conferir_travadas.py`.** Recebe o backup de antes da edição e um arquivo com

@@ -26,7 +26,12 @@ Saiu do cruzamento da sua planilha ordenada à mão com a v2.
 >   Quioto e Alexandria dentro de um tema de 2 linhas sobre os hititas.
 > - **`Cultura material samurai` e `Marinha samurai` → `Jogos de samurai`**
 >   (B, 13 linhas). O destino são 41 resenhas de videogame. Armadura, espada,
->   castelo e guerra naval samurai são história.
+>   castelo e guerra naval samurai são história. Depois de criar `Roma antiga`
+>   eu conferi se o Japão pedia o mesmo remédio: **não pede.** O que fazia
+>   Roma precisar do tema neutro era o tema grande ser uma fase estreita, e
+>   `Sengoku Jidai` não é — 118 das suas 119 linhas caem dentro de 1467-1615,
+>   que é o Sengoku de verdade. Então esses dois seguem como temas próprios, e
+>   não inventei um neutro japonês por simetria.
 > - **Os quatro aspectos romanos** — `Exército Romano`, `Sociedade Romana`,
 >   `Religião Romana`, `Comércio Romano` (B, 69 linhas). Este é o achado que
 >   importa, e ele explica a camada B inteira: **o padrão de aspecto só

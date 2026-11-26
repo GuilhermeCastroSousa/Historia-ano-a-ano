@@ -236,7 +236,8 @@ REGIAO_POR_TEMA = {
 # Quando o tema não está na tabela, a região v2 serve de ponte. Depende da era,
 # porque 'Turquia' é Anatólia na Antiguidade e Império Otomano depois.
 PONTE_REGIAO = {
-    "Oriente Médio": "Mesopotâmia", "Judeia": "Canaã", "Iêmen": "Arábia",
+    "Oriente Médio": "Mesopotâmia", "Levante": "Canaã",
+    "Judeia": "Canaã", "Iêmen": "Arábia",
     "Egito": "Egito", "Sudão": "Núbia", "Irã": "Irã", "Cáucaso": "Cáucaso",
     "Turquia": "Anatólia", "Grécia": "Grécia", "Itália": "Itália",
     "Mediterrâneo": "Mediterrâneo", "Península Ibérica": "Hispânia",
