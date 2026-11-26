@@ -83,11 +83,19 @@ linha antiga.
   "esgotamento que se auto-confirma" no `protocolo.md`. Os outros 18 canais
   foram auditados com varredura completa e estão íntegros. Reabrir esse acervo é
   decisão pendente do humano: são ~41 lotes só no Invicta.
-- **A proposta de fusão de temas (`merge-temas-proposta.md`) está parcialmente
-  aplicada.** As camadas **A1** (17 fusões) e **R** (6 renomeações) entraram na
-  v2 em 26/11/2026: 525 → 512 temas-raiz, 155 linhas. As camadas **A2** (2),
-  **A3** (26), **B** (6) e a lista de trabalho **C** seguem pendentes de
-  decisão do humano. O arquivo marca o que já foi.
+- **A proposta de fusão de temas (`merge-temas-proposta.md`) está aplicada,
+  menos a camada B.** Em 26/11/2026 entraram **A1** (17 fusões), **R** (6
+  renomeações), **A3** (26) e metade da **A2**: **525 → 485 temas-raiz**, 252
+  linhas em duas passadas, e o tema passou a bater com a planilha que o humano
+  ordenou à mão em 256/290 (88%), contra 50% antes. O que ficou de fora, com o
+  motivo por extenso em `merges/a2-a3.json` (`nao_aplicado`): `Vida urbana` →
+  `Império Hitita` (transversal — Quioto e Alexandria iriam para um tema de 2
+  linhas sobre hititas) e a **camada B inteira**, que não sobreviveu à leitura
+  das linhas. **Pendente de decisão do humano: criar `Roma antiga`** como
+  tema-raiz neutro, para receber `Exército Romano`, `Sociedade Romana`,
+  `Religião Romana` e `Comércio Romano` (69 linhas) — ver a armadilha "padrão
+  de aspecto" no `protocolo.md`. A lista de trabalho **C** da proposta é
+  inventário, nunca foi proposta.
 - **A Lista C do `vocabulario-canonico.md` não cobre os lotes 107-109**
   (SandRhoman History). Antes de propor um tema que pode já existir, confira o
   `observacoes` desse canal em `canais.json`.

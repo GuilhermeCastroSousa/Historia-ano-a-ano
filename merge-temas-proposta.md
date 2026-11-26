@@ -2,16 +2,52 @@
 
 Saiu do cruzamento da sua planilha ordenada à mão com a v2.
 
-> **Estado em 26/11/2026: as camadas A1 e R foram aprovadas por você e estão
-> aplicadas na v2.** 155 linhas afetadas (145 da A1, 10 da R), 525 → 512
-> temas-raiz, nenhuma linha criada ou removida, `trechos contíguos` 2657 →
-> 2638, e o tema passou a bater com o seu em **227/290 (78%)** contra 146/290
-> (50%) antes. A Lista C do `vocabulario-canonico.md` foi regerada e registra
-> o detalhe. **A2, A3, B e a lista de trabalho C seguem sem aplicar** — as
-> tabelas abaixo continuam valendo para elas.
-
-Para o que ainda não foi aplicado: marque `x` na coluna `ok?` do que
-aprovar e me devolva o arquivo; o que ficar em branco não entra.
+> **Estado em 26/11/2026.** Você aprovou tudo, em duas mensagens. Está
+> aplicado: **A1**, **R**, **A3** inteira e **metade da A2**. Não está:
+> **um item da A2, a camada B inteira** e a lista de trabalho **C**.
+>
+> | | linhas | temas-raiz | igual ao seu, nos 290 |
+> |---|---|---|---|
+> | antes | — | 525 | 146/290 (50%) |
+> | A1 + R | 155 | 512 | 227/290 (78%) |
+> | A2 (metade) + A3 | 97 | **485** | **256/290 (88%)** |
+>
+> Nenhuma linha foi criada ou removida; `trechos contíguos` caiu de 2657 para
+> 2610. A Lista C do `vocabulario-canonico.md` foi regerada e registra o
+> detalhe de cada fusão.
+>
+> **O que eu segurei, e por quê** — os três contradizem as linhas reais, e o
+> motivo por extenso está em `merges/a2-a3.json`, campo `nao_aplicado`:
+>
+> - **`Vida urbana` → `Império Hitita`** (A2, 10 linhas). As 10 são Hattusa,
+>   Roma (3), Constantinopla (2), Atenas, Alexandria, Antioquia e Quioto. É
+>   tema transversal de verdade, e só uma linha é hitita — a fusão jogaria
+>   Quioto e Alexandria dentro de um tema de 2 linhas sobre os hititas.
+> - **`Cultura material samurai` e `Marinha samurai` → `Jogos de samurai`**
+>   (B, 13 linhas). O destino são 41 resenhas de videogame. Armadura, espada,
+>   castelo e guerra naval samurai são história.
+> - **Os quatro aspectos romanos** — `Exército Romano`, `Sociedade Romana`,
+>   `Religião Romana`, `Comércio Romano` (B, 69 linhas). Este é o achado que
+>   importa, e ele explica a camada B inteira: **o padrão de aspecto só
+>   funciona quando o destino é o nome da civilização.** Deu certo em
+>   `Sociedade Mesopotâmica` → `Mesopotâmia Antiga` e `Sociedade Egípcia
+>   Antiga` → `Egito antigo` porque esses destinos são a civilização. Roma não
+>   tem esse tema: só `República Romana` (383) e `Império Romano` (112), que
+>   são fases políticas, e os quatro aspectos atravessam as duas —
+>   `Religião Romana` vai de 753 a.C. a 305 d.C., `Sociedade Romana` são 20
+>   linhas sem data. Rotular isso `República Romana` seria mentira no dado,
+>   não só na ordem. **O caminho é criar `Roma antiga` como tema-raiz neutro**,
+>   na forma de `Egito antigo` e `Grécia antiga`. É decisão sua e está
+>   pendente.
+>
+> Com isso a **camada B ficou inteiramente sem aplicar**: nenhum dos seis
+> itens sobreviveu à leitura das linhas. E ela quase não pesava na aderência
+> — os 88% acima já são sem ela. A B foi construída de padrão de nome mais
+> massa de linhas na mesma região, e é o mesmo defeito que me fez abandonar a
+> camada de família de nome; ele sobreviveu ali porque a massa de linhas
+> também é um sinal ruim.
+>
+> Sobra a lista de trabalho **C**, que nunca foi proposta — é inventário.
 
 Fusão aplicada **não perde informação**: o tema antigo vira o `Subtema`
 da linha. É o que você fez nos 290 — Tema é a civilização, Subtema é o
@@ -54,7 +90,7 @@ aplicaria sem hesitar.
 |  | `Sociedade Egípcia Antiga` | `Egito antigo` | 2 | 2/2 |
 |  | `Corinto` | `Grécia antiga` | 2 | 2/2 |
 
-## A2 — você fez, por maioria simples
+## A2 — você fez, por maioria simples  ·  ✔ `Babilônia Antiga` aplicada, `Vida urbana` segurada
 
 Entre 50% e 60% das linhas revisadas. Vale conferir: pode ser que o
 tema seja transversal e a decisão dependa do vídeo.
@@ -64,7 +100,7 @@ tema seja transversal e a decisão dependa do vídeo.
 |  | `Babilônia Antiga` | `Mesopotâmia Antiga` | 24 | 6/11 |
 |  | `Vida urbana` | `Império Hitita` | 10 | 1/2 |
 
-## A3 — você fez, mas em uma linha só
+## A3 — você fez, mas em uma linha só  ·  ✔ APLICADA em 26/11/2026
 
 Evidência fraca por construção: havia um vídeo só daquele tema na sua
 fatia. A maioria me parece certa — `Império Acadiano` em `Mesopotâmia
@@ -116,7 +152,7 @@ sua planilha tem o erro, a v2 está certa; confirme qual você quer).
 |  | `Civilização de Jiroft` | `Jiroft` | 1 | 1/1 |
 |  | `Civilização do Oxus (BMAC)` | `Oxus` | 1 | 1/1 |
 
-## B — padrão de aspecto
+## B — padrão de aspecto  ·  ✖ NÃO APLICADA: nenhum dos seis itens sobreviveu
 
 `Sociedade X`, `Exército X`, `Comércio X` absorvidos por `X`, na mesma
 região. Não é palpite sobre o assunto: o nome do tema já diz que ele é

@@ -1,0 +1,44 @@
+{
+  "rotulo": "camadas A2 e A3 da proposta de fusão de temas",
+  "data": "26/11/2026",
+  "autorizacao": "Aprovadas por escrito pelo humano em 26/11/2026 ('Sim, aplica', sobre A2, A3 e B). A autorização para mexer em Tema e Subtema de linha travada vem da mensagem que abriu a reorganização: 'Todo o catálogo está destravado para esta revisão. Ordem, tema, subtema, região e período podem mudar em qualquer linha. Datas e video_id ficam intactos.'",
+
+  "nao_aplicado": {
+    "Vida urbana -> Império Hitita (A2, 10 linhas, evidência 1/2)": "Tema transversal de verdade. As 10 linhas são Hattusa, Roma (3), Constantinopla (2), Atenas, Alexandria, Antioquia e Quioto -- sete civilizações e 3000 anos. Só uma é hitita. Fundir jogaria Quioto e Alexandria dentro de um tema de 2 linhas sobre os hititas. Era a evidência mais fraca da proposta inteira.",
+    "Cultura material samurai e Marinha samurai -> Jogos de samurai (B, 13 linhas)": "O destino está errado: 'Jogos de samurai' são 41 resenhas de videogame do The Shogunate. Armadura, espada, castelo, machado e guerra naval samurai são história, e a Marinha vai de 1180 a 1880. O heurístico casou pela palavra 'samurai' e pela massa de linhas -- o mesmo defeito que fez eu abandonar a camada de família de nome, e que sobreviveu na B porque ela também usa massa de linhas na mesma região.",
+    "Exército Romano, Sociedade Romana, Religião Romana e Comércio Romano (B, 69 linhas)": "Direção impossível, não só duvidosa. O padrão de aspecto da A1 funcionou porque o destino era o nome da CIVILIZAÇÃO -- 'Sociedade Mesopotâmica' em 'Mesopotâmia Antiga', 'Sociedade Egípcia Antiga' em 'Egito antigo'. Roma não tem esse tema neutro: só 'República Romana' (383) e 'Império Romano' (112), que são fases políticas. E os quatro atravessam as duas: 'Religião Romana' vai de 753 a.C. a 305 d.C., 'Sociedade Romana' são 20 linhas sem data nenhuma ('Drugs in Ancient Rome', 'Law & Order in Ancient Rome'). Rotular isso 'República Romana' seria mentira no dado, não só na ordem. O caminho é criar 'Roma antiga' como tema-raiz neutro, na forma de 'Egito antigo' e 'Grécia antiga' -- decisão do humano, não aplicada aqui."
+  },
+
+  "nota_encadeamento": "'Palestina antiga' ia para 'Canaã Antiga' na proposta, mas a camada A1 já fundiu 'Canaã Antiga' em 'Religião e misticismo'. O destino foi encadeado: é a composição das duas decisões dele, não uma terceira minha.",
+  "nota_peso": "'Hermetismo' são 37 linhas movidas com evidência de uma linha só -- de longe o item mais pesado da A3. A direção é a mesma que a A1 já consolidou ('Canaã Antiga' e 'Demonologia Ocidental' em 'Religião e misticismo'), mas o peso merece ser dito.",
+
+  "fusao": {
+    "Babilônia Antiga": "Mesopotâmia Antiga",
+    "Hermetismo": "Religião e misticismo",
+    "Império Acadiano": "Mesopotâmia Antiga",
+    "História dos Fantasmas": "Religião e misticismo",
+    "Divino Feminino (Sophia e Shekhinah)": "Religião e misticismo",
+    "Cultura do Cobre Antigo": "Povos indígenas das Américas",
+    "Poverty Point": "Povos indígenas das Américas",
+    "Basketmaker": "Povos indígenas das Américas",
+    "História da Batata": "Povos indígenas das Américas",
+    "História do Milho": "Povos indígenas das Américas",
+    "História do Chocolate": "Povos indígenas das Américas",
+    "Manejo do fogo indígena": "Povos indígenas das Américas",
+    "Palestina antiga": "Religião e misticismo",
+    "Povo hebreu": "Religião e misticismo",
+    "Ugarit": "Civilização Fenícia",
+    "Hititas": "Império Hitita",
+    "Cultura Cicládica": "Grécia antiga",
+    "Numismática Antiga": "Grécia antiga",
+    "Curiosidades da História Chinesa": "China",
+    "Tessália antiga": "Grécia antiga",
+    "Atenas Antiga": "Grécia antiga",
+    "Guerra Lelantina": "Grécia antiga",
+    "Argos antiga": "Grécia antiga",
+    "Egina": "Grécia antiga",
+    "Samos": "Grécia antiga",
+    "Halicarnasso": "Grécia antiga",
+    "Delfos": "Grécia antiga"
+  }
+}

@@ -287,9 +287,15 @@ conteúdo pré-colombiano ou colonial.
 
 ---
 
-## Lista C — Tema e Subtema (512 temas-raiz)
+## Lista C — Tema e Subtema (485 temas-raiz)
 
-Regenerada em 26/11/2026, depois da aplicação das camadas **A1** e **R** da proposta de fusão de temas (`merge-temas-proposta.md`): 525 → 512 temas-raiz, 155 linhas afetadas, nenhuma linha criada ou removida. A **A1** fundiu 17 temas que o humano fundiu à mão na maioria das linhas que revisou — `Suméria Antiga`, `Assíria Antiga`, `Sociedade Mesopotâmica`, `Reino de Yamhad` e `Comércio na Mesopotâmia Antiga` em **`Mesopotâmia Antiga`** (tema-raiz novo, 46 linhas); `Esparta`, `Corinto`, `Civilização Micênica`, `Civilização Minoica`, `Democracia Ateniense` e `Colonização grega` em **`Grécia antiga`** (67); `Canaã Antiga` e `Demonologia Ocidental` em `Religião e misticismo` (41); `Sociedade Egípcia Antiga` em `Egito antigo` (58); `Índia antiga` em `Civilização do Vale do Indo`; `China antiga` em `China`; `Povos indígenas da América do Norte` em `Povos indígenas das Américas`. A **R** renomeou 6 (`Línguas indo-europeias` → `Línguas`, `Civilização Nurágica` → `Cultura Nurágica`, `Impérios Berberes` → `Berberes`, `Povos do Zagros` → `Zagros`, `Civilização de Jiroft` → `Jiroft`, `Civilização do Oxus (BMAC)` → `Oxus`). Regra do `Subtema` na fusão, medida contra as 84 linhas da amostra de 290 que caem na A1: **subtema vazio recebe o tema antigo** (foi o que ele fez nas 23 linhas em que pôs o tema antigo ali, todas sem subtema na v2) e **subtema cheio é preservado** — aqui ele reescreveu à mão, caso a caso, sem regra extraível, e empurrar o tema antigo por cima destruiria `Império Neo-Sumério (Ur III)`, `Guerras Messênias`, `Cuneiforme`. As camadas **A2**, **A3**, **B** e a lista de trabalho **C** da proposta seguem sem aplicar.
+Regenerada em 26/11/2026, depois da aplicação das camadas **A1**, **R**, **A3** e de metade da **A2** da proposta de fusão de temas (`merge-temas-proposta.md`): **525 → 485 temas-raiz**, 252 linhas afetadas em duas passadas, nenhuma linha criada ou removida. O tema passou a bater com a planilha que o humano ordenou à mão em **256/290 (88%)**, contra 146/290 (50%) antes, e os trechos contíguos (região + tema) na v3 caíram de 2657 para 2610.
+
+A **segunda passada** (A2 e A3) moveu 97 linhas: `Babilônia Antiga` (24) para `Mesopotâmia Antiga`, que fecha em 77 linhas; `Hermetismo` (37), `História dos Fantasmas`, `Divino Feminino`, `Palestina antiga` e `Povo hebreu` para `Religião e misticismo` (87); sete temas de uma linha (`História da Batata`, `do Milho`, `do Chocolate`, `Manejo do fogo indígena`, `Cultura do Cobre Antigo`, `Poverty Point`, `Basketmaker`) para `Povos indígenas das Américas` (12); onze cidades e regiões gregas (`Atenas Antiga`, `Argos antiga`, `Tessália antiga`, `Egina`, `Samos`, `Halicarnasso`, `Delfos`, `Cultura Cicládica`, `Guerra Lelantina`, `Numismática Antiga`) para `Grécia antiga` (77); `Império Acadiano` para `Mesopotâmia Antiga`; `Ugarit` para `Civilização Fenícia`; `Hititas` para `Império Hitita`; `Curiosidades da História Chinesa` para `China`. `Palestina antiga` ia para `Canaã Antiga` na proposta — o destino foi encadeado para `Religião e misticismo`, onde a A1 já havia posto `Canaã Antiga`.
+
+**Três itens da proposta não foram aplicados, por contradizerem os dados** (o detalhe e o motivo estão em `merges/a2-a3.json`, campo `nao_aplicado`): `Vida urbana` → `Império Hitita` (10 linhas que são Hattusa, Roma, Constantinopla, Atenas, Alexandria, Antioquia e Quioto — tema transversal, uma só linha hitita); `Cultura material samurai` e `Marinha samurai` → `Jogos de samurai` (o destino são 41 resenhas de videogame); e os quatro aspectos romanos — `Exército Romano`, `Sociedade Romana`, `Religião Romana`, `Comércio Romano`, 69 linhas. Este último é o achado que importa: **o padrão de aspecto só funciona quando o destino é o nome da civilização**, como em `Sociedade Mesopotâmica` → `Mesopotâmia Antiga` e `Sociedade Egípcia Antiga` → `Egito antigo`. Roma não tem esse tema neutro — só `República Romana` e `Império Romano`, que são fases políticas —, e os quatro aspectos atravessam as duas. Resolver isso pede um tema-raiz novo, **`Roma antiga`**, na forma de `Egito antigo` e `Grécia antiga`; é decisão do humano e está pendente. Com isso a camada **B** da proposta ficou inteiramente sem aplicar, e vale registrar que ela quase não mexia na aderência aos 290 (88% com ela fora) — foi construída de padrão de nome mais massa de linhas, e nenhum dos seis itens sobreviveu à leitura das linhas reais.
+
+A **primeira passada** (A1 e R) moveu 155 linhas: 525 → 512 temas-raiz. A **A1** fundiu 17 temas que o humano fundiu à mão na maioria das linhas que revisou — `Suméria Antiga`, `Assíria Antiga`, `Sociedade Mesopotâmica`, `Reino de Yamhad` e `Comércio na Mesopotâmia Antiga` em **`Mesopotâmia Antiga`** (tema-raiz novo, 46 linhas); `Esparta`, `Corinto`, `Civilização Micênica`, `Civilização Minoica`, `Democracia Ateniense` e `Colonização grega` em **`Grécia antiga`** (67); `Canaã Antiga` e `Demonologia Ocidental` em `Religião e misticismo` (41); `Sociedade Egípcia Antiga` em `Egito antigo` (58); `Índia antiga` em `Civilização do Vale do Indo`; `China antiga` em `China`; `Povos indígenas da América do Norte` em `Povos indígenas das Américas`. A **R** renomeou 6 (`Línguas indo-europeias` → `Línguas`, `Civilização Nurágica` → `Cultura Nurágica`, `Impérios Berberes` → `Berberes`, `Povos do Zagros` → `Zagros`, `Civilização de Jiroft` → `Jiroft`, `Civilização do Oxus (BMAC)` → `Oxus`). Regra do `Subtema` na fusão, medida contra as 84 linhas da amostra de 290 que caem na A1: **subtema vazio recebe o tema antigo** (foi o que ele fez nas 23 linhas em que pôs o tema antigo ali, todas sem subtema na v2) e **subtema cheio é preservado** — aqui ele reescreveu à mão, caso a caso, sem regra extraível, e empurrar o tema antigo por cima destruiria `Império Neo-Sumério (Ur III)`, `Guerras Messênias`, `Cuneiforme`. As camadas **A2**, **A3**, **B** e a lista de trabalho **C** da proposta seguem sem aplicar.
 
 A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vinte canais encerrados, só para o que publicaram desde a última coleta), a partir das 5567 linhas de `playlist-historia-v2.xlsx` (lotes 0 a 249). Introduziu 10 temas-raiz: `Guerra Civil Espanhola`, `Guerra Irã-Iraque`, `Guerras Iugoslavas`, `Povo Romani`, `Declínio do Budismo na Índia`, `Descolonização do Império Britânico`, `Guerras Civis do Sudão`, `Revolta dos Camponeses de 1381`, `História da Pimenta`, `Zoroastrismo`. As 152 linhas novas vieram de 16 canais; quatro não tinham nada catalogável. Nenhuma região nova — a Lista B segue com 60 termos em uso.
 
@@ -308,11 +314,13 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 90 | Avisos do canal | — |
 | 90 | Cruzadas | Primeira Cruzada (37) · Segunda Cruzada (17) · Quarta Cruzada (16) · Terceira Cruzada (7) · Panorama das Cruzadas (3) · Cruzada Albigense (2) · Cruzada das Crianças (1) |
 | 87 | História dos Estados Unidos | Candidatos Derrotados (43) · Política (24) · Bush 43 Still Sucks (6) · Presidência (5) · Fundação (2) · Guerras Índias (2) · Diplomacia (1) · Igreja Negra e Direitos Civis (1) · Marinha (1) |
+| 87 | Religião e misticismo | Anel e Selo de Salomão (7) · Religião Cananeia (7) · Reinos da Idade do Ferro (6) · Lilith (5) · Canaã Antiga (3) · Datação e o Debate sobre a Autenticidade (Ficino a Casaubon) (3) · Panorama da Transmutação Alquímica (3) · A Edição de 1505 do Corpus Hermeticum e Lazzarelli (2) · Demônios do Talmude (Daf Yomi) (2) · O Deus Sem Cabeça (Akephalos) e os Papiros Mágicos Gregos (2) · Os Papiros Mágicos Gregos (PGM) (2) · A Fórmula do Caranguejo/Escorpião (Alquimia Greco-Egípcia) (1) · A Inquisição contra a Alquimia (Nicholas Eymerich, 1396) (1) · A Perseguição de Dioclesiano aos Alquimistas (296 d.C.) (1) · A Tábua de Esmeralda (Origens e Transmissão) (1) · Antologia Hermética Renascentista (1497) (1) · Asherá (1) · Baal (1) · Belial (1) · Cabala Química (Cabala e Alquimia) (1) · Cleópatra, a Alquimista (Crisopeia) (1) · Cosmologia e Teologia Hermética (Corpus Hermeticum) (1) · De Spectris (Ludwig Lavater, 1569) (1) · Demonologia do Antigo Israel (Pré-Exílica) (1) · Divino Feminino (Sophia e Shekhinah) (1) · Domínio Egípcio (Bronze Final) (1) · Fantasmas Medievais (Thietmar de Merseburg) (1) · Fragmentos Herméticos Adicionais (Stobeu, Kore Kosmou) (1) · Hermetica Técnica (Kyranides) (1) · História dos Fantasmas (1) · Idade de Ouro Cananeia (Bronze Médio) (1) · Iom Kipur e o Ritual do Templo (1) · Jericó e o Bronze Antigo (1) · João de Rupescissa e a Alquimia Apocalíptica (1) · Magia do Tesouro (Lore e Feitiçaria) (1) · Magia e Doença (Panorama Histórico) (1) · Maria, a Judia (Alquimia Greco-Egípcia) (1) · Moloch (1) · O Anjo da Morte (1) · O Livro da Composição da Alquimia (1144, Robert de Chester) (1) · O Livro de Tot Egípcio (Ritual de Iniciação Demótico) (1) · Os Alquimistas Empreendedores (Pós-Peste Negra) (1) · Os Magos (Mitologia e História) (1) · Os Primeiros Fantasmas (Suméria, Babilônia e Assíria) (1) · Palestina antiga (1) · Petosíris, Sumo Sacerdote de Tot (Origens Egípcias) (1) · Plínio, o Jovem e a Casa Assombrada (1) · Possessão e Exorcismo no Judaísmo Antigo (Mil Anos) (1) · Povo hebreu (1) · Set (Seth) (1) · Summa Perfectionis (Pseudo-Geber, c. 1310) (1) · Símbolos Mágicos e Alfabetos Angélicos (Origens) (1) · Tot e a Origem de Hermes Trismegisto (1) · Tratado de Talismãs (De Imaginibus, Thabit ibn Qurra) (1) · Turba Philosophorum (Assembleia dos Filósofos) (1) · Zósimo de Panópolis (Origens Egípcias da Alquimia) (1) |
 | 83 | Reforma Protestante | Martinho Lutero (21) · João Calvino (14) · Reforma Católica (Contrarreforma) (6) · Puritanismo Inglês e Colonial (3) · A Bíblia em Inglês (2) · Assentamento Elisabetano (2) · Calvino e a Tradição Reformada (2) · Erasmo x Lutero: Livre-Arbítrio (2) · Henrique VIII e o Anglicanismo Primitivo (2) · Jan Hus e a Profecia da Reforma (2) · John Knox e a Reforma Escocesa (2) · John Wycliffe (2) · Luteranismo Posterior (2) · Panorama da Reforma (2) · Calvino e o Caso Sérveto (1) · Covenanters Escoceses (1) · Erasmo de Roterdã (1) · Guerra dos Camponeses e Reforma Radical (1) · Huguenotes e a Reforma Francesa (1) · Huldrych Zwínglio (1) · Indulgências (1) · Lutero e Calvino: Teologia Comparada (1) · Lutero e Melanchthon (1) · Menno Simons e os Menonitas (1) · Pano de Fundo Medieval da Reforma (1) · Panorama da Reforma Britânica (1) · Philip Melanchthon (1) · Protestantismo Espanhol (1) · Reino Anabatista de Münster (1) · Thomas Cranmer (1) · William Tyndale (1) |
 | 82 | Império Otomano | Mehmed II (13) · Guerra Otomano-Portuguesa (4) · Cercos de Viena (3) · Bayezid II e Selim I (2) · Guerra de Chipre (2) · Janízaros (2) · Cem Sultan (1) · Guerra de Candia (1) · Guerras Otomano-Safávidas (1) · Islamização da Bósnia (1) · João Hunyadi (1) · Kapikulu (Exército Permanente) (1) · Skanderbeg (1) · Sultanato das Mulheres (1) |
 | 77 | Filosofia Judaica Medieval | Misticismo Merkavah (Hekhalot) (25) · Cabala (Zohar e Abraham Abulafia) (7) · Cabala de Safed (Cordovero, Luria e Israel Sarug) (5) · Cabala Primitiva (Círculos de Provença e Castela) (4) · Maimônides (4) · Sabbatai Zevi e o Messianismo Cabalístico (Nathan de Gaza) (3) · Sefer Yetzirah e Sefer Bahir (Origens da Cabala) (2) · A Espada de Moisés (Harba de-Moshe) (1) · Ascensão do Apocalipticismo Judaico (Daniel e Enoque) (1) · Astrologia Médica Hebraica (Kelal Qatan) (1) · Astrologia no Judaísmo e Islã Antigos (1) · Cabala Cristã e Cabala Luriânica (1) · Cabala Moderna (R. Yosef Ergas) (1) · Cabala Tardia e o Surgimento do Hassidismo (1) · Controvérsia Maimonidiana (1) · Gersônides (1) · Gersônides e Hasdai Crescas (1) · Glória Divina e o Proto-Cabalismo dos Querubins (Akhatriel) (1) · Hasdai Crescas (1) · Ibn Gabirol (1) · Joseph Albo e Isaac Abravanel (1) · Judah Halevi (1) · Liberdade e Astrologia na Filosofia Judaica (Ibn Ezra, Ibn Daud e Maimônides) (1) · Magia Judaica Antiga e Medieval (1) · Neoplatonismo Judaico (Isaac Israeli, Ibn Gabirol e Maimônides) (1) · Panorama do Pensamento Judaico Andaluz (Debate Moderno) (1) · Profecia e Teofania Israelita (Fundamentos Pré-Cabalísticos) (1) · Raízes da Filosofia Judaica no Mundo Islâmico (Mishnah, Talmud e Isaac Israeli) (1) · Saadia Gaon (1) · Sar Torah e os Hasidei Ashkenaz (1) · Sefer HaMalbush e Sefer HaYashar (Magia do Manto) (1) · Sofrimento na Filosofia Judaica (Saadia a Gersônides) (1) · Zohar sobre Ester (Piada de 1º de Abril) (1) · Ética e Judaísmo (Baḥya Ibn Paquda e Maimônides) (1) |
+| 77 | Grécia antiga | Esparta (13) · Civilização Micênica (8) · Democracia Ateniense (7) · Colonização grega (5) · Civilização Minoica (4) · Corinto (2) · Idade das Trevas Grega (2) · Período Arcaico (2) · Acragas (1) · Argos antiga (1) · Atenas Antiga (1) · Cultura Cicládica (1) · Delfos (1) · Demóstenes (1) · Egina (1) · Exército Espartano (1) · Filosofia Clássica (1) · Guerra Lelantina (1) · Guerras Messênias (1) · Halicarnasso (1) · Numismática Antiga (1) · Panorama Grego (curso) (1) · Panorama do Bronze Egeu (curso) (1) · Período Neolítico (1) · Questão Ahhiyawa (1) · Safo de Lesbos (1) · Samos (1) · Tessália antiga (1) |
+| 77 | Mesopotâmia Antiga | Sociedade Mesopotâmica (9) · Período Paleobabilônico (6) · Império Acadiano (3) · Império Neo-Babilônico (3) · Período Médio Assírio (3) · Reino Antigo Assírio (3) · Reino da Alta Mesopotâmia (3) · Amorreus (2) · Babilônia Antiga (2) · Cemitério Real de Ur (2) · Comércio na Mesopotâmia Antiga (2) · Estela da Vitória de Naram-Sin (2) · Império Neo-Sumério (Ur III) (2) · Lagash e Umma (2) · Origens (2) · Panorama Assírio (curso) (2) · Panorama Sumério (curso) (2) · Astronomia Babilônica (1) · Babilônia Helenística (1) · Biblioteca de Assurbanipal (1) · Bibliotecas Sumérias Primitivas (Shuruppak, Abu Salabikh e Ebla) (1) · Cidades do Período Dinástico Arcaico (1) · Cuneiforme (1) · Dinastia Cassita (1) · Dinastia do Sealand (1) · Enheduanna (1) · Eridu (1) · Exército Assírio (1) · Gudea de Lagash (1) · Idrimi de Alalakh (1) · Jardins Suspensos (1) · Kish (1) · Mari (1) · Masterpieces de Mesopotâmia (1) · O Ritual Maqlû (Contra-Magia Babilônica) (1) · Panorama Babilônico (curso) (1) · Período Isin-Larsa (1) · Reino de Yamhad (1) · Rimush e Manishtushu (1) · Ritual do Rei Substituto (1) · Segunda Dinastia de Isin (1) · Semíramis (Sammu-ramat) (1) · Sociedade e Leis Babilônicas (1) · Séculos Obscuros da Babilônia (1) |
 | 69 | Cristianismo Primitivo | Gnosticismo (23) · Agostinho de Hipona (9) · Apologistas e Heresias Primitivas (3) · Atanásio e Niceia (3) · Boécio (3) · O Jesus Histórico (3) · Perseguições aos Cristãos (2) · Ambrósio de Milão (1) · Ambrósio e Jerônimo (1) · Ascetismo Cristão (Antão, Macrina e Evágrio) (1) · Concílio de Calcedônia (1) · Concílio de Constantinopla (1) · Formação da Doutrina da Trindade (1) · Magia Cristã Copta Primitiva (Proteção, Exorcismo e Amor) (1) · Monasticismo Primitivo (1) · Máximo o Confessor (1) · Nestório e o Concílio de Éfeso (1) · Orígenes (1) · Padres Apostólicos (1) · Padres Capadócios (1) · Padres Gregos e a Bíblia (Debate Moderno) (1) · Padres Latinos (Tertuliano a Jerônimo) (1) · Platonismo Latino (Apuleio a Calcídio) (1) · Pseudo-Dionísio Areopagita (1) · São Paulo (1) |
-| 67 | Grécia antiga | Esparta (13) · Civilização Micênica (8) · Democracia Ateniense (7) · Colonização grega (5) · Civilização Minoica (4) · Corinto (2) · Idade das Trevas Grega (2) · Período Arcaico (2) · Acragas (1) · Demóstenes (1) · Exército Espartano (1) · Filosofia Clássica (1) · Guerras Messênias (1) · Panorama Grego (curso) (1) · Panorama do Bronze Egeu (curso) (1) · Período Neolítico (1) · Questão Ahhiyawa (1) · Safo de Lesbos (1) |
 | 60 | Dinastia Zhou | Cem Escolas do Pensamento (53) · Estados Combatentes (5) · Zhou Ocidental e Primavera e Outono (1) |
 | 58 | Egito antigo | Reino Antigo (9) · Reino Novo (6) · Dinastia 0 (5) · Período Tardio (5) · Reino Médio (4) · Período Dinástico Arcaico (3) · Segundo Período Intermediário (3) · Terceiro Período Intermediário (3) · Egito e Núbia (2) · Período Pré-dinástico (2) · Sociedade Egípcia Antiga (2) · Primeiro Período Intermediário (1) |
 | 58 | História na cultura popular | Literatura (33) · Cinema (17) · Televisão (4) · Jogos (2) · Luta livre profissional (1) |
@@ -323,7 +331,6 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 50 | Jogos de estratégia | Lore de ficção (26) · Total War (12) |
 | 50 | Revolução Russa de 1905 | Prelúdio (10) · Revolução de 1905 (9) · Pós-1905 (7) · Decembristas (3) |
 | 48 | Filosofia Helenística e Romana | Epicuro e o Epicurismo (4) · O Renascimento Platônico (Eudoro, Alcínoo e Numênio) (4) · Os Primeiros Estoicos (Zenão, Cleantes e Crisipo) (4) · Cícero (2) · Fílon de Alexandria (2) · Platonismo Médio (Painel) (2) · A Academia Cética (1) · Alexandre de Afrodísias (1) · Antíoco de Ascalon (1) · Apuleio (1) · Aristotelismo Pós-Aristóteles (1) · As Origens Estoicas do Ocultismo Ocidental (1) · Diógenes e os Cínicos (1) · Epicteto (1) · Estoicismo Romano (Debate Moderno) (1) · Filosofia Helenística da Astrologia (Debate Moderno) (1) · Galeno (1) · Introdução: A Sombra de Platão (1) · Lucrécio (1) · Marco Aurélio (1) · Matemática Antiga e Filosofia (Debate Moderno) (1) · Medicina e Filosofia na Antiguidade (Herófilo a Galeno) (1) · Neopitagóricos (1) · O Estoicismo: Painel sobre a Escola (1) · O Self na Filosofia Helenística (Debate Moderno) (1) · O Submundo Platônico (1) · Os Cirenaicos (1) · Panorama: Filosofia no Império Romano (1) · Pirro e o Ceticismo Pirrônico (1) · Platonismo Médio e Cristianismo (1) · Plutarco (1) · Plutarco de Queroneia (1) · Ptolomeu: Astronomia, Astrologia e Filosofia (1) · Retórica e Filosofia Antiga (Temístio, Quintiliano e Luciano) (1) · Sexto Empírico (1) · Sêneca (1) |
-| 46 | Mesopotâmia Antiga | Sociedade Mesopotâmica (9) · Período Médio Assírio (3) · Reino Antigo Assírio (3) · Reino da Alta Mesopotâmia (3) · Amorreus (2) · Cemitério Real de Ur (2) · Comércio na Mesopotâmia Antiga (2) · Império Neo-Sumério (Ur III) (2) · Lagash e Umma (2) · Origens (2) · Panorama Assírio (curso) (2) · Panorama Sumério (curso) (2) · Biblioteca de Assurbanipal (1) · Bibliotecas Sumérias Primitivas (Shuruppak, Abu Salabikh e Ebla) (1) · Cidades do Período Dinástico Arcaico (1) · Cuneiforme (1) · Eridu (1) · Exército Assírio (1) · Gudea de Lagash (1) · Idrimi de Alalakh (1) · Kish (1) · Masterpieces de Mesopotâmia (1) · Reino de Yamhad (1) · Semíramis (Sammu-ramat) (1) |
 | 44 | Império Mongol | Rabban Bar Sauma (1) |
 | 44 | Revolução Americana | Campanha de Saratoga (2) · Cerco de Gibraltar (2) · Lealistas (2) · Igrejas na Revolução Americana (1) · Traição de Benedict Arnold (1) |
 | 43 | Guerras Napoleônicas | Marechais de Napoleão (7) · Guerra Peninsular (5) · Grande Armée (Organização) (1) · Thomas Cochrane (1) · Velha Guarda (Old Guard) (1) |
@@ -331,9 +338,7 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 42 | Filosofia Moderna | René Descartes (11) · Cartesianismo Francês (9) · Blaise Pascal (3) · Moralistas Franceses (3) · Pierre Bayle (3) · Elisabeth da Boêmia (2) · Gassendi e o Atomismo (2) · República Holandesa (2) · República das Letras (2) · Ceticismo Francês (1) · Teorias da Substância (Aquino a Locke e Leibniz) (1) · Tolerância Religiosa (1) |
 | 42 | Primeira Guerra Mundial | Prelúdio (5) · Frente do Oriente Médio (3) · Frente Oriental (2) · Guerra Naval (2) · Frente do Cáucaso (1) · Igrejas na Primeira Guerra Mundial (1) · Mar do Norte (1) |
 | 41 | Jogos de samurai | — |
-| 41 | Religião e misticismo | Anel e Selo de Salomão (7) · Religião Cananeia (7) · Reinos da Idade do Ferro (6) · Lilith (5) · Canaã Antiga (3) · Demônios do Talmude (Daf Yomi) (2) · Baal (1) · Belial (1) · Demonologia do Antigo Israel (Pré-Exílica) (1) · Domínio Egípcio (Bronze Final) (1) · Idade de Ouro Cananeia (Bronze Médio) (1) · Iom Kipur e o Ritual do Templo (1) · Jericó e o Bronze Antigo (1) · Moloch (1) · O Anjo da Morte (1) · Possessão e Exorcismo no Judaísmo Antigo (Mil Anos) (1) · Set (Seth) (1) |
 | 38 | Alexandre, o Grande | — |
-| 37 | Hermetismo | Datação e o Debate sobre a Autenticidade (Ficino a Casaubon) (3) · Panorama da Transmutação Alquímica (3) · A Edição de 1505 do Corpus Hermeticum e Lazzarelli (2) · O Deus Sem Cabeça (Akephalos) e os Papiros Mágicos Gregos (2) · Os Papiros Mágicos Gregos (PGM) (2) · A Fórmula do Caranguejo/Escorpião (Alquimia Greco-Egípcia) (1) · A Inquisição contra a Alquimia (Nicholas Eymerich, 1396) (1) · A Perseguição de Dioclesiano aos Alquimistas (296 d.C.) (1) · A Tábua de Esmeralda (Origens e Transmissão) (1) · Antologia Hermética Renascentista (1497) (1) · Cabala Química (Cabala e Alquimia) (1) · Cleópatra, a Alquimista (Crisopeia) (1) · Cosmologia e Teologia Hermética (Corpus Hermeticum) (1) · Fragmentos Herméticos Adicionais (Stobeu, Kore Kosmou) (1) · Hermetica Técnica (Kyranides) (1) · João de Rupescissa e a Alquimia Apocalíptica (1) · Magia do Tesouro (Lore e Feitiçaria) (1) · Magia e Doença (Panorama Histórico) (1) · Maria, a Judia (Alquimia Greco-Egípcia) (1) · O Livro da Composição da Alquimia (1144, Robert de Chester) (1) · O Livro de Tot Egípcio (Ritual de Iniciação Demótico) (1) · Os Alquimistas Empreendedores (Pós-Peste Negra) (1) · Os Magos (Mitologia e História) (1) · Petosíris, Sumo Sacerdote de Tot (Origens Egípcias) (1) · Summa Perfectionis (Pseudo-Geber, c. 1310) (1) · Símbolos Mágicos e Alfabetos Angélicos (Origens) (1) · Tot e a Origem de Hermes Trismegisto (1) · Tratado de Talismãs (De Imaginibus, Thabit ibn Qurra) (1) · Turba Philosophorum (Assembleia dos Filósofos) (1) · Zósimo de Panópolis (Origens Egípcias da Alquimia) (1) |
 | 35 | Expansão islâmica | Al-Andalus (1) |
 | 35 | Guerra Civil Americana | Prelúdio (4) · Campanha de Atlanta (2) · Teatro Ocidental (2) · Campanha Overland (1) · Campanha da Península (1) · Campanha de Chattanooga (1) · Campanha de Gettysburg (1) · Campanha de Vicksburg (1) · Marcha para o Mar (1) · Teatro naval (1) |
 | 34 | Revoluções de 1848 | — |
@@ -346,7 +351,6 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 26 | História do Cristianismo Moderno | Iluminismo e a Igreja (3) · John Wesley e George Whitefield (2) · Arminianismo e a Revolta Holandesa (1) · Catolicismo Imigrante nos EUA (1) · Evangelho Social e Liberalismo Teológico (1) · Fundamentalismo (1) · Inglaterra dos Stuart (1) · Jansenismo (1) · Jonathan Edwards (1) · Movimento de Oxford (1) · Movimentos de Santidade e Restauração (1) · Neoevangelicalismo (1) · Panorama do Século XIX (1) · Panorama do Século XVII (1) · Panorama do Século XVIII (1) · Pentecostalismo (1) · Peregrinos e Colônias Americanas (1) · Pietismo Luterano (1) · Primeiro Grande Despertar (1) · Puritanismo (panorama) (1) · Quietismo (1) · Segundo Grande Despertar (1) · Unitários, Batistas e Quacres (1) |
 | 25 | História de Gales | Reino de Gwynedd (6) · Conquista de Gales (1) |
 | 25 | Revolução Russa de 1917 | Prelúdio (7) · Revolução de Outubro (7) · Governo Provisório (6) · Revolução de Fevereiro (4) |
-| 24 | Babilônia Antiga | Período Paleobabilônico (6) · Império Neo-Babilônico (3) · Astronomia Babilônica (1) · Babilônia Helenística (1) · Dinastia Cassita (1) · Dinastia do Sealand (1) · Jardins Suspensos (1) · Mari (1) · O Ritual Maqlû (Contra-Magia Babilônica) (1) · Panorama Babilônico (curso) (1) · Período Isin-Larsa (1) · Ritual do Rei Substituto (1) · Segunda Dinastia de Isin (1) · Sociedade e Leis Babilônicas (1) · Séculos Obscuros da Babilônia (1) |
 | 23 | Guerra dos Trinta Anos | Intervenção Sueca (9) · Fase Boêmia (3) · Fase Dinamarquesa (1) · Fase Francesa (1) · Guerra de Sucessão de Mântua (1) |
 | 23 | Revolução Haitiana | — |
 | 21 | Aristóteles | Aristóteles (16) · Sucessores de Platão e Aristóteles (Academia Antiga e Teofrasto) (3) · Aristóteles e Platão: Recepção Crítica (1) · Meteorologica e as Origens da Alquimia (1) |
@@ -374,6 +378,7 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 12 | Bretanha Antiga | — |
 | 12 | Guerra Genpei | — |
 | 12 | Guerra Medieval | — |
+| 12 | Povos indígenas das Américas | Povos indígenas da América do Norte (3) · Grandes Planícies (2) · Basketmaker (1) · Cultura do Cobre Antigo (1) · História da Batata (1) · História do Chocolate (1) · História do Milho (1) · Manejo do fogo indígena (1) · Poverty Point (1) |
 | 12 | Revoluções de 1830 | — |
 | 11 | Cultura material samurai | — |
 | 11 | Dinastia Han | Filosofia Han (4) · Han Ocidental (1) · Han Oriental (1) |
@@ -390,10 +395,10 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 10 | História da Ucrânia | Euromaidan (1) · Holodomor (1) · Russificação (1) |
 | 10 | Reconquista | — |
 | 10 | Vida urbana | Roma (3) · Constantinopla (2) · Alexandria (1) · Antioquia (1) · Atenas (1) · Hattusa (1) · Quioto (1) |
+| 9 | Civilização Fenícia | Biblos (1) · Sidon (1) · Tiro (1) · Ugarit (1) |
 | 9 | Civilização do Vale do Indo | Índia antiga (3) · Idade Védica (1) |
 | 9 | Fortalezas | Vauban (2) |
 | 9 | Guerras Italianas | — |
-| 8 | Civilização Fenícia | Biblos (1) · Sidon (1) · Tiro (1) |
 | 8 | Colapso da Idade do Bronze | — |
 | 8 | Feudalismo | — |
 | 8 | Gladiadores | — |
@@ -403,7 +408,6 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 8 | Rus de Kiev | — |
 | 7 | Civilização Maia | Cidades Maias (2) · Período Clássico (2) · Colapso Maia (1) · Códice Maya de México (Almanaque de Vênus) (1) · Período Pré-Clássico (1) |
 | 7 | Conquista normanda da Inglaterra | Hereward, o Vigilante (1) |
-| 7 | Império Acadiano | Estela da Vitória de Naram-Sin (2) · Enheduanna (1) · Rimush e Manishtushu (1) |
 | 7 | Período dos Três Reinos | Ascensão de Cao Cao (4) · Shu Han (1) |
 | 7 | Revolução Científica | Johannes Kepler (1) · Nicolau Copérnico (1) · Tycho Brahe (1) |
 | 7 | União Soviética | Luta pela Sucessão (4) · Fundação da URSS (3) |
@@ -420,6 +424,7 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 6 | Miguel, o Bravo | — |
 | 6 | Reino Normando da Sicília | — |
 | 6 | Sacro Império Romano-Germânico | — |
+| 5 | China | China antiga (4) · Curiosidades da História Chinesa (1) |
 | 5 | Condottieri | Companhias Livres (4) |
 | 5 | Cátaros | Escrituras Cátaras (Visão de Isaías e Ceia Secreta de João) (1) · O Debate sobre a Existência Histórica dos Cátaros (1) · O Livro dos Dois Princípios (Liber de Duobus Principiis) (1) · Teologia Cátara (O Pai-Nosso Cátaro) (1) |
 | 5 | Dinastia Qing | Koxinga (2) · Conquista de Xinjiang (1) |
@@ -430,14 +435,12 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 5 | Guerras da Borgonha | — |
 | 5 | Guerras Árabe-Israelenses | — |
 | 5 | Harald Hardrada | — |
-| 5 | História dos Fantasmas | De Spectris (Ludwig Lavater, 1569) (1) · Fantasmas Medievais (Thietmar de Merseburg) (1) · Os Primeiros Fantasmas (Suméria, Babilônia e Assíria) (1) · Plínio, o Jovem e a Casa Assombrada (1) |
 | 5 | Hunos | — |
 | 5 | Império Parta | — |
 | 5 | Império Russo | Colonização Russa da América (1) · Conquista da Sibéria (1) · Gannibal (1) |
 | 5 | Marinha Britânica | — |
 | 5 | Núbia | Invasão Núbia do Egito (Piye) (1) · Invasão Romana da Núbia (1) |
 | 5 | Origens da guerra | — |
-| 5 | Povos indígenas das Américas | Povos indígenas da América do Norte (3) · Grandes Planícies (2) |
 | 5 | Ranking de samurais | — |
 | 5 | Shinobi | — |
 | 5 | Vida cortesã | Torneios (2) · Caça real (1) · Cortes Ocidentais (1) · Cortes Orientais (1) |
@@ -445,7 +448,6 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 4 | Aleister Crowley | Absinthe e o Bairro Francês de Nova Orleans (1918) (2) · Boleskine House (2) |
 | 4 | Casa de Habsburgo | — |
 | 4 | Celtas antigos | — |
-| 4 | China | China antiga (4) |
 | 4 | Comércio Romano | — |
 | 4 | Conflito Israel-Hezbollah | — |
 | 4 | Conquistadores | Expedição de Narváez (1) |
@@ -485,6 +487,7 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 3 | História da Absinta | — |
 | 3 | História da Arte | Giotto (1) · Rembrandt (1) |
 | 3 | História da Prússia | — |
+| 3 | Império Hitita | Hititas (1) |
 | 3 | Império Sassânida | — |
 | 3 | Invasões Mongóis do Japão | — |
 | 3 | Landsknechts | — |
@@ -511,7 +514,6 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 2 | Cultura Nurágica | — |
 | 2 | Cultura de internet | — |
 | 2 | Dezesseis Reinos | Antigo Qin (1) · Wei do Norte (1) |
-| 2 | Divino Feminino (Sophia e Shekhinah) | Asherá (1) |
 | 2 | Era Vitoriana | — |
 | 2 | Esportes | — |
 | 2 | Estepe Eurasiática | — |
@@ -534,7 +536,6 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 2 | História do Iêmen | Insurgência Huthi (1) |
 | 2 | Ilírios | Grande Revolta Ilíria (1) |
 | 2 | Império Gurida | — |
-| 2 | Império Hitita | — |
 | 2 | Império Meda | — |
 | 2 | Império Mogol | Akbar, o Grande (1) · Malik Ambar (1) |
 | 2 | Império Neo-Assírio | — |
@@ -572,14 +573,11 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 1 | Anne Conway | — |
 | 1 | Anábase dos Dez Mil | — |
 | 1 | Arameus | — |
-| 1 | Argos antiga | — |
 | 1 | Arthur Schopenhauer | — |
 | 1 | As Origens do Gótico (Estética e Horror) | — |
 | 1 | Astecas | Nezahualcoyotl (1) |
-| 1 | Atenas Antiga | — |
 | 1 | Austin Osman Spare | — |
 | 1 | Baruch Spinoza | — |
-| 1 | Basketmaker | — |
 | 1 | Beócia antiga | — |
 | 1 | Blackbeard | — |
 | 1 | Budismo no Japão | — |
@@ -614,12 +612,8 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 1 | Crise Geral do Século XVII | — |
 | 1 | Crise de 1383-1385 | — |
 | 1 | Cristianismo no Japão | — |
-| 1 | Cultura Cicládica | — |
-| 1 | Cultura do Cobre Antigo | — |
 | 1 | Cumano-Quipchaques | — |
-| 1 | Curiosidades da História Chinesa | — |
 | 1 | Declínio do Budismo na Índia | — |
-| 1 | Delfos | — |
 | 1 | Descolonização do Império Britânico | — |
 | 1 | Dilmun | — |
 | 1 | Dinastia Médici | — |
@@ -630,7 +624,6 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 1 | Duelos | — |
 | 1 | Dácios | — |
 | 1 | Ebla | — |
-| 1 | Egina | — |
 | 1 | Emirado de Córdoba | — |
 | 1 | Erupção do Vesúvio (79 d.C.) | — |
 | 1 | Espadas militares japonesas | — |
@@ -662,7 +655,6 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 1 | Guerra Fria | Macarthismo (1) |
 | 1 | Guerra Gótica | — |
 | 1 | Guerra Jacobita na Irlanda | — |
-| 1 | Guerra Lelantina | — |
 | 1 | Guerra Polaco-Otomana | — |
 | 1 | Guerra da Coreia | — |
 | 1 | Guerra da Fronteira Sul-Africana | — |
@@ -677,15 +669,10 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 1 | Guerras do Decão | — |
 | 1 | Guerreiras Samurai | — |
 | 1 | Gurkhas | — |
-| 1 | Halicarnasso | — |
 | 1 | Hashashins | — |
-| 1 | História da Batata | — |
 | 1 | História da Bíblia | — |
 | 1 | História da Pimenta | — |
-| 1 | História do Chocolate | — |
-| 1 | História do Milho | — |
 | 1 | História dos videogames | — |
-| 1 | Hititas | — |
 | 1 | Hohokam | — |
 | 1 | Hussardos Alados | — |
 | 1 | Ibn Fadlan | — |
@@ -713,7 +700,6 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 1 | Liga Hanseática | — |
 | 1 | Lícia Antiga | — |
 | 1 | Magan (Magan/Makkan) | — |
-| 1 | Manejo do fogo indígena | — |
 | 1 | Maniqueísmo | — |
 | 1 | Mansa Musa | — |
 | 1 | Marajoara | — |
@@ -726,9 +712,7 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 1 | Nanman | — |
 | 1 | Nazca | — |
 | 1 | Ninjutsu | — |
-| 1 | Numismática Antiga | — |
 | 1 | Oxus | — |
-| 1 | Palestina antiga | — |
 | 1 | Panorama de conflitos globais | — |
 | 1 | Partições da Polônia | — |
 | 1 | Pechenegues | — |
@@ -738,9 +722,7 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 1 | Política Chinesa Contemporânea | — |
 | 1 | Polônia Piasta | — |
 | 1 | Pomério Romano | — |
-| 1 | Poverty Point | — |
 | 1 | Povo Romani | — |
-| 1 | Povo hebreu | — |
 | 1 | Primeira Guerra Civil Sudanesa | — |
 | 1 | Primeiro Império Búlgaro | — |
 | 1 | Protestantismo | — |
@@ -773,7 +755,6 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 1 | Revolução Iraniana | — |
 | 1 | Risorgimento | — |
 | 1 | Rússia Medieval | — |
-| 1 | Samos | — |
 | 1 | Segunda Guerra Civil Sudanesa | — |
 | 1 | Segunda Guerra da Chechênia | — |
 | 1 | Segundo Império Búlgaro | — |
@@ -786,7 +767,6 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 1 | Tarascos | — |
 | 1 | Tempo das Perturbações | — |
 | 1 | Tengrismo | — |
-| 1 | Tessália antiga | — |
 | 1 | Teuchitlán | — |
 | 1 | Tratado de Tordesilhas | — |
 | 1 | Tratados militares | — |
@@ -795,7 +775,6 @@ A regeneração anterior foi na aprovação dos lotes 232-249 (reabertura dos vi
 | 1 | Tráfico Transatlântico de Escravos | — |
 | 1 | Tupinambá | — |
 | 1 | Turquificação da Anatólia | — |
-| 1 | Ugarit | — |
 | 1 | Vampiros (Origens Históricas) | — |
 | 1 | Vlad III, o Empalador | — |
 | 1 | Vândalos | — |

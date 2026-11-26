@@ -764,6 +764,40 @@ o resultado do portão como aviso e não como bloqueio.** Sem essa checagem
 manual, é mais seguro seguir o padrão antigo (registrar como pendente, não
 editar).
 
+**O padrão de aspecto só funciona quando o destino é o nome da civilização.**
+Achado em 26/11/2026, ao aplicar a camada B da proposta de fusão de temas. A
+ideia da camada era mecânica e parecia segura: `Sociedade X`, `Exército X`,
+`Comércio X`, `Religião X` são aspectos de `X`, então absorva-os por `X` — o
+nome do tema já declara que ele é parte de outro, e foi o que o humano fez com
+`Sociedade Mesopotâmica` → `Mesopotâmia Antiga` e `Sociedade Egípcia Antiga` →
+`Egito antigo`. Funcionou nesses dois porque o destino era a **civilização**.
+Para Roma não existe esse tema: o catálogo só tem `República Romana` (383
+linhas) e `Império Romano` (112), que são **fases políticas** da mesma
+civilização — e os quatro aspectos romanos atravessam as duas. `Religião
+Romana` vai de 753 a.C. a 305 d.C.; `Sociedade Romana` são 20 linhas sem data
+nenhuma ("Drugs in Ancient Rome", "Law & Order in Ancient Rome"). Mandar isso
+para `República Romana` ou para `Império Romano` não é uma escolha de ordem
+discutível: é **erro no dado**, porque rotula vídeo de época imperial como
+República. A regra que sai daí: **antes de absorver um aspecto, confira se o
+destino é a civilização ou uma fase dela.** Se for fase, a fusão está
+bloqueada até existir o tema neutro — para Roma, `Roma antiga`, na forma de
+`Egito antigo`, `Grécia antiga`, `Índia antiga`. Criar esse tema-raiz é
+decisão do humano, e estava pendente quando isto foi escrito.
+
+A camada B foi escolhida por padrão de nome **mais massa de linhas na mesma
+região**, e nenhum dos seis itens sobreviveu à leitura das linhas reais. O
+segundo caso mostra por que a massa de linhas é um sinal ruim: `Cultura
+material samurai` (11 linhas sobre armadura, espada, castelo e machado) e
+`Marinha samurai` (2, de 1180 a 1880) foram casadas com `Jogos de samurai` —
+que são **41 resenhas de videogame** do The Shogunate. Compartilhar a palavra
+"samurai" e ter mais linhas na mesma região não diz nada sobre o assunto. É o
+mesmo defeito que já tinha feito abandonar a camada de "família de nome"
+(`Primeira Guerra Mundial ← Guerra de Sucessão Espanhola`, `Dinastia Zhou ←
+Dinastia Han`), e ele voltou disfarçado. Lição mais geral: **proposta de fusão
+automática se confere lendo as linhas, não a tabela.** As camadas A1, A3 e
+metade da A2 passaram porque tinham evidência direta — o humano fez aquela
+fusão à mão. A B tinha só analogia, e analogia não sobreviveu.
+
 **A checagem "só essas linhas, só essas células" agora é um script:
 `conferir_travadas.py`.** Recebe o backup de antes da edição e um arquivo com
 um `video_id` por linha — o conjunto autorizado — e compara a planilha nova
