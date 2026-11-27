@@ -91,6 +91,28 @@ def era_de(ano):
 # Aprendido da planilha de referência: o humano mapeia por CIVILIZAÇÃO (tema),
 # não por país. 'Oriente Médio' da v2 se parte em Mesopotâmia (36 linhas) e
 # Canaã (13) e o que decide é o tema.
+#
+# Uma entrada só se paga quando diz algo que a coluna Região NÃO sabe dizer.
+# 'Dácios' se paga: a Região é 'Leste Europeu' e só o tema sabe que é Dácia.
+# Já um tema cujo conteúdo VIAJA tinha a entrada virando um padrão, e o padrão
+# atropelava a Região que foi escolhida episódio por episódio: 'Alexandre, o
+# Grande' punha a campanha inteira na Grécia (35 das 38 linhas estão na
+# Mesopotâmia, na Índia, na Ásia Central), 'Império Otomano' punha os Bálcãs na
+# Anatólia, 'Renascimento' punha Dürer e Erasmo na Itália.
+#
+# Em 26/11/2026 saíram 19 entradas assim, 290 linhas. Tirar uma delas não mexe
+# em quem concordava: por construção essas linhas chegam à mesma região pela
+# ponte da Região, então a remoção só alcança a minoria sobrescrita. Quem fica
+# é o que carrega precisão de verdade — as 45 entradas em que a ponte não acerta
+# linha nenhuma — mais as 110 que hoje são inofensivas e servem de seguro para
+# lote novo com Região grossa, e mais as 4 que a medição mandou ficar apesar de
+# sobrescreverem (comentadas onde estão). `conferir_regiao.py` reencontra o caso
+# quando um lote novo criar outro.
+#
+# O que a medição mostrou, e vale para a próxima: depois de 500 a.C. a `chave()`
+# NÃO usa a região, então remover uma entrada dessas não reordena nada — só
+# muda o rótulo. Os 92 'trechos contíguos' que isso custou são exatamente isso,
+# e um trecho contíguo comprado mentindo sobre o lugar não vale nada.
 REGIAO_POR_TEMA = {
     # Mesopotâmia e vizinhança
     "Suméria Antiga": "Mesopotâmia", "Babilônia Antiga": "Mesopotâmia",
@@ -102,11 +124,11 @@ REGIAO_POR_TEMA = {
     "Califado Abássida": "Mesopotâmia", "Rebelião Zanje": "Mesopotâmia",
     # Irã e Ásia Central
     "Elam Antigo": "Irã", "Povos do Zagros": "Irã", "Civilização de Jiroft": "Irã",
-    "Império Meda": "Irã", "Império Aquemênida": "Irã", "Império Parta": "Irã",
+    "Império Meda": "Irã", "Império Parta": "Irã",
     "Império Sassânida": "Irã", "Exército Sassânida": "Irã",
     "Império Afexárida": "Irã", "Revolução Iraniana": "Irã", "Zoroastrismo": "Irã",
     "Civilização do Oxus (BMAC)": "Ásia Central", "Sogdiana": "Ásia Central",
-    "Império Timúrida": "Ásia Central", "Império Corásmio": "Ásia Central",
+    "Império Corásmio": "Ásia Central",
     "Império Gaznávida": "Ásia Central",
     # Egito e Núbia
     "Egito antigo": "Egito", "Sociedade Egípcia Antiga": "Egito",
@@ -116,6 +138,9 @@ REGIAO_POR_TEMA = {
     # misticismo'; as entradas ficam porque agora é o subtema que resolve a
     # região (ver `regiao_de`). 'Religião Cananeia' entra pelo mesmo motivo —
     # nomeia a região no próprio nome.
+    # 'Civilização Fenícia' fica em Canaã mesmo com 7 das 9 linhas marcadas
+    # 'Mediterrâneo' na v2: a planilha de referência põe as 7 em Canaã, e a
+    # pátria fenícia é o Levante. Tirar a entrada custou 6 linhas na medição.
     "Canaã Antiga": "Canaã", "Civilização Fenícia": "Canaã", "Ugarit": "Canaã",
     "Palestina antiga": "Canaã", "Povo hebreu": "Canaã", "Filisteus": "Canaã",
     "Religião Cananeia": "Canaã",
@@ -127,7 +152,7 @@ REGIAO_POR_TEMA = {
     "Reino de Anitta (Precursor Hitita)": "Anatólia",
     "Estados Neo-Hititas": "Anatólia", "Frígia Antiga": "Anatólia",
     "Lídios": "Anatólia", "Lícia Antiga": "Anatólia", "Halicarnasso": "Anatólia",
-    "Reino de Urartu": "Anatólia", "Império Otomano": "Anatólia",
+    "Reino de Urartu": "Anatólia",
     "Turquificação da Anatólia": "Anatólia", "Império Seljúcida": "Anatólia",
     # Grécia
     "Grécia antiga": "Grécia", "Civilização Micênica": "Grécia",
@@ -144,16 +169,21 @@ REGIAO_POR_TEMA = {
     # Filosofia grega é material grego mesmo quando o filósofo é de Mileto:
     # o tema manda, não o lugar de nascimento. Sem isto os pré-socráticos
     # caíam na Anatólia e partiam o bloco grego em dois.
-    "Pré-Socráticos": "Grécia", "Platão": "Grécia", "Aristóteles": "Grécia",
-    "Filosofia Helenística e Romana": "Grécia",
-    "Neoplatonismo Tardo-Antigo": "Grécia",
+    # 'Pré-Socráticos' fica, e é o caso que ensina o limite da regra acima.
+    # A Região da v2 está certa linha por linha e discorda do tema em 9 das 17:
+    # os jônios (Tales, Anaximandro, Xenófanes, Heráclito) são Anatólia e os
+    # itálicos (Pitágoras, Parmênides, Zenão, Empédocles) são Magna Grécia.
+    # Mesmo assim a planilha de referência os ORDENA juntos, num bloco só, e
+    # tirar a entrada derrubou a concordância de pares em 0,0094 sem ganhar uma
+    # única linha de região. Escola de pensamento se lê em sequência: aqui o
+    # tema é a série, não o lugar.
+    "Pré-Socráticos": "Grécia", "Aristóteles": "Grécia",
     # Religião e demonologia do Levante: o humano agrupa em Canaã, não na
     # Mesopotâmia, mesmo quando a v2 diz 'Oriente Médio'.
     "Demonologia Ocidental": "Canaã",
     "Divino Feminino (Sophia e Shekhinah)": "Canaã",
     "Manuscritos do Mar Morto (Qumran)": "Judeia",
     "Filosofia Judaica Medieval": "Judeia", "Judaísmo": "Judeia",
-    "Guerras dos Diádocos": "Grécia", "Alexandre, o Grande": "Grécia",
     # Itália e Roma
     # 'Roma antiga' é o tema-raiz neutro, criado em 26/11/2026: recebe o que
     # atravessa Reino/República/Império ou não tem data. As entradas dos temas
@@ -168,25 +198,24 @@ REGIAO_POR_TEMA = {
     "Gladiadores": "Roma", "Colonização Romana": "Roma",
     "Herança de Roma": "Roma", "Etruscos": "Itália", "Samnitas": "Itália",
     "Civilização Nurágica": "Itália", "Itália medieval": "Itália",
-    "República de Veneza": "Itália", "Reino Normando da Sicília": "Itália",
+    "República de Veneza": "Itália",
     "Guerras Italianas": "Itália", "Dinastia Médici": "Itália",
-    "Papado": "Roma", "Renascimento": "Itália",
+    "Papado": "Roma",
     # Norte da África
     "Cartago antiga": "Cartago", "Guerras Greco-Púnicas na Sicília": "Magna Grécia",
-    "Impérios Berberes": "Norte da África", "Reino Vândalo": "Norte da África",
-    "Sultanato Mameluco": "Egito", "Califado Fatímida": "Egito",
+    "Impérios Berberes": "Norte da África",
+    "Califado Fatímida": "Egito",
     # Europa
     "Celtas antigos": "Europa Celta", "Germanos antigos": "Germânia",
     "Bretanha Antiga": "Britânia", "Pictos": "Britânia",
     "Reinos pós-romanos da Britânia": "Britânia",
     "Inglaterra anglo-saxã": "Inglaterra", "História de Gales": "Gales",
-    "Era Viking": "Escandinávia", "Harald Hardrada": "Escandinávia",
-    "Império Franco": "Frância", "Declínio Carolíngio": "Frância",
+    "Declínio Carolíngio": "Frância",
     "Reino Lombardo": "Itália", "Reino Visigodo": "Hispânia",
     "Reino Ostrogodo": "Itália", "Reino Borgonhão": "Frância",
     "Reconquista": "Hispânia", "Emirado de Córdoba": "Hispânia",
     "Trácios": "Bálcãs", "Ilírios": "Bálcãs", "Dácios": "Dácia",
-    "Eslavos": "Bálcãs", "Primeiro Império Búlgaro": "Bálcãs",
+    "Primeiro Império Búlgaro": "Bálcãs",
     "Segundo Império Búlgaro": "Bálcãs", "Império Bizantino": "Bizâncio",
     # Estepe
     "Citas": "Estepe", "Confederação Xiongnu": "Estepe", "Hunos": "Estepe",
@@ -197,7 +226,7 @@ REGIAO_POR_TEMA = {
     # Ásia
     "China antiga": "China", "Dinastia Zhou": "China", "Dinastia Qin": "China",
     "Dinastia Han": "China", "Dinastia Jin": "China", "Dinastia Tang": "China",
-    "Dinastia Qing": "China", "Dezesseis Reinos": "China",
+    "Dezesseis Reinos": "China",
     "Período dos Três Reinos": "China", "Nanman": "China",
     "Curiosidades da História Chinesa": "China", "China Moderna": "China",
     "Grande Canal da China": "China", "Taiwan": "Taiwan",
@@ -227,8 +256,6 @@ REGIAO_POR_TEMA = {
     "Muisca": "Andes", "Marajoara": "Amazônia", "Tupinambá": "Amazônia",
     # Transversais que o humano manteve globais
     "Línguas indo-europeias": "Eurásia",
-    "Colapso da Idade do Bronze": "Mediterrâneo",
-    "Maravilhas do Mundo Antigo": "Mediterrâneo",
     "Biblioteca de Alexandria": "Egito",
     "Exploração Antiga": "Mediterrâneo",
 }

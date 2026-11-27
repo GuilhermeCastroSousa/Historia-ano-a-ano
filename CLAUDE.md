@@ -94,6 +94,15 @@ linha antiga.
   Quioto e Alexandria iriam para um tema de 2 linhas sobre hititas) e os dois
   itens samurai da camada B (o destino eram 41 resenhas de videogame). A lista
   de trabalho **C** da proposta é inventário, nunca foi proposta.
+- **A `REGIAO_POR_TEMA` do `ordenar.py` vence a coluna `Região` sempre**, e em
+  26/11/2026 19 entradas estavam usando isso para atropelar uma Região escolhida
+  episódio por episódio (290 linhas: a campanha de Alexandre na Grécia, os
+  Bálcãs otomanos na Anatólia, Dürer na Itália). Saíram. Rode o
+  `conferir_regiao.py` antes de acrescentar entrada nova — e decida por ablação
+  de **uma em uma**: o pacote das 23 media pior e teria mandado reverter as 19
+  que estavam certas. Quatro voltaram, `Pré-Socráticos` entre elas, porque a
+  ordem dele quer a escola num bloco só mesmo com os jônios na Anatólia. Ver a
+  armadilha "entrada de tema que virou padrão" no `protocolo.md`.
 - **Escolher entre tema-raiz neutro e tema-raiz de fase** (`Roma antiga` ×
   `República Romana`) segue a regra em `vocabulario-canonico.md`, seção
   "Tema-raiz: a civilização ou uma fase dela?". Não crie neutro novo por
@@ -273,6 +282,7 @@ e ninguém consegue ver quais linhas entraram em cada lote. Nunca editar o `.csv
 | `exportar_csv.py` | espelho `.csv` | depois de gravar |
 | `aplicar_merge.py` | aplica uma camada aprovada de `merge-temas-proposta.md` (JSON em `merges/`) | só com aprovação por escrito |
 | `conferir_travadas.py` | confere que só as linhas e células autorizadas mudaram | sempre que mexer em linha travada |
+| `conferir_regiao.py` | reparte a `REGIAO_POR_TEMA` em portadoras, redundantes e candidatas | ao mexer no modelo; depois de fundir temas |
 
 Nenhum deles escreve na planilha, menos o `gravar.py` e o `aplicar_merge.py`
 (este só com aprovação por escrito, e seguido do `conferir_travadas.py`). O

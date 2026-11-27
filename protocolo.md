@@ -43,13 +43,20 @@ O modelo de ordenação — eras, tipo, região histórica, a virada em 500 a.C.
 passeio geográfico — está documentado nas Listas E, F e G do
 `vocabulario-canonico.md` e no cabeçalho do `ordenar.py`. A aderência medida
 contra a planilha ordenada à mão pelo humano (290 vídeos, até 500 a.C.) é, em
-26/11/2026, de **91% de acerto de era, 84% de região, concordância de pares de
-+0,700 e sequência de blocos de +0,687**. O `conferir_ordem.py` refaz essa
+26/11/2026, de **91% de acerto de era, 85% de região, concordância de pares de
++0,702 e sequência de blocos de +0,687**. O `conferir_ordem.py` refaz essa
 medição; rode-o com `python ordenar.py --conferir <planilha>`. Na primeira
 versão do modelo era 89% / 84% / +0,643 / +0,672: a fusão de temas de
-26/11/2026 melhorou era e ordem, e a região deu uma volta — caiu para 80% pelo
-motivo na armadilha "fundir um tema geográfico dentro de um tema temático" e
-voltou a 84% quando `Levante` entrou na Lista B.
+26/11/2026 melhorou era e ordem, e a região deu duas voltas — caiu para 80% pelo
+motivo na armadilha "fundir um tema geográfico dentro de um tema temático",
+voltou a 84% quando `Levante` entrou na Lista B e chegou a 85% com a limpeza
+descrita na armadilha "entrada de tema que virou padrão".
+
+**A referência de 290 só cobre as duas primeiras eras** (163 linhas na
+Antiguidade remota, 111 na Idade do Ferro, 16 espalhadas depois). Então ela não
+tem nada a dizer sobre a maior parte do catálogo: das 290 linhas que a limpeza
+de 26/11/2026 mexeu, ela via 21. Medir é obrigatório, mas quando o número não se
+move isso pode ser cegueira da referência e não empate — diga qual dos dois é.
 
 ## O que este sistema faz
 
@@ -890,6 +897,51 @@ voltou a 84% e a concordância de pares chegou a **+0,700**. Lição: **quando a
 derivação erra porque a coluna de origem é grossa, estreite a coluna, não a
 derivação** — remendar a ponte ou o mapa resolve as linhas de hoje e deixa a
 armadilha armada para as de amanhã.
+
+**Entrada de tema que virou padrão: a `REGIAO_POR_TEMA` atropelando uma Região
+escolhida episódio por episódio.** Achado em 26/11/2026, puxando o fio das
+divergências de região que sobraram depois do `Levante`. `regiao_de` consulta o
+tema primeiro, então uma entrada na tabela **vence a coluna `Região` sempre** —
+e isso é o que se quer quando a Região é grossa (`Dácios` precisa dizer Dácia
+porque a Região diz só 'Leste Europeu'). Mas quando o conteúdo do tema **viaja**,
+a entrada deixa de ser tradução e vira padrão: `Alexandre, o Grande` punha a
+campanha inteira na Grécia, embora 35 das 38 linhas estejam na Mesopotâmia, na
+Índia, na Ásia Central e no Egito — e a coluna `Região` já dizia isso, linha por
+linha, porque alguém olhou cada episódio. Mesmo caso em `Guerras dos Diádocos`,
+`Império Otomano` (os Bálcãs na Anatólia), `Renascimento` (Dürer e Erasmo na
+Itália), `Era Viking` (as incursões na Escandinávia) e `Neoplatonismo
+Tardo-Antigo` (Plotino na Grécia). **No total 314 linhas.**
+
+O `conferir_regiao.py` reparte a tabela em três e é por isso que ele existe:
+**portadoras** (a ponte da Região não acerta nenhuma linha — a entrada é a única
+fonte, tem que ficar: 45 entradas), **redundantes** (a ponte acerta 100% — a
+entrada não muda nada hoje e fica de seguro: 110) e **candidatas** (a ponte
+acerta parte — a entrada está sendo padrão). Saíram 19 candidatas, 290 linhas.
+
+Duas coisas são de graça numa candidata e não precisam de medição: **tirar não
+pode mexer em quem concordava**, porque por construção essas linhas chegam à
+mesma região pela ponte; e **depois de 500 a.C. a `chave()` não usa a região**,
+então ali tirar não reordena nada, só muda o rótulo. Foi o que desarmou o único
+número que piorou: os 92 `trechos contíguos` a mais são todos desse lado da
+virada, com a ordem das 5567 linhas intacta. **Trecho contíguo comprado mentindo
+sobre o lugar não vale nada** — a métrica mede rótulo homogêneo, não leitura
+contínua, e por isso ela premia a tabela errada.
+
+O que precisa de medição é se a **ordem** dele quer o tema junto, e aqui veio a
+correção de rota: por ablação, uma a uma, quatro das 23 removações pioraram a
+coisa e voltaram. `Civilização Fenícia` custou 6 linhas de região (ele põe a
+Fenícia em Canaã, não no Mediterrâneo); `Egito antigo` e `Grécia antiga`, 1 cada.
+E `Pré-Socráticos` derrubou a concordância de pares em 0,0094 **sem ganhar uma
+única linha de região**: a Região está certa linha por linha — jônios na
+Anatólia, itálicos na Magna Grécia — e mesmo assim a planilha dele os ordena num
+bloco só. **Escola de pensamento se lê em sequência: ali o tema é a série, não o
+lugar.** É o espelho da regra "o assunto decide o tema": a coluna `Região` e a
+ordem podem querer coisas diferentes da mesma linha, e para uma escola ganha a
+ordem. Fim: região 84% → **85%**, pares +0,700 → **+0,702**, era e blocos iguais.
+
+Lição de método: **ablação de um em um, não o pacote.** O pacote das 23 media
+região 82% e pares +0,690 — pior nos dois — e a leitura óbvia era reverter tudo.
+Reverter tudo teria perdido as 19 que estavam certas.
 
 **A checagem "só essas linhas, só essas células" agora é um script:
 `conferir_travadas.py`.** Recebe o backup de antes da edição e um arquivo com
