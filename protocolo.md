@@ -43,14 +43,15 @@ O modelo de ordenação — eras, tipo, região histórica, a virada em 500 a.C.
 passeio geográfico — está documentado nas Listas E, F e G do
 `vocabulario-canonico.md` e no cabeçalho do `ordenar.py`. A aderência medida
 contra a planilha ordenada à mão pelo humano (290 vídeos, até 500 a.C.) é, em
-26/11/2026, de **91% de acerto de era, 85% de região, concordância de pares de
-+0,702 e sequência de blocos de +0,687**. O `conferir_ordem.py` refaz essa
+27/11/2026, de **92% de acerto de era, 89% de região, concordância de pares de
++0,715 e sequência de blocos de +0,687**. O `conferir_ordem.py` refaz essa
 medição; rode-o com `python ordenar.py --conferir <planilha>`. Na primeira
 versão do modelo era 89% / 84% / +0,643 / +0,672: a fusão de temas de
-26/11/2026 melhorou era e ordem, e a região deu duas voltas — caiu para 80% pelo
+26/11/2026 melhorou era e ordem, e a região deu três voltas — caiu para 80% pelo
 motivo na armadilha "fundir um tema geográfico dentro de um tema temático",
-voltou a 84% quando `Levante` entrou na Lista B e chegou a 85% com a limpeza
-descrita na armadilha "entrada de tema que virou padrão".
+voltou a 84% quando `Levante` entrou na Lista B, chegou a 85% com a limpeza
+descrita na armadilha "entrada de tema que virou padrão" e a 89% com as 13
+correções da armadilha "o sítio âncora não é o recorte".
 
 **A referência de 290 só cobre as duas primeiras eras** (163 linhas na
 Antiguidade remota, 111 na Idade do Ferro, 16 espalhadas depois). Então ela não
@@ -942,6 +943,45 @@ ordem. Fim: região 84% → **85%**, pares +0,700 → **+0,702**, era e blocos i
 Lição de método: **ablação de um em um, não o pacote.** O pacote das 23 media
 região 82% e pares +0,690 — pior nos dois — e a leitura óbvia era reverter tudo.
 Reverter tudo teria perdido as 19 que estavam certas.
+
+**O sítio âncora não é o recorte.** Achado em 27/11/2026, nas divergências de
+região que sobraram. Um panorama precisa de uma data, e a data costuma vir de um
+sítio ou de um achado concreto citado na descrição — o "sítio âncora". A
+armadilha é deixar esse âncora decidir também a **Região**. "The Origins of War
+(500,000 BC–3,000 BC)" estava em `Sudão` porque Jebel Sahaba é o caso central que
+datou a faixa, e a nota da própria linha já admitia que "o vídeo discute a
+questão em termos globais": resultado, a origem da guerra no bloco da Núbia, ao
+lado dos reinos kuxitas. Igual na história da batata (`Peru`), do milho
+(`México`) e do chocolate (`América Central`) — a origem do cultivo estava certa
+e anotada, e os vídeos são sobre a difusão depois dela. **O âncora datou a linha;
+quem decide a Região é o alcance do vídeo.** A data e a confiança do âncora
+ficam intactas: muda só o alcance.
+
+Dois casos vizinhos do mesmo dia, e os dois tinham a resposta escrita na nota:
+três panoramas de técnica militar estavam em `Mediterrâneo` enquanto a nota de
+cada um listava a estepe (domesticação do cavalo), a Suméria e a Acádia, ou as
+invasões da Britânia; e `6NxqOlQm7Mw` ("Early Rome: Monarchy and Early
+Republic") seguia em `Historiografia > Early Rome` com Região `Global` embora a
+nota de 30/07/2026 já tivesse concluído que **esta parte narra o período**, ao
+contrário das outras da subsérie, que tratam de método. Lição: **antes de
+reclassificar, leia a nota da linha** — neste projeto a nota frequentemente já
+contém a conclusão que ninguém levou até o fim, e às vezes o erro é a célula não
+ter acompanhado a nota.
+
+**Renomear um tema pode órfã uma entrada da `REGIAO_POR_TEMA`, e a região cai
+calada.** Mesmo dia, e é o primeiro caso real que o balde "SEM LINHA" do
+`conferir_regiao.py` pegou. A camada R renomeou `Línguas indo-europeias` para
+`Línguas` — um rename que na verdade **alargou** o tema. A entrada
+`Línguas indo-europeias` → `Eurásia` continuou na tabela apontando para um nome
+que não existe mais, e as duas linhas de línguas indo-europeias passaram a
+derivar `Global`: `Eurásia` ficou pendurada no modelo, citada na `SEQUENCIA` e
+tratada em especial pela `chave()`, sem nada que a produzisse. O conserto foi a
+regra que o `aplicar_merge.py` já aplica nas **fusões** e não aplicava nas
+**renomeações**: pôr o nome antigo no `Subtema` vazio. A herança pelo subtema
+religa a entrada. Não mudei o `aplicar_merge.py` — numa renomeação comum o nome
+antigo no subtema seria ruído, e o problema só aparece quando o rename alarga o
+tema. **O que fica é a conferência:** depois de qualquer fusão ou renomeação,
+rode o `conferir_regiao.py` e leia o balde "SEM LINHA".
 
 **A checagem "só essas linhas, só essas células" agora é um script:
 `conferir_travadas.py`.** Recebe o backup de antes da edição e um arquivo com

@@ -107,7 +107,20 @@ linha antiga.
   `República Romana`) segue a regra em `vocabulario-canonico.md`, seção
   "Tema-raiz: a civilização ou uma fase dela?". Não crie neutro novo por
   simetria — ver a armadilha "padrão de aspecto" no `protocolo.md`.
-- **`Levante` é termo novo da Lista B** (61 termos), de 26/11/2026: use para
+- **`Américas` é termo novo da Lista B** (62 termos), de 27/11/2026: use para
+  história de cultivo e de prática que atravessa o continente (batata, milho,
+  chocolate, manejo do fogo). **O sítio de origem é âncora, não recorte** — essa
+  regra também tirou "The Origins of War" de `Sudão` e três panoramas de técnica
+  militar de `Mediterrâneo`. Não ponha `Américas` na `REGIAO_POR_TEMA`: a
+  referência diz `América do Norte` em 6 das 12 linhas de `Povos indígenas das
+  Américas`. Ver a armadilha "o sítio âncora não é o recorte" no `protocolo.md`.
+- **Depois de fundir ou renomear tema, rode o `conferir_regiao.py` e leia o
+  balde "SEM LINHA".** A camada R renomeou `Línguas indo-europeias` para
+  `Línguas` e a entrada de região ficou apontando para o nome morto: `Eurásia`
+  virou região inalcançável e 2 linhas caíram em `Global`, calado. O conserto é
+  pôr o nome antigo no `Subtema` vazio — a regra que o `aplicar_merge.py` já
+  aplica nas fusões e não aplica nas renomeações.
+- **`Levante` é termo novo da Lista B** (de 26/11/2026): use para
   Canaã, Fenícia levantina, Ugarit e Filisteia. `Judeia` segue para o que é
   especificamente judaico e `Oriente Médio` para Mesopotâmia. Entrou porque
   `Oriente Médio` não distinguia Canaã de Mesopotâmia e a `PONTE_REGIAO` do

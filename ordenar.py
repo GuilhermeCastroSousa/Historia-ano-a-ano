@@ -281,6 +281,11 @@ PONTE_REGIAO = {
     "Norte da África": "Norte da África", "África Ocidental": "África Ocidental",
     "África Oriental": "Etiópia", "África Austral": "África Austral",
     "Estados Unidos": "América do Norte", "América do Norte": "América do Norte",
+    # 'Américas' é termo da Lista B desde 27/11/2026, para história de cultivo e
+    # de prática que atravessa o continente: a origem é âncora, não recorte.
+    # 'Américas' já era regiao_historica da Lista G e só a entrada
+    # 'Povoamento das Américas' sabia produzi-la.
+    "Américas": "Américas",
     "México": "Mesoamérica", "América Central": "Mesoamérica",
     "Caribe": "Caribe", "Haiti": "Caribe", "Peru": "Andes",
     "Bolívia": "Andes", "América do Sul": "Amazônia", "Brasil": "Amazônia",
